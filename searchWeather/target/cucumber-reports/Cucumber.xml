@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="5.291964">
-<testcase classname="Search weather by City Name and State code" name="Search weather by invalid City name" time="2.773506">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="5.335249">
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid City name" time="2.799774">
 <system-out><![CDATA[Given I search with invalid City name.......................................passed
 Then Status code response should be "404" not found.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Search weather by valid City name and invalid State code" time="0.366412">
+<testcase classname="Search weather by City Name and State code" name="Search weather by valid City name and invalid State code" time="0.327122">
 <failure message="java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:50)&#13;&#10;&#9;at ✽.Then Status code response should be &quot;404&quot;(resources/Feature/searchWeatherCity.feature:14)&#13;&#10;"><![CDATA[Given I search with valid City name and invalid State code..................passed
 Then Status code response should be "404"...................................failed
 
@@ -19,28 +19,28 @@ java.lang.AssertionError: expected:<404> but was:<200>
 	at ✽.Then Status code response should be "404"(resources/Feature/searchWeatherCity.feature:14)
 ]]></failure>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Search weather by valid city name and invalid API key" time="0.320557">
+<testcase classname="Search weather by City Name and State code" name="Search weather by valid city name and invalid API key" time="0.305916">
 <system-out><![CDATA[When I search with valid City name and invalid API key......................passed
 Then I should get respose code "401"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Search weather by valid parameters with GET method" time="0.280129">
+<testcase classname="Search weather by City Name and State code" name="Search weather by valid parameters with GET method" time="0.312192">
 <system-out><![CDATA[When I search with valid parameters.........................................passed
 Then I can search successfully with status code "200".......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Search weather with POST method" time="0.321319">
+<testcase classname="Search weather by City Name and State code" name="Search weather with POST method" time="0.290997">
 <system-out><![CDATA[When I search with with POST method.........................................passed
 Then API called successfully................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Verify header" time="0.22748">
+<testcase classname="Search weather by City Name and State code" name="Verify header" time="0.288002">
 <system-out><![CDATA[Given I call API successfully...............................................passed
 Then response header with correct content type "application/json; charset=utf-8".passed
 And response header with correct server name "openresty"....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Verify schemas and data type in response body" time="0.703571">
+<testcase classname="Search weather by City Name and State code" name="Verify schemas and data type in response body" time="0.722679">
 <system-out><![CDATA[Given I performed search city successfully with status code "200"...........passed
 Then I can get correct response fields......................................passed
 And get the data in COORD field.............................................passed
@@ -54,7 +54,7 @@ When I check data in NAME field.............................................pass
 Then NAME value should be semilar to the CityName parameter.................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Verify response time" time="0.29899">
+<testcase classname="Search weather by City Name and State code" name="Verify response time" time="0.288567">
 <system-out><![CDATA[Given I call the API........................................................passed
 Then response time should not exceed "9000" miliseconds.....................passed
 ]]></system-out>
