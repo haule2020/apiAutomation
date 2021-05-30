@@ -15,7 +15,7 @@
             
 **How to run test:** Please run as "JUnit Test"  from callAPIRunner.java in below path:
 
-    searchWeather/src/main/java/runner/callAPIRunner.java
+    searchWeather/src/main/java/runner/ApiRunner.java
     
 **How to modify API URLs:** Please check file Configuration.properties in below path
 
