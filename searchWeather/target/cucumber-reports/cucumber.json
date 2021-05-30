@@ -1,0 +1,453 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Search weather by invalid City name",
+        "description": "",
+        "id": "search-weather-by-city-name-and-state-code;search-weather-by-invalid-city-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3766290300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search with invalid City name",
+            "match": {
+              "location": "NegativeSearch.i_search_with_invalid_City_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2707200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Status code response should be \"404\" not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 32
+                }
+              ],
+              "location": "NegativeSearch.status_code_response_should_be_not_found(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Search weather by valid City name and invalid State code",
+        "description": "",
+        "id": "search-weather-by-city-name-and-state-code;search-weather-by-valid-city-name-and-invalid-state-code",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 416506200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search with valid City name and invalid State code",
+            "match": {
+              "location": "NegativeSearch.i_search_with_valid_City_name_and_invalid_State_code()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1137600,
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:45)\r\n\tat ✽.Then Status code response should be \"404\"(resources/Feature/searchWeatherCity.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "Status code response should be \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 32
+                }
+              ],
+              "location": "NegativeSearch.status_code_response_should_be(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Search weather by valid city name and invalid API key",
+        "description": "",
+        "id": "search-weather-by-city-name-and-state-code;search-weather-by-valid-city-name-and-invalid-api-key",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 324695200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I search with valid City name and invalid API key",
+            "match": {
+              "location": "NegativeSearch.i_search_with_valid_City_name_and_invalid_API_key()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should get respose code \"401\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 27
+                }
+              ],
+              "location": "NegativeSearch.i_should_get_respose_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Search weather by valid parameters with GET method",
+        "description": "",
+        "id": "search-weather-by-city-name-and-state-code;search-weather-by-valid-parameters-with-get-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356081000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I search with valid parameters",
+            "match": {
+              "location": "SearchByValidParameters.i_search_with_valid_parameters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I can search successfully with status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 44
+                }
+              ],
+              "location": "SearchByValidParameters.i_can_search_successfully_with_status_code(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Search weather with POST method",
+        "description": "",
+        "id": "search-weather-by-city-name-and-state-code;search-weather-with-post-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 357454300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I search with with POST method",
+            "match": {
+              "location": "SearchByValidParameters.i_search_with_with_POST_method()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "API called successfully",
+            "match": {
+              "location": "SearchByValidParameters.api_called_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Verify header",
+        "description": "",
+        "id": "search-weather-by-city-name-and-state-code;verify-header",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 328559600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I call API successfully",
+            "match": {
+              "location": "CheckHeader.i_call_API_successfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2980800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "response header with correct content type \"application/json; charset\u003dutf-8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "application/json; charset\u003dutf-8",
+                  "offset": 43
+                }
+              ],
+              "location": "CheckHeader.response_header_with_correct_content_type(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 380400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "response header with correct server name \"openresty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "openresty",
+                  "offset": 42
+                }
+              ],
+              "location": "CheckHeader.response_header_with_correct_server_name(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Verify schemas and data type in response bodys",
+        "description": "",
+        "id": "search-weather-by-city-name-and-state-code;verify-schemas-and-data-type-in-response-bodys",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 293810100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I performed search city successfully with status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 55
+                }
+              ],
+              "location": "VerifyResonseData.i_performed_search_city_successfully_with_status_code(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501597500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I can get correct response fields",
+            "match": {
+              "location": "VerifyResonseData.i_can_get_correct_response_fields()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "get the valid data in COORD field",
+            "match": {
+              "location": "VerifyResonseData.get_the_valid_data_in_COORD_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "get the valid data in WEATHER field",
+            "match": {
+              "location": "VerifyResonseData.get_the_valid_data_in_WEATHER_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "get the valid data in BASE field",
+            "match": {
+              "location": "VerifyResonseData.get_the_valid_data_in_BASE_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "get the valid data in MAIN field",
+            "match": {
+              "location": "VerifyResonseData.get_the_valid_data_in_MAIN_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "get the valid data in VISIBILITY field",
+            "match": {
+              "location": "VerifyResonseData.get_the_valid_data_in_VISIBILITY_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "get the valid data in CLOUDS field",
+            "match": {
+              "location": "VerifyResonseData.get_the_valid_data_in_CLOUDS_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "get the valid country code in SYS field",
+            "match": {
+              "location": "VerifyResonseData.get_the_valid_country_code_in_SYS_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I check data in NAME field",
+            "match": {
+              "location": "VerifyResonseData.i_check_data_in_NAME_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "NAME value should be the CityName",
+            "match": {
+              "location": "VerifyResonseData.name_value_should_be_the_CityName()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Verify response time",
+        "description": "",
+        "id": "search-weather-by-city-name-and-state-code;verify-response-time",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 253793700,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I call the API",
+            "match": {
+              "location": "CheckResponseTime.i_call_the_API()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "response time should not exceed \"9000\" miliseconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9000",
+                  "offset": 33
+                }
+              ],
+              "location": "CheckResponseTime.response_time_should_not_exceed_seconds(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search weather by City Name and State code",
+    "description": "\r\nDescription: When I search a city by inputing city name and State code as below format:\r\napi.openweathermap.org/data/2.5/weather?q\u003d{city name},{state code}\u0026appid\u003d{API key},\r\nI want to get weather information response of that city",
+    "id": "search-weather-by-city-name-and-state-code",
+    "keyword": "Feature",
+    "uri": "resources/Feature/searchWeatherCity.feature"
+  }
+]
