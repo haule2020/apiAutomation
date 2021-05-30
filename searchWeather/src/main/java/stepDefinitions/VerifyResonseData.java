@@ -7,6 +7,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.response.Response;
+import managers.ConfigFileReader;
 import shareContext.TestContext;
 
 public class VerifyResonseData extends BaseSteps {
@@ -26,7 +27,8 @@ public class VerifyResonseData extends BaseSteps {
 	@Given("^I performed search city successfully with status code \"([^\"]*)\"$")
 	public void i_performed_search_city_successfully_with_status_code(int arg1) {
 		// Call searchCity method
-		response = getEndPoints().searchByGETMethod(cityName, stateCode, apiKey);
+		String searchPath = ConfigFileReader.getInstance().searchPath();
+		response = getEndPoints().searchByGETMethod(searchPath, cityName, stateCode, apiKey);
 		Assert.assertEquals(arg1, response.getStatusCode());
 	}
 
@@ -85,9 +87,9 @@ public class VerifyResonseData extends BaseSteps {
 		Assert.assertFalse(body.clouds.all == null);
 	}
 
+	// Verify that country value should be semilar to stateCode input
 	@Then("^get the valid country code in SYS field$")
 	public void get_the_valid_country_code_in_SYS_field() {
-		// Verify that country value should be semilar to stateCode parameter
 		String country = body.sys.country;
 		boolean checkCountry = country.equalsIgnoreCase(stateCode);
 		Assert.assertTrue(checkCountry);

@@ -24,17 +24,19 @@ public class Xls_Reader {
 	private XSSFRow row = null;
 	private XSSFCell cell = null;
 
+
+	
 	public Xls_Reader(String path) {
 		this.path = path;
 		try {
 			fis = new FileInputStream(path);
 			workbook = new XSSFWorkbook(fis);
-			// sheet = workbook.getSheetAt(0);
 			fis.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
+
 	
 	// returns the row count in a sheet
 	public int getRowCount(String sheetName) {

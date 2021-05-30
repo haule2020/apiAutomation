@@ -8,11 +8,13 @@ import java.util.Properties;
 
 
 //Config File Reader to get based info from Configuration.properties  file
-public class configFileReader {
+public class ConfigFileReader {
 	private Properties properties;
-	private final String propertyFilePath = "configs//Configuration.properties";
-
-	public configFileReader() {
+	private final String propertyFilePath = "configs//Configuration.properties";	
+	private static ConfigFileReader configReader;
+	
+	 //Load file config
+	private ConfigFileReader() {
 		BufferedReader reader;
 		try {
 			reader = new BufferedReader(new FileReader(propertyFilePath));
@@ -27,6 +29,11 @@ public class configFileReader {
 			e.printStackTrace();
 			throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
 		}
+	}
+	
+	//Implement Singleton Pattern
+	public static ConfigFileReader getInstance( ) {
+	     return (configReader == null) ? configReader = new ConfigFileReader():configReader; 
 	}
 	
 	//Get Base Url from Configuration file

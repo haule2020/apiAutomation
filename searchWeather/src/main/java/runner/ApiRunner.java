@@ -10,5 +10,5 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "resources/Feature/searchWeatherCity.feature", glue = "stepDefinitions", format = {
 		"json:target/cucumber-reports/cucumber.json" }, plugin = { "junit:target/cucumber-reports/Cucumber.xml",
 				"html:target/cucumber-reports" })
-public class callAPIRunner {
+public class ApiRunner {
 }
