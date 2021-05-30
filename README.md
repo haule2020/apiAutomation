@@ -17,3 +17,7 @@
 **How to modify test data like City Name, State Code, API key:** Please edit testData.xlsx file at:
 
     searchWeather/resources/TestData/testData.xlsx
+
+**How to check test Reports after test:** Please check different report types at:
+
+    searchWeather/target/cucumber-reports/
