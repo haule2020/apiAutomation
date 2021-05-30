@@ -28,7 +28,7 @@ formatter.match({
   "location": "NegativeSearch.i_search_with_invalid_City_name()"
 });
 formatter.result({
-  "duration": 3766290300,
+  "duration": 2770780900,
   "status": "passed"
 });
 formatter.match({
@@ -41,7 +41,7 @@ formatter.match({
   "location": "NegativeSearch.status_code_response_should_be_not_found(int)"
 });
 formatter.result({
-  "duration": 2707200,
+  "duration": 2724600,
   "status": "passed"
 });
 formatter.scenario({
@@ -66,7 +66,7 @@ formatter.match({
   "location": "NegativeSearch.i_search_with_valid_City_name_and_invalid_State_code()"
 });
 formatter.result({
-  "duration": 416506200,
+  "duration": 365953300,
   "status": "passed"
 });
 formatter.match({
@@ -79,8 +79,8 @@ formatter.match({
   "location": "NegativeSearch.status_code_response_should_be(int)"
 });
 formatter.result({
-  "duration": 1137600,
-  "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:45)\r\n\tat ✽.Then Status code response should be \"404\"(resources/Feature/searchWeatherCity.feature:14)\r\n",
+  "duration": 458600,
+  "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:50)\r\n\tat ✽.Then Status code response should be \"404\"(resources/Feature/searchWeatherCity.feature:14)\r\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -105,7 +105,7 @@ formatter.match({
   "location": "NegativeSearch.i_search_with_valid_City_name_and_invalid_API_key()"
 });
 formatter.result({
-  "duration": 324695200,
+  "duration": 320381800,
   "status": "passed"
 });
 formatter.match({
@@ -118,7 +118,7 @@ formatter.match({
   "location": "NegativeSearch.i_should_get_respose_code(int)"
 });
 formatter.result({
-  "duration": 126400,
+  "duration": 175500,
   "status": "passed"
 });
 formatter.scenario({
@@ -143,7 +143,7 @@ formatter.match({
   "location": "SearchByValidParameters.i_search_with_valid_parameters()"
 });
 formatter.result({
-  "duration": 356081000,
+  "duration": 280013300,
   "status": "passed"
 });
 formatter.match({
@@ -156,7 +156,7 @@ formatter.match({
   "location": "SearchByValidParameters.i_can_search_successfully_with_status_code(int)"
 });
 formatter.result({
-  "duration": 240500,
+  "duration": 115700,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,14 +181,14 @@ formatter.match({
   "location": "SearchByValidParameters.i_search_with_with_POST_method()"
 });
 formatter.result({
-  "duration": 357454300,
+  "duration": 321284300,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchByValidParameters.api_called_successfully()"
 });
 formatter.result({
-  "duration": 85600,
+  "duration": 34300,
   "status": "passed"
 });
 formatter.scenario({
@@ -215,10 +215,10 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "CheckHeader.i_call_API_successfully()"
+  "location": "CheckHeaders.i_call_API_successfully()"
 });
 formatter.result({
-  "duration": 328559600,
+  "duration": 225323800,
   "status": "passed"
 });
 formatter.match({
@@ -228,10 +228,10 @@ formatter.match({
       "offset": 43
     }
   ],
-  "location": "CheckHeader.response_header_with_correct_content_type(String)"
+  "location": "CheckHeaders.response_header_with_correct_content_type(String)"
 });
 formatter.result({
-  "duration": 2980800,
+  "duration": 1841300,
   "status": "passed"
 });
 formatter.match({
@@ -241,17 +241,17 @@ formatter.match({
       "offset": 42
     }
   ],
-  "location": "CheckHeader.response_header_with_correct_server_name(String)"
+  "location": "CheckHeaders.response_header_with_correct_server_name(String)"
 });
 formatter.result({
-  "duration": 380400,
+  "duration": 314400,
   "status": "passed"
 });
 formatter.scenario({
   "line": 33,
-  "name": "Verify schemas and data type in response bodys",
+  "name": "Verify schemas and data type in response body",
   "description": "",
-  "id": "search-weather-by-city-name-and-state-code;verify-schemas-and-data-type-in-response-bodys",
+  "id": "search-weather-by-city-name-and-state-code;verify-schemas-and-data-type-in-response-body",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -267,32 +267,32 @@ formatter.step({
 });
 formatter.step({
   "line": 36,
-  "name": "get the valid data in COORD field",
+  "name": "get the data in COORD field",
   "keyword": "And "
 });
 formatter.step({
   "line": 37,
-  "name": "get the valid data in WEATHER field",
+  "name": "get the data in WEATHER field",
   "keyword": "And "
 });
 formatter.step({
   "line": 38,
-  "name": "get the valid data in BASE field",
+  "name": "get the data in BASE field",
   "keyword": "And "
 });
 formatter.step({
   "line": 39,
-  "name": "get the valid data in MAIN field",
+  "name": "get the data in MAIN field",
   "keyword": "And "
 });
 formatter.step({
   "line": 40,
-  "name": "get the valid data in VISIBILITY field",
+  "name": "get the data in VISIBILITY field",
   "keyword": "And "
 });
 formatter.step({
   "line": 41,
-  "name": "get the valid data in CLOUDS field",
+  "name": "get the data in CLOUDS field",
   "keyword": "And "
 });
 formatter.step({
@@ -307,7 +307,7 @@ formatter.step({
 });
 formatter.step({
   "line": 44,
-  "name": "NAME value should be the CityName",
+  "name": "NAME value should be semilar to the CityName parameter",
   "keyword": "Then "
 });
 formatter.match({
@@ -320,77 +320,77 @@ formatter.match({
   "location": "VerifyResonseData.i_performed_search_city_successfully_with_status_code(int)"
 });
 formatter.result({
-  "duration": 293810100,
+  "duration": 257478700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyResonseData.i_can_get_correct_response_fields()"
 });
 formatter.result({
-  "duration": 501597500,
+  "duration": 445830900,
   "status": "passed"
 });
 formatter.match({
-  "location": "VerifyResonseData.get_the_valid_data_in_COORD_field()"
+  "location": "VerifyResonseData.get_the_data_in_COORD_field()"
 });
 formatter.result({
-  "duration": 41100,
+  "duration": 36900,
   "status": "passed"
 });
 formatter.match({
-  "location": "VerifyResonseData.get_the_valid_data_in_WEATHER_field()"
-});
-formatter.result({
-  "duration": 92700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VerifyResonseData.get_the_valid_data_in_BASE_field()"
-});
-formatter.result({
-  "duration": 55700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VerifyResonseData.get_the_valid_data_in_MAIN_field()"
-});
-formatter.result({
-  "duration": 39200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "VerifyResonseData.get_the_valid_data_in_VISIBILITY_field()"
+  "location": "VerifyResonseData.get_the_data_in_WEATHER_field()"
 });
 formatter.result({
   "duration": 33300,
   "status": "passed"
 });
 formatter.match({
-  "location": "VerifyResonseData.get_the_valid_data_in_CLOUDS_field()"
+  "location": "VerifyResonseData.get_the_data_in_BASE_field()"
 });
 formatter.result({
-  "duration": 35700,
+  "duration": 25400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "VerifyResonseData.get_the_data_in_MAIN_field()"
+});
+formatter.result({
+  "duration": 45100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "VerifyResonseData.get_the_data_in_VISIBILITY_field()"
+});
+formatter.result({
+  "duration": 23900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "VerifyResonseData.get_the_data_in_CLOUDS_field()"
+});
+formatter.result({
+  "duration": 22700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyResonseData.get_the_valid_country_code_in_SYS_field()"
 });
 formatter.result({
-  "duration": 56500,
+  "duration": 32200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyResonseData.i_check_data_in_NAME_field()"
 });
 formatter.result({
-  "duration": 37500,
+  "duration": 22400,
   "status": "passed"
 });
 formatter.match({
-  "location": "VerifyResonseData.name_value_should_be_the_CityName()"
+  "location": "VerifyResonseData.name_value_should_be_semilar_to_the_CityName_parameter()"
 });
 formatter.result({
-  "duration": 34100,
+  "duration": 19600,
   "status": "passed"
 });
 formatter.scenario({
@@ -415,7 +415,7 @@ formatter.match({
   "location": "CheckResponseTime.i_call_the_API()"
 });
 formatter.result({
-  "duration": 253793700,
+  "duration": 298855100,
   "status": "passed"
 });
 formatter.match({
@@ -428,7 +428,7 @@ formatter.match({
   "location": "CheckResponseTime.response_time_should_not_exceed_seconds(String)"
 });
 formatter.result({
-  "duration": 156000,
+  "duration": 135300,
   "status": "passed"
 });
 });

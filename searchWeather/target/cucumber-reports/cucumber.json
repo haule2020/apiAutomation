@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3766290300,
+              "duration": 2770780900,
               "status": "passed"
             },
             "line": 9,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2707200,
+              "duration": 2724600,
               "status": "passed"
             },
             "line": 10,
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 416506200,
+              "duration": 365953300,
               "status": "passed"
             },
             "line": 13,
@@ -64,8 +64,8 @@
           },
           {
             "result": {
-              "duration": 1137600,
-              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:45)\r\n\tat ✽.Then Status code response should be \"404\"(resources/Feature/searchWeatherCity.feature:14)\r\n",
+              "duration": 458600,
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:50)\r\n\tat ✽.Then Status code response should be \"404\"(resources/Feature/searchWeatherCity.feature:14)\r\n",
               "status": "failed"
             },
             "line": 14,
@@ -93,7 +93,7 @@
         "steps": [
           {
             "result": {
-              "duration": 324695200,
+              "duration": 320381800,
               "status": "passed"
             },
             "line": 17,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 126400,
+              "duration": 175500,
               "status": "passed"
             },
             "line": 18,
@@ -133,7 +133,7 @@
         "steps": [
           {
             "result": {
-              "duration": 356081000,
+              "duration": 280013300,
               "status": "passed"
             },
             "line": 21,
@@ -145,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 240500,
+              "duration": 115700,
               "status": "passed"
             },
             "line": 22,
@@ -173,7 +173,7 @@
         "steps": [
           {
             "result": {
-              "duration": 357454300,
+              "duration": 321284300,
               "status": "passed"
             },
             "line": 25,
@@ -185,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 85600,
+              "duration": 34300,
               "status": "passed"
             },
             "line": 26,
@@ -207,19 +207,19 @@
         "steps": [
           {
             "result": {
-              "duration": 328559600,
+              "duration": 225323800,
               "status": "passed"
             },
             "line": 29,
             "name": "I call API successfully",
             "match": {
-              "location": "CheckHeader.i_call_API_successfully()"
+              "location": "CheckHeaders.i_call_API_successfully()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2980800,
+              "duration": 1841300,
               "status": "passed"
             },
             "line": 30,
@@ -231,13 +231,13 @@
                   "offset": 43
                 }
               ],
-              "location": "CheckHeader.response_header_with_correct_content_type(String)"
+              "location": "CheckHeaders.response_header_with_correct_content_type(String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 380400,
+              "duration": 314400,
               "status": "passed"
             },
             "line": 31,
@@ -249,7 +249,7 @@
                   "offset": 42
                 }
               ],
-              "location": "CheckHeader.response_header_with_correct_server_name(String)"
+              "location": "CheckHeaders.response_header_with_correct_server_name(String)"
             },
             "keyword": "And "
           }
@@ -257,15 +257,15 @@
       },
       {
         "line": 33,
-        "name": "Verify schemas and data type in response bodys",
+        "name": "Verify schemas and data type in response body",
         "description": "",
-        "id": "search-weather-by-city-name-and-state-code;verify-schemas-and-data-type-in-response-bodys",
+        "id": "search-weather-by-city-name-and-state-code;verify-schemas-and-data-type-in-response-body",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 293810100,
+              "duration": 257478700,
               "status": "passed"
             },
             "line": 34,
@@ -283,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 501597500,
+              "duration": 445830900,
               "status": "passed"
             },
             "line": 35,
@@ -295,49 +295,13 @@
           },
           {
             "result": {
-              "duration": 41100,
+              "duration": 36900,
               "status": "passed"
             },
             "line": 36,
-            "name": "get the valid data in COORD field",
+            "name": "get the data in COORD field",
             "match": {
-              "location": "VerifyResonseData.get_the_valid_data_in_COORD_field()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 92700,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "get the valid data in WEATHER field",
-            "match": {
-              "location": "VerifyResonseData.get_the_valid_data_in_WEATHER_field()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 55700,
-              "status": "passed"
-            },
-            "line": 38,
-            "name": "get the valid data in BASE field",
-            "match": {
-              "location": "VerifyResonseData.get_the_valid_data_in_BASE_field()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 39200,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "get the valid data in MAIN field",
-            "match": {
-              "location": "VerifyResonseData.get_the_valid_data_in_MAIN_field()"
+              "location": "VerifyResonseData.get_the_data_in_COORD_field()"
             },
             "keyword": "And "
           },
@@ -346,28 +310,64 @@
               "duration": 33300,
               "status": "passed"
             },
-            "line": 40,
-            "name": "get the valid data in VISIBILITY field",
+            "line": 37,
+            "name": "get the data in WEATHER field",
             "match": {
-              "location": "VerifyResonseData.get_the_valid_data_in_VISIBILITY_field()"
+              "location": "VerifyResonseData.get_the_data_in_WEATHER_field()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 35700,
+              "duration": 25400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "get the data in BASE field",
+            "match": {
+              "location": "VerifyResonseData.get_the_data_in_BASE_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "get the data in MAIN field",
+            "match": {
+              "location": "VerifyResonseData.get_the_data_in_MAIN_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "get the data in VISIBILITY field",
+            "match": {
+              "location": "VerifyResonseData.get_the_data_in_VISIBILITY_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22700,
               "status": "passed"
             },
             "line": 41,
-            "name": "get the valid data in CLOUDS field",
+            "name": "get the data in CLOUDS field",
             "match": {
-              "location": "VerifyResonseData.get_the_valid_data_in_CLOUDS_field()"
+              "location": "VerifyResonseData.get_the_data_in_CLOUDS_field()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 56500,
+              "duration": 32200,
               "status": "passed"
             },
             "line": 42,
@@ -379,7 +379,7 @@
           },
           {
             "result": {
-              "duration": 37500,
+              "duration": 22400,
               "status": "passed"
             },
             "line": 43,
@@ -391,13 +391,13 @@
           },
           {
             "result": {
-              "duration": 34100,
+              "duration": 19600,
               "status": "passed"
             },
             "line": 44,
-            "name": "NAME value should be the CityName",
+            "name": "NAME value should be semilar to the CityName parameter",
             "match": {
-              "location": "VerifyResonseData.name_value_should_be_the_CityName()"
+              "location": "VerifyResonseData.name_value_should_be_semilar_to_the_CityName_parameter()"
             },
             "keyword": "Then "
           }
@@ -413,7 +413,7 @@
         "steps": [
           {
             "result": {
-              "duration": 253793700,
+              "duration": 298855100,
               "status": "passed"
             },
             "line": 47,
@@ -425,7 +425,7 @@
           },
           {
             "result": {
-              "duration": 156000,
+              "duration": 135300,
               "status": "passed"
             },
             "line": 48,

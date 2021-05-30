@@ -1,5 +1,6 @@
-package bodyResponse;
+package bodyResponseFields;
 
+//POJO class to store fields and values converted from  body response JSON file
 public class Weather {
 	public Integer id;
 	public String main;

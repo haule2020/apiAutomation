@@ -13,6 +13,8 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+
+//Excel reader functions to read test data from testData.xlsx
 public class Xls_Reader {
 	public String path;
 	public FileInputStream fis = null;

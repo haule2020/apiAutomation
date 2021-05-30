@@ -30,7 +30,7 @@ Scenario: Verify header
  Then response header with correct content type "application/json; charset=utf-8"
  And  response header with correct server name "openresty"
 
- Scenario: Verify schemas and data type in response bodys
+ Scenario: Verify schemas and data type in response body
  Given I performed search city successfully with status code "200"
  Then I can get correct response fields
  And  get the data in COORD field
@@ -41,7 +41,7 @@ Scenario: Verify header
  And  get the data in CLOUDS field
  And  get the valid country code in SYS field
  When I check data in NAME field
- Then NAME value should be the CityName
+ Then NAME value should be semilar to the CityName parameter
 
  Scenario: Verify response time
  Given I call the API

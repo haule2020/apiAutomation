@@ -11,6 +11,7 @@ public class BaseSteps {
 	private Xls_Reader reader;
 	private configFileReader config;
 	
+	//Base steps to be extended in other test steps
 	public BaseSteps(TestContext testContext) {
 		endPoints = testContext.getEndPoints();
 		reader = testContext.getExcelReader();	

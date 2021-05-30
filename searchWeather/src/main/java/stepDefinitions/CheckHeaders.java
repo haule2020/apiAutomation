@@ -7,9 +7,9 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import io.restassured.response.Response;
 import shareContext.TestContext;
-public class CheckHeader extends BaseSteps {
+public class CheckHeaders extends BaseSteps {
 		
-	public CheckHeader(TestContext testContext) {
+	public CheckHeaders(TestContext testContext) {
 		super(testContext);
 	}
 
@@ -32,14 +32,9 @@ public class CheckHeader extends BaseSteps {
 	}
 
 	@Then("^response header with correct server name \"([^\"]*)\"$")
-	public void response_header_with_correct_server_name(String arg1)  {	    
+	public void response_header_with_correct_server_name(String arg1)  {		
 		String serverName = response.header("server");
-		System.out.println(serverName);
-		
-		
-		
-		
-		//Assert.assertEquals(serverName,arg1);
+		Assert.assertEquals(serverName,arg1);
 	}
 
 	

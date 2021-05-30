@@ -1,7 +1,8 @@
-package bodyResponse;
+package bodyResponseFields;
 
 import java.util.List;
 
+//POJO class to store fields and values converted from  body response JSON file
 public class BodyResponse {
 	public Coord coord;
 	public List<Weather> weather;

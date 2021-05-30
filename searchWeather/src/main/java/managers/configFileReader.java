@@ -6,6 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+
+//Config File Reader to get based info from Configuration.properties  file
 public class configFileReader {
 	private Properties properties;
 	private final String propertyFilePath = "configs//Configuration.properties";
@@ -26,6 +28,8 @@ public class configFileReader {
 			throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
 		}
 	}
+	
+	//Get Base Url from Configuration file
 	public String getBaseUrl() {
 		String baseurl = properties.getProperty("baseUrl");
 		if (baseurl != null)
@@ -35,6 +39,7 @@ public class configFileReader {
 					"Application Url not specified in the Configuration.properties file for the Key:url");
 	}
 
+	//Get url path from Configuration file
 	public String searchPath() {
 		String searchPath = properties.getProperty("searchPath");
 		if (searchPath != null)

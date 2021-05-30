@@ -1,5 +1,6 @@
-package bodyResponse;
+package bodyResponseFields;
 
+//POJO class to store fields and values converted from  body response JSON file
 public class Main {
 	public Float temp;
 	public Float feels_like;
