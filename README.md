@@ -6,7 +6,7 @@
 
     searchWeather/resources/Feature/searchWeatherCity.feature
 
-**How to run:** Please run as "JUnit Test"  from callAPIRunner.java in below path:
+**How to run test:** Please run as "JUnit Test"  from callAPIRunner.java in below path:
 
     searchWeather/src/main/java/runner/callAPIRunner.java
 
