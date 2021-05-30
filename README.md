@@ -3,7 +3,7 @@
 
 **Prerequisites:**
  - Java latest version
- - Eclipse and  Maven plugin
+ - Eclipse 4 and  Maven plugin
 
 
 **Required library dependency:**  Included in POM.xml
