@@ -1,6 +1,6 @@
 # apiAutomation
 
-**Required libraries:**  Included in POM.xml
+**Required library dependency:**  Included in POM.xml
 
 **How to view test cases:** Please open file searchWeatherCity.feature at:
 
