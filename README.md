@@ -4,6 +4,7 @@
 **Prerequisites:**
  - Java latest version
  - Eclipse 4 and  Maven plugin
+ - System where the tests are being executed must have Excel.xlsx installed
 
 
 **Required library dependency:**  Included in POM.xml
