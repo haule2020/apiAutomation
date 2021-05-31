@@ -12,7 +12,7 @@
 **How to view test cases:** Please open file searchWeatherCity.feature at:
 
     searchWeather/resources/Feature/searchWeatherCity.feature  
-            You can change parameters that placed in the "" of feature file
+    You can also change parameters that placed in the "" of feature file
             
 **How to run test:** Please run as "JUnit Test"  from callAPIRunner.java in below path:
 
