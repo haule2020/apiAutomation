@@ -1,5 +1,5 @@
 # apiAutomation
-
+**Assignment:** Write API automated tests for the feature "search weather in your city"
 
 **Prerequisites:**
  - Java latest version
