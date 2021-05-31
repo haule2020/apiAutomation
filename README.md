@@ -29,3 +29,5 @@
 **How to check test Reports after test:** Please check different report types at:
 
     searchWeather/target/cucumber-reports/
+
+**Code static check report:** searchWeather/reports/pmd-report.txt
