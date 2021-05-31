@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="5.950562">
-<testcase classname="Search weather by City Name and State code" name="Search weather by invalid City name" time="3.355732">
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="5.542504">
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid City name" time="2.922341">
 <system-out><![CDATA[Given I search with invalid City name.......................................passed
 Then Status code response should be "404" not found.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Search weather by valid City name and invalid State code" time="0.310863">
-<failure message="java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:50)&#13;&#10;&#9;at ✽.Then Status code response should be &quot;404&quot;(resources/Feature/searchWeatherCity.feature:14)&#13;&#10;"><![CDATA[Given I search with valid City name and invalid State code..................passed
+<testcase classname="Search weather by City Name and State code" name="Search weather by iunputing state code, APi key but City name is blank" time="0.267235">
+<failure message="java.lang.AssertionError: expected: java.lang.String&lt;200&gt; but was: java.lang.Integer&lt;200&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.NegativeSearch.status_code_response_should_not_be(NegativeSearch.java:39)&#13;&#10;&#9;at ✽.Then Status code response should not be &quot;200&quot;(resources/Feature/searchWeatherCity.feature:13)&#13;&#10;"><![CDATA[Given I search with state code , APi key but City name is blank.............passed
+Then Status code response should not be "200"...............................failed
+
+StackTrace:
+java.lang.AssertionError: expected: java.lang.String<200> but was: java.lang.Integer<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.NegativeSearch.status_code_response_should_not_be(NegativeSearch.java:39)
+	at ✽.Then Status code response should not be "200"(resources/Feature/searchWeatherCity.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="Search weather by City Name and State code" name="Search weather by valid City name and invalid State code" time="0.284679">
+<failure message="java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:52)&#13;&#10;&#9;at ✽.Then Status code response should be &quot;404&quot;(resources/Feature/searchWeatherCity.feature:17)&#13;&#10;"><![CDATA[Given I search with valid City name and invalid State code..................passed
 Then Status code response should be "404"...................................failed
 
 StackTrace:
@@ -15,32 +29,32 @@ java.lang.AssertionError: expected:<404> but was:<200>
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:645)
 	at org.junit.Assert.assertEquals(Assert.java:631)
-	at stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:50)
-	at ✽.Then Status code response should be "404"(resources/Feature/searchWeatherCity.feature:14)
+	at stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:52)
+	at ✽.Then Status code response should be "404"(resources/Feature/searchWeatherCity.feature:17)
 ]]></failure>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Search weather by valid city name and invalid API key" time="0.316952">
+<testcase classname="Search weather by City Name and State code" name="Search weather by valid city name and invalid API key" time="0.294697">
 <system-out><![CDATA[When I search with valid City name and invalid API key......................passed
 Then I should get respose code "401"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Search weather by valid parameters with GET method" time="0.300476">
+<testcase classname="Search weather by City Name and State code" name="Search weather by valid parameters with GET method" time="0.290341">
 <system-out><![CDATA[When I search with valid parameters.........................................passed
 Then I can search successfully with status code "200".......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Search weather with POST method" time="0.330697">
+<testcase classname="Search weather by City Name and State code" name="Search weather with POST method" time="0.001138">
 <system-out><![CDATA[When I search with with POST method.........................................passed
 Then API called successfully................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Verify header" time="0.301528">
+<testcase classname="Search weather by City Name and State code" name="Verify header" time="0.278574">
 <system-out><![CDATA[Given I call API successfully...............................................passed
 Then response header with correct content type "application/json; charset=utf-8".passed
 And response header with correct server name "openresty"....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Verify schemas and data type in response body" time="0.741764">
+<testcase classname="Search weather by City Name and State code" name="Verify schemas and data type in response body" time="0.93602">
 <system-out><![CDATA[Given I performed search city successfully with status code "200"...........passed
 Then I can get correct response fields......................................passed
 And get the data in COORD field.............................................passed
@@ -54,7 +68,7 @@ When I check data in NAME field.............................................pass
 Then NAME value should be semilar to the CityName parameter.................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search weather by City Name and State code" name="Verify response time" time="0.29255">
+<testcase classname="Search weather by City Name and State code" name="Verify response time" time="0.267479">
 <system-out><![CDATA[Given I call the API........................................................passed
 Then response time should not exceed "9000" miliseconds.....................passed
 ]]></system-out>

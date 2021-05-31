@@ -4,10 +4,13 @@ Feature: Search weather by City Name and State code
 	api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={API key},
 	I want to get weather information response of that city 
 		
-
 Scenario: Search weather by invalid City name
  Given I search with invalid City name
  Then Status code response should be "404" not found
+ 
+ Scenario: Search weather by iunputing state code, APi key but City name is blank
+ Given I search with state code , APi key but City name is blank
+ Then Status code response should not be "200"
  
  Scenario: Search weather by valid City name and invalid State code
  Given I search with valid City name and invalid State code

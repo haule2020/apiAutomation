@@ -1,0 +1,370 @@
+src/main/java/apiEngine/EndPoints.java:2:	Package name contains upper case characters
+src/main/java/apiEngine/EndPoints.java:12:	Header comments are required
+src/main/java/apiEngine/EndPoints.java:14:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:15:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:16:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:17:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:18:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:19:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:20:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:21:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:22:	Field comments are required
+src/main/java/apiEngine/EndPoints.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/apiEngine/EndPoints.java:24:	Public method and constructor comments are required
+src/main/java/apiEngine/EndPoints.java:31:	Public method and constructor comments are required
+src/main/java/apiEngine/EndPoints.java:32:	The String literal "&appid=" appears 7 times in this file; the first occurrence is on line 32
+src/main/java/apiEngine/EndPoints.java:36:	Public method and constructor comments are required
+src/main/java/apiEngine/EndPoints.java:37:	Do not add empty strings
+src/main/java/apiEngine/EndPoints.java:41:	Public method and constructor comments are required
+src/main/java/apiEngine/EndPoints.java:46:	Public method and constructor comments are required
+src/main/java/apiEngine/EndPoints.java:51:	Public method and constructor comments are required
+src/main/java/apiEngine/EndPoints.java:56:	Public method and constructor comments are required
+src/main/java/apiEngine/EndPoints.java:61:	Public method and constructor comments are required
+src/main/java/apiEngine/EndPoints.java:62:	Local variable 'responseTime' could be declared final
+src/main/java/apiEngine/EndPoints.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/apiEngine/EndPoints.java:64:	Consider simply returning the value vs storing it in local variable 'responseTime'
+src/main/java/bodyResponseFields/BodyResponse.java:1:	Package name contains upper case characters
+src/main/java/bodyResponseFields/BodyResponse.java:6:	Each class should declare at least one constructor
+src/main/java/bodyResponseFields/BodyResponse.java:6:	Header comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:9:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:10:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:11:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:12:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:13:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:14:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:15:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:16:	Avoid variables with short names like dt
+src/main/java/bodyResponseFields/BodyResponse.java:16:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:17:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:18:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:19:	Avoid variables with short names like id
+src/main/java/bodyResponseFields/BodyResponse.java:19:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:20:	Field comments are required
+src/main/java/bodyResponseFields/BodyResponse.java:21:	Field comments are required
+src/main/java/bodyResponseFields/Clouds.java:1:	Package name contains upper case characters
+src/main/java/bodyResponseFields/Clouds.java:4:	Each class should declare at least one constructor
+src/main/java/bodyResponseFields/Clouds.java:4:	Header comments are required
+src/main/java/bodyResponseFields/Clouds.java:5:	Field comments are required
+src/main/java/bodyResponseFields/Coord.java:1:	Package name contains upper case characters
+src/main/java/bodyResponseFields/Coord.java:4:	Each class should declare at least one constructor
+src/main/java/bodyResponseFields/Coord.java:4:	Header comments are required
+src/main/java/bodyResponseFields/Coord.java:5:	Field comments are required
+src/main/java/bodyResponseFields/Coord.java:6:	Field comments are required
+src/main/java/bodyResponseFields/Mains.java:1:	Package name contains upper case characters
+src/main/java/bodyResponseFields/Mains.java:4:	Each class should declare at least one constructor
+src/main/java/bodyResponseFields/Mains.java:4:	Header comments are required
+src/main/java/bodyResponseFields/Mains.java:5:	Field comments are required
+src/main/java/bodyResponseFields/Mains.java:6:	Field comments are required
+src/main/java/bodyResponseFields/Mains.java:7:	Field comments are required
+src/main/java/bodyResponseFields/Mains.java:8:	Field comments are required
+src/main/java/bodyResponseFields/Mains.java:9:	Field comments are required
+src/main/java/bodyResponseFields/Mains.java:10:	Field comments are required
+src/main/java/bodyResponseFields/Mains.java:11:	Field comments are required
+src/main/java/bodyResponseFields/Mains.java:12:	Field comments are required
+src/main/java/bodyResponseFields/Sys.java:1:	Package name contains upper case characters
+src/main/java/bodyResponseFields/Sys.java:5:	Avoid short class names like Sys
+src/main/java/bodyResponseFields/Sys.java:5:	Each class should declare at least one constructor
+src/main/java/bodyResponseFields/Sys.java:5:	Header comments are required
+src/main/java/bodyResponseFields/Sys.java:6:	Field comments are required
+src/main/java/bodyResponseFields/Sys.java:7:	Avoid variables with short names like id
+src/main/java/bodyResponseFields/Sys.java:7:	Field comments are required
+src/main/java/bodyResponseFields/Sys.java:8:	Field comments are required
+src/main/java/bodyResponseFields/Sys.java:9:	Field comments are required
+src/main/java/bodyResponseFields/Sys.java:10:	Field comments are required
+src/main/java/bodyResponseFields/Weather.java:1:	Package name contains upper case characters
+src/main/java/bodyResponseFields/Weather.java:4:	Each class should declare at least one constructor
+src/main/java/bodyResponseFields/Weather.java:4:	Header comments are required
+src/main/java/bodyResponseFields/Weather.java:5:	Avoid variables with short names like id
+src/main/java/bodyResponseFields/Weather.java:5:	Field comments are required
+src/main/java/bodyResponseFields/Weather.java:6:	Field comments are required
+src/main/java/bodyResponseFields/Weather.java:7:	Field comments are required
+src/main/java/bodyResponseFields/Weather.java:8:	Field comments are required
+src/main/java/bodyResponseFields/Wind.java:1:	Package name contains upper case characters
+src/main/java/bodyResponseFields/Wind.java:4:	Avoid short class names like Wind
+src/main/java/bodyResponseFields/Wind.java:4:	Each class should declare at least one constructor
+src/main/java/bodyResponseFields/Wind.java:4:	Header comments are required
+src/main/java/bodyResponseFields/Wind.java:5:	Field comments are required
+src/main/java/bodyResponseFields/Wind.java:6:	Field comments are required
+src/main/java/bodyResponseFields/Wind.java:7:	Field comments are required
+src/main/java/managers/ConfigFileReader.java:11:	A class which only has private constructors should be final
+src/main/java/managers/ConfigFileReader.java:11:	Header comments are required
+src/main/java/managers/ConfigFileReader.java:12:	Field comments are required
+src/main/java/managers/ConfigFileReader.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/ConfigFileReader.java:13:	Field comments are required
+src/main/java/managers/ConfigFileReader.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/ConfigFileReader.java:13:	This final field could be made static
+src/main/java/managers/ConfigFileReader.java:14:	Field comments are required
+src/main/java/managers/ConfigFileReader.java:20:	Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/managers/ConfigFileReader.java:26:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/managers/ConfigFileReader.java:29:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/managers/ConfigFileReader.java:30:	Avoid throwing raw exception types.
+src/main/java/managers/ConfigFileReader.java:30:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/managers/ConfigFileReader.java:35:	Public method and constructor comments are required
+src/main/java/managers/ConfigFileReader.java:40:	Public method and constructor comments are required
+src/main/java/managers/ConfigFileReader.java:41:	Local variable 'baseurl' could be declared final
+src/main/java/managers/ConfigFileReader.java:42:	Avoid if (x != y) ..; else ..;
+src/main/java/managers/ConfigFileReader.java:48:	Avoid throwing raw exception types.
+src/main/java/managers/ConfigFileReader.java:54:	Public method and constructor comments are required
+src/main/java/managers/ConfigFileReader.java:55:	Local variable 'searchPath' could be declared final
+src/main/java/managers/ConfigFileReader.java:56:	Avoid if (x != y) ..; else ..;
+src/main/java/managers/ConfigFileReader.java:62:	Avoid throwing raw exception types.
+src/main/java/managers/Xls_Reader.java:18:	Header comments are required
+src/main/java/managers/Xls_Reader.java:18:	The class 'Xls_Reader' has a Modified Cyclomatic Complexity of 8 (Highest = 13).
+src/main/java/managers/Xls_Reader.java:18:	The class 'Xls_Reader' has a Standard Cyclomatic Complexity of 8 (Highest = 13).
+src/main/java/managers/Xls_Reader.java:19:	Field comments are required
+src/main/java/managers/Xls_Reader.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/Xls_Reader.java:20:	Avoid using redundant field initializer for 'fis'
+src/main/java/managers/Xls_Reader.java:20:	Field comments are required
+src/main/java/managers/Xls_Reader.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/Xls_Reader.java:21:	Avoid using redundant field initializer for 'fileOut'
+src/main/java/managers/Xls_Reader.java:21:	Field comments are required
+src/main/java/managers/Xls_Reader.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/Xls_Reader.java:22:	Avoid using redundant field initializer for 'workbook'
+src/main/java/managers/Xls_Reader.java:22:	Field comments are required
+src/main/java/managers/Xls_Reader.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/Xls_Reader.java:23:	Avoid using redundant field initializer for 'sheet'
+src/main/java/managers/Xls_Reader.java:23:	Field comments are required
+src/main/java/managers/Xls_Reader.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/Xls_Reader.java:24:	Avoid using redundant field initializer for 'row'
+src/main/java/managers/Xls_Reader.java:24:	Field comments are required
+src/main/java/managers/Xls_Reader.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/Xls_Reader.java:25:	Avoid using redundant field initializer for 'cell'
+src/main/java/managers/Xls_Reader.java:25:	Field comments are required
+src/main/java/managers/Xls_Reader.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/managers/Xls_Reader.java:29:	Parameter 'path' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:29:	Public method and constructor comments are required
+src/main/java/managers/Xls_Reader.java:32:	Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/managers/Xls_Reader.java:35:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/managers/Xls_Reader.java:36:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/managers/Xls_Reader.java:42:	Found 'UR'-anomaly for variable 'cell' (lines '42'-'48').
+src/main/java/managers/Xls_Reader.java:42:	Found 'UR'-anomaly for variable 'row' (lines '42'-'47').
+src/main/java/managers/Xls_Reader.java:42:	Parameter 'sheetName' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:42:	Public method and constructor comments are required
+src/main/java/managers/Xls_Reader.java:42:	The method 'getRowCount(String)' has a NCSS line count of 12.
+src/main/java/managers/Xls_Reader.java:45:	Found 'DD'-anomaly for variable 'notNullCount' (lines '45'-'50').
+src/main/java/managers/Xls_Reader.java:46:	Local variable 'row' could be declared final
+src/main/java/managers/Xls_Reader.java:47:	Local variable 'cell' could be declared final
+src/main/java/managers/Xls_Reader.java:49:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/managers/Xls_Reader.java:49:	These nested if statements could be combined
+src/main/java/managers/Xls_Reader.java:60:	Parameter 'colName' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:60:	Parameter 'rowNum' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:60:	Parameter 'sheetName' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:60:	Public method and constructor comments are required
+src/main/java/managers/Xls_Reader.java:60:	The method 'getCellData' has a Modified Cyclomatic Complexity of 13.
+src/main/java/managers/Xls_Reader.java:60:	The method 'getCellData' has a Standard Cyclomatic Complexity of 13.
+src/main/java/managers/Xls_Reader.java:60:	The method 'getCellData(String, String, int)' has a NCSS line count of 38.
+src/main/java/managers/Xls_Reader.java:60:	The method 'getCellData(String, String, int)' has a cyclomatic complexity of 14.
+src/main/java/managers/Xls_Reader.java:60:	The method 'getCellData(String, String, int)' has an NPath complexity of 577
+src/main/java/managers/Xls_Reader.java:62:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:63:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:65:	Local variable 'index' could be declared final
+src/main/java/managers/Xls_Reader.java:66:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/managers/Xls_Reader.java:66:	Found 'DD'-anomaly for variable 'col_Num' (lines '66'-'75').
+src/main/java/managers/Xls_Reader.java:66:	Found 'DU'-anomaly for variable 'col_Num' (lines '66'-'110').
+src/main/java/managers/Xls_Reader.java:66:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'col_Num' is not final.
+src/main/java/managers/Xls_Reader.java:67:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:68:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:74:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/managers/Xls_Reader.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/managers/Xls_Reader.java:74:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/managers/Xls_Reader.java:75:	Found 'DD'-anomaly for variable 'col_Num' (lines '75'-'75').
+src/main/java/managers/Xls_Reader.java:77:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:78:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:82:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:83:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:86:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:87:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:90:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:90:	Avoid using if...else statements without curly braces
+src/main/java/managers/Xls_Reader.java:93:	Found 'DD'-anomaly for variable 'cellText' (lines '93'-'97').
+src/main/java/managers/Xls_Reader.java:93:	Useless parentheses.
+src/main/java/managers/Xls_Reader.java:96:	Local variable 'dateformat' could be declared final
+src/main/java/managers/Xls_Reader.java:96:	When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/managers/Xls_Reader.java:99:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:101:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:101:	Avoid using if...else statements without curly braces
+src/main/java/managers/Xls_Reader.java:103:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:103:	Avoid using if...else statements without curly braces
+src/main/java/managers/Xls_Reader.java:105:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/managers/Xls_Reader.java:107:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/managers/Xls_Reader.java:113:	Parameter 'colName' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:113:	Parameter 'data' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:113:	Parameter 'rowNum' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:113:	Parameter 'sheetName' is not assigned and could be declared final
+src/main/java/managers/Xls_Reader.java:113:	Public method and constructor comments are required
+src/main/java/managers/Xls_Reader.java:113:	The method 'setCellData(String, String, int, String)' has a NCSS line count of 31.
+src/main/java/managers/Xls_Reader.java:115:	Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/managers/Xls_Reader.java:117:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:118:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:119:	Local variable 'index' could be declared final
+src/main/java/managers/Xls_Reader.java:120:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/managers/Xls_Reader.java:120:	Found 'DD'-anomaly for variable 'colNum' (lines '120'-'128').
+src/main/java/managers/Xls_Reader.java:120:	Found 'DU'-anomaly for variable 'colNum' (lines '120'-'149').
+src/main/java/managers/Xls_Reader.java:121:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:122:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:127:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:127:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/managers/Xls_Reader.java:127:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/managers/Xls_Reader.java:127:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/managers/Xls_Reader.java:128:	Found 'DD'-anomaly for variable 'colNum' (lines '128'-'128').
+src/main/java/managers/Xls_Reader.java:130:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:131:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/managers/Xls_Reader.java:134:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:137:	Avoid using if statements without curly braces
+src/main/java/managers/Xls_Reader.java:140:	Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+src/main/java/managers/Xls_Reader.java:144:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/managers/Xls_Reader.java:145:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/managers/Xls_Reader.java:146:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/runner/ApiRunner.java:13:	Each class should declare at least one constructor
+src/main/java/runner/ApiRunner.java:13:	Header comments are required
+src/main/java/shareContext/TestContext.java:1:	Package name contains upper case characters
+src/main/java/shareContext/TestContext.java:6:	Header comments are required
+src/main/java/shareContext/TestContext.java:8:	Field comments are required
+src/main/java/shareContext/TestContext.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/shareContext/TestContext.java:8:	Private field 'endPoints' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/shareContext/TestContext.java:10:	Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/shareContext/TestContext.java:10:	Document empty constructor
+src/main/java/shareContext/TestContext.java:10:	Public method and constructor comments are required
+src/main/java/shareContext/TestData.java:1:	Package name contains upper case characters
+src/main/java/shareContext/TestData.java:5:	A class which only has private constructors should be final
+src/main/java/shareContext/TestData.java:5:	Header comments are required
+src/main/java/shareContext/TestData.java:7:	Field comments are required
+src/main/java/shareContext/TestData.java:7:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/shareContext/TestData.java:8:	Field comments are required
+src/main/java/shareContext/TestData.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/shareContext/TestData.java:8:	Private field 'reader' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/shareContext/TestData.java:11:	Field comments are required
+src/main/java/shareContext/TestData.java:19:	Public method and constructor comments are required
+src/main/java/shareContext/TestData.java:23:	Public method and constructor comments are required
+src/main/java/shareContext/TestData.java:24:	Local variable 'cityName' could be declared final
+src/main/java/shareContext/TestData.java:24:	The String literal "searchCity" appears 6 times in this file; the first occurrence is on line 24
+src/main/java/shareContext/TestData.java:25:	Consider simply returning the value vs storing it in local variable 'cityName'
+src/main/java/shareContext/TestData.java:28:	Public method and constructor comments are required
+src/main/java/shareContext/TestData.java:33:	Public method and constructor comments are required
+src/main/java/shareContext/TestData.java:37:	Public method and constructor comments are required
+src/main/java/shareContext/TestData.java:41:	Public method and constructor comments are required
+src/main/java/shareContext/TestData.java:45:	Public method and constructor comments are required
+src/main/java/stepDefinitions/BaseSteps.java:1:	Package name contains upper case characters
+src/main/java/stepDefinitions/BaseSteps.java:6:	Header comments are required
+src/main/java/stepDefinitions/BaseSteps.java:8:	Field comments are required
+src/main/java/stepDefinitions/BaseSteps.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/stepDefinitions/BaseSteps.java:8:	Private field 'endPoints' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/stepDefinitions/BaseSteps.java:11:	Parameter 'testContext' is not assigned and could be declared final
+src/main/java/stepDefinitions/BaseSteps.java:11:	Public method and constructor comments are required
+src/main/java/stepDefinitions/CheckHeaders.java:1:	Package name contains upper case characters
+src/main/java/stepDefinitions/CheckHeaders.java:10:	Header comments are required
+src/main/java/stepDefinitions/CheckHeaders.java:12:	Parameter 'testContext' is not assigned and could be declared final
+src/main/java/stepDefinitions/CheckHeaders.java:12:	Public method and constructor comments are required
+src/main/java/stepDefinitions/CheckHeaders.java:16:	Field comments are required
+src/main/java/stepDefinitions/CheckHeaders.java:16:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/stepDefinitions/CheckHeaders.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/stepDefinitions/CheckHeaders.java:19:	Public method and constructor comments are required
+src/main/java/stepDefinitions/CheckHeaders.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/CheckHeaders.java:24:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/CheckHeaders.java:24:	Public method and constructor comments are required
+src/main/java/stepDefinitions/CheckHeaders.java:25:	Local variable 'contentType' could be declared final
+src/main/java/stepDefinitions/CheckHeaders.java:30:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/CheckHeaders.java:30:	Public method and constructor comments are required
+src/main/java/stepDefinitions/CheckHeaders.java:31:	Local variable 'serverName' could be declared final
+src/main/java/stepDefinitions/CheckResponseTime.java:1:	Package name contains upper case characters
+src/main/java/stepDefinitions/CheckResponseTime.java:8:	Header comments are required
+src/main/java/stepDefinitions/CheckResponseTime.java:10:	Avoid excessively long variable names like actualResponseTime
+src/main/java/stepDefinitions/CheckResponseTime.java:10:	Field comments are required
+src/main/java/stepDefinitions/CheckResponseTime.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/stepDefinitions/CheckResponseTime.java:12:	Parameter 'testContext' is not assigned and could be declared final
+src/main/java/stepDefinitions/CheckResponseTime.java:12:	Public method and constructor comments are required
+src/main/java/stepDefinitions/CheckResponseTime.java:17:	Public method and constructor comments are required
+src/main/java/stepDefinitions/CheckResponseTime.java:19:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/CheckResponseTime.java:23:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/CheckResponseTime.java:23:	Public method and constructor comments are required
+src/main/java/stepDefinitions/CheckResponseTime.java:25:	Local variable 'timeExpected' could be declared final
+src/main/java/stepDefinitions/NegativeSearch.java:1:	Package name contains upper case characters
+src/main/java/stepDefinitions/NegativeSearch.java:11:	Header comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:13:	Parameter 'testContext' is not assigned and could be declared final
+src/main/java/stepDefinitions/NegativeSearch.java:13:	Public method and constructor comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:17:	Field comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:17:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/stepDefinitions/NegativeSearch.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/stepDefinitions/NegativeSearch.java:20:	Public method and constructor comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/NegativeSearch.java:26:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/NegativeSearch.java:26:	Public method and constructor comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:32:	Public method and constructor comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/NegativeSearch.java:37:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/NegativeSearch.java:37:	Public method and constructor comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:44:	Public method and constructor comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:46:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/NegativeSearch.java:50:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/NegativeSearch.java:50:	Public method and constructor comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:56:	Public method and constructor comments are required
+src/main/java/stepDefinitions/NegativeSearch.java:58:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/NegativeSearch.java:62:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/NegativeSearch.java:62:	Public method and constructor comments are required
+src/main/java/stepDefinitions/SearchByValidParameters.java:1:	Package name contains upper case characters
+src/main/java/stepDefinitions/SearchByValidParameters.java:9:	Header comments are required
+src/main/java/stepDefinitions/SearchByValidParameters.java:11:	Parameter 'testContext' is not assigned and could be declared final
+src/main/java/stepDefinitions/SearchByValidParameters.java:11:	Public method and constructor comments are required
+src/main/java/stepDefinitions/SearchByValidParameters.java:15:	Field comments are required
+src/main/java/stepDefinitions/SearchByValidParameters.java:15:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/stepDefinitions/SearchByValidParameters.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/stepDefinitions/SearchByValidParameters.java:19:	Public method and constructor comments are required
+src/main/java/stepDefinitions/SearchByValidParameters.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/SearchByValidParameters.java:25:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/SearchByValidParameters.java:25:	Public method and constructor comments are required
+src/main/java/stepDefinitions/SearchByValidParameters.java:30:	Public method and constructor comments are required
+src/main/java/stepDefinitions/SearchByValidParameters.java:32:	Comment is too large: Line too long
+src/main/java/stepDefinitions/SearchByValidParameters.java:36:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:1:	Package name contains upper case characters
+src/main/java/stepDefinitions/VerifyResonseData.java:13:	Header comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:15:	Parameter 'testContext' is not assigned and could be declared final
+src/main/java/stepDefinitions/VerifyResonseData.java:15:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:19:	Field comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:19:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/stepDefinitions/VerifyResonseData.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/stepDefinitions/VerifyResonseData.java:20:	Field comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:20:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/stepDefinitions/VerifyResonseData.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/stepDefinitions/VerifyResonseData.java:21:	Field comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:21:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/main/java/stepDefinitions/VerifyResonseData.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/stepDefinitions/VerifyResonseData.java:24:	Parameter 'arg1' is not assigned and could be declared final
+src/main/java/stepDefinitions/VerifyResonseData.java:24:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:26:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:31:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:37:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:38:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/stepDefinitions/VerifyResonseData.java:40:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/stepDefinitions/VerifyResonseData.java:45:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:52:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:54:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:54:	Potential violation of Law of Demeter (static property access)
+src/main/java/stepDefinitions/VerifyResonseData.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:55:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:55:	Potential violation of Law of Demeter (static property access)
+src/main/java/stepDefinitions/VerifyResonseData.java:59:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:64:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:72:	A method/constructor should not explicitly throw java.lang.Exception
+src/main/java/stepDefinitions/VerifyResonseData.java:72:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:78:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:84:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:85:	Local variable 'country' could be declared final
+src/main/java/stepDefinitions/VerifyResonseData.java:86:	Local variable 'checkCountry' could be declared final
+src/main/java/stepDefinitions/VerifyResonseData.java:86:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:86:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:86:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/stepDefinitions/VerifyResonseData.java:91:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:96:	Public method and constructor comments are required
+src/main/java/stepDefinitions/VerifyResonseData.java:98:	Local variable 'checkCityName' could be declared final
+src/main/java/stepDefinitions/VerifyResonseData.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/stepDefinitions/VerifyResonseData.java:98:	Potential violation of Law of Demeter (method chain calls)

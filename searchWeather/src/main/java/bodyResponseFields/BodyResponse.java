@@ -4,10 +4,12 @@ import java.util.List;
 
 //POJO class to store fields and values converted from  body response JSON file
 public class BodyResponse {
+	
+	//List of field names coverted from body reponse 
 	public Coord coord;
 	public List<Weather> weather;
 	public String base;
-	public Main main;
+	public Mains main;
 	public Integer visibility;
 	public Wind wind;
 	public Clouds clouds;

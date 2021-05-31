@@ -7,8 +7,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.response.Response;
-import managers.ConfigFileReader;
 import shareContext.TestContext;
+import shareContext.TestData;
 
 public class VerifyResonseData extends BaseSteps {
 
@@ -18,17 +18,12 @@ public class VerifyResonseData extends BaseSteps {
 
 	private Response response;
 	private BodyResponse body;
-
-	private String cityName = getExcelReader().getCellData("searchCity", "cityName", 2);
-	private String stateCode = getExcelReader().getCellData("searchCity", "stateCode", 2);
-	private String apiKey = getExcelReader().getCellData("searchCity", "apiKey", 2);
-	String cityNameResponse;
+	private String cityNameResponse;
 
 	@Given("^I performed search city successfully with status code \"([^\"]*)\"$")
 	public void i_performed_search_city_successfully_with_status_code(int arg1) {
 		// Call searchCity method
-		String searchPath = ConfigFileReader.getInstance().searchPath();
-		response = getEndPoints().searchByGETMethod(searchPath, cityName, stateCode, apiKey);
+		response = getEndPoints().searchByGETMethod();
 		Assert.assertEquals(arg1, response.getStatusCode());
 	}
 
@@ -46,10 +41,8 @@ public class VerifyResonseData extends BaseSteps {
 			Assert.fail();
 		}
 	}
-
 	@Then("^get the data in COORD field$")
 	public void get_the_data_in_COORD_field() {
-
 		// Check data response, fail if value is null
 		Assert.assertFalse(body.coord.lon == null);
 		Assert.assertFalse(body.coord.lat == null);
@@ -69,8 +62,7 @@ public class VerifyResonseData extends BaseSteps {
 
 	@Then("^get the data in MAIN field$")
 	public void get_the_data_in_MAIN_field() {
-
-		// Check temp, temp_min, temp_max response, fail if null
+		// Check temp, temp_min, temp_max response, fail if null		
 		Assert.assertFalse(body.main.temp == null);
 		Assert.assertFalse(body.main.temp_min == null);
 		Assert.assertFalse(body.main.temp_max == null);
@@ -91,7 +83,7 @@ public class VerifyResonseData extends BaseSteps {
 	@Then("^get the valid country code in SYS field$")
 	public void get_the_valid_country_code_in_SYS_field() {
 		String country = body.sys.country;
-		boolean checkCountry = country.equalsIgnoreCase(stateCode);
+		boolean checkCountry = country.equalsIgnoreCase(TestData.getInstance().stateCode());
 		Assert.assertTrue(checkCountry);
 	}
 
@@ -103,7 +95,7 @@ public class VerifyResonseData extends BaseSteps {
 	@Then("^NAME value should be semilar to the CityName parameter$")
 	public void name_value_should_be_semilar_to_the_CityName_parameter() {
 		// Test case Fails if cityNameResponse not matched with cityName input
-		boolean checkCityName = cityNameResponse.equalsIgnoreCase(cityName);
+		boolean checkCityName = cityNameResponse.equalsIgnoreCase(TestData.getInstance().cityName());
 		Assert.assertTrue(checkCityName);
 	}
 }

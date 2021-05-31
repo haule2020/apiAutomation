@@ -13,7 +13,7 @@ public class ConfigFileReader {
 	private final String propertyFilePath = "configs//Configuration.properties";	
 	private static ConfigFileReader configReader;
 	
-	 //Load file config
+	 //Load  config file
 	private ConfigFileReader() {
 		BufferedReader reader;
 		try {
@@ -40,20 +40,28 @@ public class ConfigFileReader {
 	public String getBaseUrl() {
 		String baseurl = properties.getProperty("baseUrl");
 		if (baseurl != null)
+		{
 			return baseurl;
+		}
 		else
+		{
 			throw new RuntimeException(
 					"Application Url not specified in the Configuration.properties file for the Key:url");
+		}
 	}
 
 	//Get url path from Configuration file
 	public String searchPath() {
 		String searchPath = properties.getProperty("searchPath");
 		if (searchPath != null)
+		{
 			return searchPath;
+		}
 		else
+		{
 			throw new RuntimeException(
 					"searchPath not specified in the Configuration.properties file for the Key:searchPath");
+		}
 	}
 	
 
