@@ -29,13 +29,13 @@ public class SearchByValidParameters extends BaseSteps {
 	@When("^I search with with POST method$")
 	public void i_search_with_with_POST_method() throws Throwable {
 		// Call searchByPOSTMethod to send POST request
-		//response = getEndPoints().searchByPOSTMethod(searchPath,cityName,stateCode,apiKey);
+		response = getEndPoints().searchByPOSTMethod();
 	}
 
 	@Then("^API called successfully$")
 	public void api_called_successfully() throws Throwable {
 		// Compare actual status code with expected one
-		//Assert.assertEquals(200, response.getStatusCode());
+		Assert.assertEquals(200, response.getStatusCode());
 	}
 
 }
