@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2918898900,
+              "duration": 2580525900,
               "status": "passed"
             },
             "line": 8,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3441800,
+              "duration": 2308500,
               "status": "passed"
             },
             "line": 9,
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 263859500,
+              "duration": 322614900,
               "status": "passed"
             },
             "line": 12,
@@ -64,8 +64,8 @@
           },
           {
             "result": {
-              "duration": 3375100,
-              "error_message": "java.lang.AssertionError: expected: java.lang.String\u003c200\u003e but was: java.lang.Integer\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.NegativeSearch.status_code_response_should_not_be(NegativeSearch.java:39)\r\n\tat ✽.Then Status code response should not be \"200\"(resources/Feature/searchWeatherCity.feature:13)\r\n",
+              "duration": 560100,
+              "error_message": "java.lang.AssertionError: Values should be different. Actual: 200\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failEquals(Assert.java:185)\r\n\tat org.junit.Assert.assertNotEquals(Assert.java:199)\r\n\tat org.junit.Assert.assertNotEquals(Assert.java:211)\r\n\tat stepDefinitions.NegativeSearch.status_code_response_should_not_be(NegativeSearch.java:39)\r\n\tat ✽.Then Status code response should not be \"200\"(resources/Feature/searchWeatherCity.feature:13)\r\n",
               "status": "failed"
             },
             "line": 13,
@@ -77,7 +77,7 @@
                   "offset": 36
                 }
               ],
-              "location": "NegativeSearch.status_code_response_should_not_be(String)"
+              "location": "NegativeSearch.status_code_response_should_not_be(int)"
             },
             "keyword": "Then "
           }
@@ -93,7 +93,7 @@
         "steps": [
           {
             "result": {
-              "duration": 284076900,
+              "duration": 304488500,
               "status": "passed"
             },
             "line": 16,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 602500,
+              "duration": 503800,
               "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.status_code_response_should_be(NegativeSearch.java:52)\r\n\tat ✽.Then Status code response should be \"404\"(resources/Feature/searchWeatherCity.feature:17)\r\n",
               "status": "failed"
             },
@@ -134,7 +134,7 @@
         "steps": [
           {
             "result": {
-              "duration": 294540500,
+              "duration": 280648100,
               "status": "passed"
             },
             "line": 20,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 156200,
+              "duration": 69100,
               "status": "passed"
             },
             "line": 21,
@@ -174,7 +174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 290229700,
+              "duration": 339754300,
               "status": "passed"
             },
             "line": 24,
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 111300,
+              "duration": 218600,
               "status": "passed"
             },
             "line": 25,
@@ -214,7 +214,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1113700,
+              "duration": 938300,
               "status": "passed"
             },
             "line": 28,
@@ -226,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 23900,
+              "duration": 20800,
               "status": "passed"
             },
             "line": 29,
@@ -248,7 +248,7 @@
         "steps": [
           {
             "result": {
-              "duration": 278121400,
+              "duration": 280669700,
               "status": "passed"
             },
             "line": 32,
@@ -260,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 309600,
+              "duration": 1239200,
               "status": "passed"
             },
             "line": 33,
@@ -278,7 +278,7 @@
           },
           {
             "result": {
-              "duration": 143100,
+              "duration": 75300,
               "status": "passed"
             },
             "line": 34,
@@ -306,7 +306,7 @@
         "steps": [
           {
             "result": {
-              "duration": 285193600,
+              "duration": 296169500,
               "status": "passed"
             },
             "line": 37,
@@ -324,7 +324,7 @@
           },
           {
             "result": {
-              "duration": 650095200,
+              "duration": 424852200,
               "status": "passed"
             },
             "line": 38,
@@ -336,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 37900,
+              "duration": 72900,
               "status": "passed"
             },
             "line": 39,
@@ -348,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 29500,
+              "duration": 53900,
               "status": "passed"
             },
             "line": 40,
@@ -360,7 +360,7 @@
           },
           {
             "result": {
-              "duration": 18400,
+              "duration": 38600,
               "status": "passed"
             },
             "line": 41,
@@ -372,7 +372,7 @@
           },
           {
             "result": {
-              "duration": 160800,
+              "duration": 49700,
               "status": "passed"
             },
             "line": 42,
@@ -384,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 23200,
+              "duration": 41700,
               "status": "passed"
             },
             "line": 43,
@@ -396,7 +396,7 @@
           },
           {
             "result": {
-              "duration": 24200,
+              "duration": 65300,
               "status": "passed"
             },
             "line": 44,
@@ -408,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 310600,
+              "duration": 466300,
               "status": "passed"
             },
             "line": 45,
@@ -420,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 37400,
+              "duration": 50300,
               "status": "passed"
             },
             "line": 46,
@@ -432,7 +432,7 @@
           },
           {
             "result": {
-              "duration": 88900,
+              "duration": 201200,
               "status": "passed"
             },
             "line": 47,
@@ -454,7 +454,7 @@
         "steps": [
           {
             "result": {
-              "duration": 267398900,
+              "duration": 332041000,
               "status": "passed"
             },
             "line": 50,
@@ -466,7 +466,7 @@
           },
           {
             "result": {
-              "duration": 80600,
+              "duration": 71700,
               "status": "passed"
             },
             "line": 51,
@@ -486,7 +486,7 @@
       }
     ],
     "name": "Search weather by City Name and State code",
-    "description": "\r\nDescription: When I search a city by inputing city name and State code as below format:\r\napi.openweathermap.org/data/2.5/weather?q\u003d{city name},{state code}\u0026appid\u003d{API key},\r\nI want to get weather information response of that city",
+    "description": "\nDescription: When I search a city by inputing city name and State code as below format:\napi.openweathermap.org/data/2.5/weather?q\u003d{city name},{state code}\u0026appid\u003d{API key},\nI want to get weather information response of that city",
     "id": "search-weather-by-city-name-and-state-code",
     "keyword": "Feature",
     "uri": "resources/Feature/searchWeatherCity.feature"

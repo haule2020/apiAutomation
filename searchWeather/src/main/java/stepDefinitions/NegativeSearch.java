@@ -25,7 +25,7 @@ public class NegativeSearch extends BaseSteps {
 	@Then("^Status code response should be \"([^\"]*)\" not found$")
 	public void status_code_response_should_be_not_found(int arg1) {
 		// Compare response status code with expected one
-		Assert.assertEquals(arg1, response.getStatusCode());
+		Assert.assertEquals(arg1, response.getStatusCode());		
 	}
 
 	@Given("^I search with state code , APi key but City name is blank$")
@@ -34,9 +34,9 @@ public class NegativeSearch extends BaseSteps {
 	}
 
 	@Then("^Status code response should not be \"([^\"]*)\"$")
-	public void status_code_response_should_not_be(String arg1) {
+	public void status_code_response_should_not_be(int arg1) {
 		// Compare response status, fail if status code = 200
-		Assert.assertEquals(arg1, response.getStatusCode());   
+		Assert.assertNotEquals(arg1, response.getStatusCode());   
 	}
 
 	
