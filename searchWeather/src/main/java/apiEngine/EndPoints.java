@@ -13,12 +13,12 @@ public class EndPoints {
 
 	private final RequestSpecification request;
 	public  Response response;
-	private final String cityName= TestData.getInstance().cityName();
-	private final String stateCode= TestData.getInstance().cityName();
-	private final String apiKey= TestData.getInstance().apiKey();
-	private final String invalidCityName= TestData.getInstance().invalidCityName();
-	private final String invalidStateCode= TestData.getInstance().invalidStateCode();
-	private final String invalidApiKey= TestData.getInstance().invalidApiKey();
+//	private final String cityName= TestData.getInstance().cityName();
+//	private final String stateCode= TestData.getInstance().cityName();
+//	private final String apiKey= TestData.getInstance().apiKey();
+//	private final String invalidCityName= TestData.getInstance().invalidCityName();
+//	private final String invalidStateCode= TestData.getInstance().invalidStateCode();
+//	private final String invalidApiKey= TestData.getInstance().invalidApiKey();
 	private final String searchPath= ConfigFileReader.getInstance().searchPath(); 
 	
 	public EndPoints(final String baseUrl) {
@@ -28,39 +28,39 @@ public class EndPoints {
 	}
 	
 	// Function call api search with InvalidCity
-	public Response searchInvalidCity() {	
-		return response = request.post(searchPath + invalidCityName + "," + stateCode + "&appid=" + apiKey);		
-	}
-	
-	// Function call api search with Empty City
-	public Response searchEmtyCity() {	
-		return response = request.post(searchPath + "" + "," + stateCode + "&appid=" + apiKey);		
-	}
-	
-	// Function call api search with invalid StateCode
-	public Response searchInvalidStatecode() {	
-		return response = request.post(searchPath + cityName + "," + invalidStateCode + "&appid=" + apiKey);		
-	}	
-	
-	// Function call api search with invalid invalid ApiKey
-	public Response searchInvalidApiKey() {	
-		return response = request.post(searchPath + cityName + "," + stateCode + "&appid=" + invalidApiKey);		
-	}
-	
-	// Function call api GET request with valid parameters
-	public Response searchByGETMethod() {
+	public Response searchInvalidCity(String	cityName, String stateCode, String apiKey) {
 		return response = request.post(searchPath + cityName + "," + stateCode + "&appid=" + apiKey);		
 	}
-
-	// Function call api POST request with valid parameters
-	public Response searchByPOSTMethod() {
-		return response = request.post(searchPath + cityName + "," + stateCode + "&appid=" + apiKey);		
-	}
-
-	// Function call api request to get ResponseTime
-	public long getResponseTime() {
-		long responseTime = request.get(searchPath + cityName + "," + stateCode + "&appid=" + apiKey)
-				.timeIn(TimeUnit.MILLISECONDS);
-		return responseTime;
-	}	
+	
+//	// Function call api search with Empty City
+//	public Response searchEmtyCity() {	
+//		return response = request.post(searchPath + "" + "," + stateCode + "&appid=" + apiKey);		
+//	}
+//	
+//	// Function call api search with invalid StateCode
+//	public Response searchInvalidStatecode() {	
+//		return response = request.post(searchPath + cityName + "," + invalidStateCode + "&appid=" + apiKey);		
+//	}	
+//	
+//	// Function call api search with invalid invalid ApiKey
+//	public Response searchInvalidApiKey() {	
+//		return response = request.post(searchPath + cityName + "," + stateCode + "&appid=" + invalidApiKey);		
+//	}
+//	
+//	// Function call api GET request with valid parameters
+//	public Response searchByGETMethod() {
+//		return response = request.post(searchPath + cityName + "," + stateCode + "&appid=" + apiKey);		
+//	}
+//
+//	// Function call api POST request with valid parameters
+//	public Response searchByPOSTMethod() {
+//		return response = request.post(searchPath + cityName + "," + stateCode + "&appid=" + apiKey);		
+//	}
+//
+//	// Function call api request to get ResponseTime
+//	public long getResponseTime() {
+//		long responseTime = request.get(searchPath + cityName + "," + stateCode + "&appid=" + apiKey)
+//				.timeIn(TimeUnit.MILLISECONDS);
+//		return responseTime;
+//	}	
 }
