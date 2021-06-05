@@ -54,7 +54,7 @@ formatter.match({
   "location": "NegativeSearch.iSearchWithInvalidCityName(DataTable)"
 });
 formatter.result({
-  "duration": 2440922700,
+  "duration": 2223099000,
   "status": "passed"
 });
 formatter.match({
@@ -67,7 +67,7 @@ formatter.match({
   "location": "NegativeSearch.statusCodeResponseShouldBeNotFound(int)"
 });
 formatter.result({
-  "duration": 252210600,
+  "duration": 280687100,
   "status": "passed"
 });
 });

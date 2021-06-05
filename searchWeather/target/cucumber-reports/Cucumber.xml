@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.693133">
-<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName and statCode and apiKey" time="2.693133">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.503786">
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName and statCode and apiKey" time="2.503786">
 <system-out><![CDATA[Given I search with invalid cityName........................................passed
 Then Status code response should be 404 not found...........................passed
 ]]></system-out>
