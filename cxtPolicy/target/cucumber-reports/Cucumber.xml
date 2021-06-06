@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="13.455388">
+<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number" time="3.835961">
+<system-out><![CDATA[Given I already authorozied.................................................passed
+When I call API to search by inputing invalid policy number "2816548240%"...passed
+Then system response no content with status code "204"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number 2" time="0.917302">
+<system-out><![CDATA[Given I already authorozied.................................................passed
+When I call API to search by inputing invalid policy number "%2816548240%"..passed
+Then system response no content with status code "204"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number 3" time="0.715872">
+<system-out><![CDATA[Given I already authorozied.................................................passed
+When I call API to search by inputing invalid policy number ""..............passed
+Then system response no content with status code "204"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Search policy infomation by valid policy number" time="1.210753">
+<system-out><![CDATA[Given I already get authorization...........................................passed
+When I call API to search by inputing valid policy number "2816548240"......passed
+Then system response with status code "200".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Search policy infomation by valid policy number 2" time="1.10745">
+<system-out><![CDATA[Given I already get authorization...........................................passed
+When I call API to search by inputing valid policy number "2871284582"......passed
+Then system response with status code "200".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify field name in response body" time="1.176207">
+<system-out><![CDATA[Given I search policy successfully "2816548240".............................passed
+Then I can get correct response field name..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify POLICY items from response body" time="0.943384">
+<system-out><![CDATA[Given I can search a policy "2816548240"....................................passed
+Then I get correct policyNumber "2816548240"................................passed
+And I get correct excludeInfo...............................................passed
+And I get correct bancaInd..................................................passed
+And I get correct agentCode "SS029".........................................passed
+And I get correct agentMobile...............................................passed
+And I get correct agentName.................................................passed
+And I get correct locationCode..............................................passed
+And I get correct gracePeriod...............................................passed
+And I get correct ostPrem...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify POLICY items from response body 2" time="0.975923">
+<system-out><![CDATA[Given I can search a policy "2871284582"....................................passed
+Then I get correct policyNumber "2871284582"................................passed
+And I get correct excludeInfo...............................................passed
+And I get correct bancaInd..................................................passed
+And I get correct agentCode "FT487".........................................passed
+And I get correct agentMobile...............................................passed
+And I get correct agentName.................................................passed
+And I get correct locationCode..............................................passed
+And I get correct gracePeriod...............................................passed
+And I get correct ostPrem...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify POLICY_OWNER items from response body" time="0.970093">
+<system-out><![CDATA[Given I search a policy "2816548240"........................................passed
+And I get correct clientNumber "2802978231".................................passed
+And I get correct clientName................................................passed
+And I get correct idNumber..................................................passed
+And I get correct idIssueDate...............................................passed
+And I get correct idIssuePlace..............................................passed
+And I get correct sexCode...................................................passed
+And I get correct birthdate.................................................passed
+And I get correct vipInd....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify POLICY_OWNER items from response body 2" time="0.977837">
+<system-out><![CDATA[Given I search a policy "2871284582"........................................passed
+And I get correct clientNumber "2805363580".................................passed
+And I get correct clientName................................................passed
+And I get correct idNumber..................................................passed
+And I get correct idIssueDate...............................................passed
+And I get correct idIssuePlace..............................................passed
+And I get correct sexCode...................................................passed
+And I get correct birthdate.................................................passed
+And I get correct vipInd....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify response time" time="0.299833">
+<system-out><![CDATA[Given I call the API "2816548240"...........................................passed
+Then response time should not exceed "9000" miliseconds.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify response time 2" time="0.324773">
+<system-out><![CDATA[Given I call the API "2871284582"...........................................passed
+Then response time should not exceed "9000" miliseconds.....................passed
+]]></system-out>
+</testcase>
+</testsuite>

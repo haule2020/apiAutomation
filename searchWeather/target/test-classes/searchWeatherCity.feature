@@ -4,17 +4,21 @@ Feature: Search weather by City Name and State code
 	api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={API key},
 	I want to get weather information response of that city 
 		
-Scenario: Search weather by invalid cityName and statCode and apiKey
- Given I search with invalid cityName  
-   
-    |Hanoi|  VN |   b0a9c8b82f8361b93ce4290a8068f35b |
-	|London|  GB |   b0a9c8b82f8361b93ce4290a8068f35b |
-	|New york|  US |   b0a9c8b82f8361b93ce4290a8068f35b |
- Then Status code response should be 404 not found	
-
-
-    
-  
+Scenario Outline: Search weather by invalid cityName
+ Given I search with invalid "<cityName>" and "<stateCode>" and "<apiKey>"
+ Then Status code response "<statusCode>" should be not found
+ Examples:	
+    |cityName		|stateCode	|apiKey								|statusCode	|
+	|London123		|GB			|b0a9c8b82f8361b93ce4290a8068f35b	|404		|
+	|123 New york	|US			|b0a9c8b82f8361b93ce4290a8068f35b	|404		|
+	|1New york2		|US			|b0a9c8b82f8361b93ce4290a8068f35b	|404		|
+	|London%		|US			|b0a9c8b82f8361b93ce4290a8068f35b	|404		|
+	|	?			|US			|b0a9c8b82f8361b93ce4290a8068f35b	|404		|
+	|	%			|US			|b0a9c8b82f8361b93ce4290a8068f35b	|404		|
+	|				|US			|b0a9c8b82f8361b93ce4290a8068f35b	|404		|
+	
+	
+	
 # Scenario: Search weather by iunputing state code, APi key but City name is blank
 # Given I search with state code , APi key but City name is blank
 # Then Status code response should not be "200"

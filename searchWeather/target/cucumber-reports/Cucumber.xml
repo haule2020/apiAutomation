@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.503786">
-<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName and statCode and apiKey" time="2.503786">
-<system-out><![CDATA[Given I search with invalid cityName........................................passed
-Then Status code response should be 404 not found...........................passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="5.419087">
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName" time="2.309989">
+<system-out><![CDATA[Given I search with invalid "London123" and "GB" and "b0a9c8b82f8361b93ce4290a8068f35b".passed
+Then Status code response "404" should be not found.........................passed
 ]]></system-out>
+</testcase>
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName 2" time="0.296361">
+<system-out><![CDATA[Given I search with invalid "123 New york" and "US" and "b0a9c8b82f8361b93ce4290a8068f35b".passed
+Then Status code response "404" should be not found.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName 3" time="0.754449">
+<system-out><![CDATA[Given I search with invalid "1New york2" and "US" and "b0a9c8b82f8361b93ce4290a8068f35b".passed
+Then Status code response "404" should be not found.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName 4" time="0.749298">
+<system-out><![CDATA[Given I search with invalid "London%" and "US" and "b0a9c8b82f8361b93ce4290a8068f35b".passed
+Then Status code response "404" should be not found.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName 5" time="0.793011">
+<system-out><![CDATA[Given I search with invalid "?" and "US" and "b0a9c8b82f8361b93ce4290a8068f35b".passed
+Then Status code response "404" should be not found.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName 6" time="0.230432">
+<system-out><![CDATA[Given I search with invalid "%" and "US" and "b0a9c8b82f8361b93ce4290a8068f35b".passed
+Then Status code response "404" should be not found.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search weather by City Name and State code" name="Search weather by invalid cityName 7" time="0.285547">
+<failure message="java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:645)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:631)&#13;&#10;&#9;at stepDefinitions.NegativeSearch.statusCodeResponseShouldBeNotFound(NegativeSearch.java:34)&#13;&#10;&#9;at ✽.Then Status code response &quot;404&quot; should be not found(src/test/resources/searchWeatherCity.feature:9)&#13;&#10;"><![CDATA[Given I search with invalid "" and "US" and "b0a9c8b82f8361b93ce4290a8068f35b".passed
+Then Status code response "404" should be not found.........................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBeNotFound(NegativeSearch.java:34)
+	at ✽.Then Status code response "404" should be not found(src/test/resources/searchWeatherCity.feature:9)
+]]></failure>
 </testcase>
 </testsuite>
