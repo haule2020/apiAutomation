@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2891888900,
+              "duration": 3149051800,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 942595300,
+              "duration": 1168830100,
               "status": "passed"
             },
             "line": 8,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1476899,
+              "duration": 4306200,
               "status": "passed"
             },
             "line": 9,
@@ -76,7 +76,7 @@
         "steps": [
           {
             "result": {
-              "duration": 403094001,
+              "duration": 965058300,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 514023999,
+              "duration": 503701200,
               "status": "passed"
             },
             "line": 8,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 184100,
+              "duration": 181200,
               "status": "passed"
             },
             "line": 9,
@@ -140,7 +140,7 @@
         "steps": [
           {
             "result": {
-              "duration": 283356499,
+              "duration": 735891500,
               "status": "passed"
             },
             "line": 7,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 432381100,
+              "duration": 1028897400,
               "status": "passed"
             },
             "line": 8,
@@ -173,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 134200,
+              "duration": 167800,
               "status": "passed"
             },
             "line": 9,
@@ -204,7 +204,7 @@
         "steps": [
           {
             "result": {
-              "duration": 387320400,
+              "duration": 613012200,
               "status": "passed"
             },
             "line": 18,
@@ -216,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 823237400,
+              "duration": 680492900,
               "status": "passed"
             },
             "line": 19,
@@ -237,7 +237,7 @@
           },
           {
             "result": {
-              "duration": 194999,
+              "duration": 466000,
               "status": "passed"
             },
             "line": 20,
@@ -268,7 +268,7 @@
         "steps": [
           {
             "result": {
-              "duration": 443682600,
+              "duration": 672238500,
               "status": "passed"
             },
             "line": 18,
@@ -280,7 +280,7 @@
           },
           {
             "result": {
-              "duration": 663322599,
+              "duration": 3808211900,
               "status": "passed"
             },
             "line": 19,
@@ -301,7 +301,7 @@
           },
           {
             "result": {
-              "duration": 444901,
+              "duration": 172300,
               "status": "passed"
             },
             "line": 20,
@@ -332,7 +332,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1115242001,
+              "duration": 2092943300,
               "status": "passed"
             },
             "line": 28,
@@ -353,7 +353,7 @@
           },
           {
             "result": {
-              "duration": 60964899,
+              "duration": 76897200,
               "status": "passed"
             },
             "line": 29,
@@ -375,7 +375,7 @@
         "steps": [
           {
             "result": {
-              "duration": 938792001,
+              "duration": 1341560100,
               "status": "passed"
             },
             "line": 35,
@@ -396,7 +396,7 @@
           },
           {
             "result": {
-              "duration": 4373500,
+              "duration": 5350600,
               "status": "passed"
             },
             "line": 36,
@@ -417,7 +417,7 @@
           },
           {
             "result": {
-              "duration": 45700,
+              "duration": 55200,
               "status": "passed"
             },
             "line": 37,
@@ -429,7 +429,7 @@
           },
           {
             "result": {
-              "duration": 19700,
+              "duration": 38200,
               "status": "passed"
             },
             "line": 38,
@@ -441,7 +441,7 @@
           },
           {
             "result": {
-              "duration": 61200,
+              "duration": 70800,
               "status": "passed"
             },
             "line": 39,
@@ -462,7 +462,7 @@
           },
           {
             "result": {
-              "duration": 17000,
+              "duration": 66100,
               "status": "passed"
             },
             "line": 40,
@@ -474,7 +474,7 @@
           },
           {
             "result": {
-              "duration": 19999,
+              "duration": 29300,
               "status": "passed"
             },
             "line": 41,
@@ -486,7 +486,7 @@
           },
           {
             "result": {
-              "duration": 17299,
+              "duration": 71900,
               "status": "passed"
             },
             "line": 42,
@@ -498,7 +498,7 @@
           },
           {
             "result": {
-              "duration": 20499,
+              "duration": 27500,
               "status": "passed"
             },
             "line": 43,
@@ -510,7 +510,7 @@
           },
           {
             "result": {
-              "duration": 17300,
+              "duration": 36100,
               "status": "passed"
             },
             "line": 44,
@@ -532,7 +532,7 @@
         "steps": [
           {
             "result": {
-              "duration": 970001000,
+              "duration": 1236164700,
               "status": "passed"
             },
             "line": 35,
@@ -553,7 +553,7 @@
           },
           {
             "result": {
-              "duration": 5713600,
+              "duration": 5408600,
               "status": "passed"
             },
             "line": 36,
@@ -574,7 +574,7 @@
           },
           {
             "result": {
-              "duration": 20100,
+              "duration": 27200,
               "status": "passed"
             },
             "line": 37,
@@ -586,7 +586,7 @@
           },
           {
             "result": {
-              "duration": 12500,
+              "duration": 51600,
               "status": "passed"
             },
             "line": 38,
@@ -598,7 +598,7 @@
           },
           {
             "result": {
-              "duration": 48400,
+              "duration": 73400,
               "status": "passed"
             },
             "line": 39,
@@ -619,7 +619,7 @@
           },
           {
             "result": {
-              "duration": 31100,
+              "duration": 29800,
               "status": "passed"
             },
             "line": 40,
@@ -631,7 +631,7 @@
           },
           {
             "result": {
-              "duration": 12500,
+              "duration": 40400,
               "status": "passed"
             },
             "line": 41,
@@ -643,7 +643,7 @@
           },
           {
             "result": {
-              "duration": 57401,
+              "duration": 35800,
               "status": "passed"
             },
             "line": 42,
@@ -655,7 +655,7 @@
           },
           {
             "result": {
-              "duration": 14900,
+              "duration": 25600,
               "status": "passed"
             },
             "line": 43,
@@ -667,7 +667,7 @@
           },
           {
             "result": {
-              "duration": 11701,
+              "duration": 25100,
               "status": "passed"
             },
             "line": 44,
@@ -689,7 +689,7 @@
         "steps": [
           {
             "result": {
-              "duration": 969723099,
+              "duration": 1506966400,
               "status": "passed"
             },
             "line": 52,
@@ -710,7 +710,7 @@
           },
           {
             "result": {
-              "duration": 122100,
+              "duration": 150500,
               "status": "passed"
             },
             "line": 53,
@@ -731,7 +731,7 @@
           },
           {
             "result": {
-              "duration": 69000,
+              "duration": 35900,
               "status": "passed"
             },
             "line": 54,
@@ -743,7 +743,7 @@
           },
           {
             "result": {
-              "duration": 23900,
+              "duration": 28700,
               "status": "passed"
             },
             "line": 55,
@@ -755,7 +755,7 @@
           },
           {
             "result": {
-              "duration": 62000,
+              "duration": 25400,
               "status": "passed"
             },
             "line": 56,
@@ -767,7 +767,7 @@
           },
           {
             "result": {
-              "duration": 23600,
+              "duration": 20900,
               "status": "passed"
             },
             "line": 57,
@@ -779,7 +779,7 @@
           },
           {
             "result": {
-              "duration": 33699,
+              "duration": 31000,
               "status": "passed"
             },
             "line": 58,
@@ -791,7 +791,7 @@
           },
           {
             "result": {
-              "duration": 19100,
+              "duration": 23400,
               "status": "passed"
             },
             "line": 59,
@@ -803,7 +803,7 @@
           },
           {
             "result": {
-              "duration": 17000,
+              "duration": 67500,
               "status": "passed"
             },
             "line": 60,
@@ -825,7 +825,7 @@
         "steps": [
           {
             "result": {
-              "duration": 977622600,
+              "duration": 1777999900,
               "status": "passed"
             },
             "line": 52,
@@ -846,7 +846,7 @@
           },
           {
             "result": {
-              "duration": 104999,
+              "duration": 93100,
               "status": "passed"
             },
             "line": 53,
@@ -867,7 +867,7 @@
           },
           {
             "result": {
-              "duration": 32800,
+              "duration": 36300,
               "status": "passed"
             },
             "line": 54,
@@ -879,7 +879,7 @@
           },
           {
             "result": {
-              "duration": 11200,
+              "duration": 16300,
               "status": "passed"
             },
             "line": 55,
@@ -891,7 +891,7 @@
           },
           {
             "result": {
-              "duration": 11000,
+              "duration": 15200,
               "status": "passed"
             },
             "line": 56,
@@ -903,7 +903,7 @@
           },
           {
             "result": {
-              "duration": 11700,
+              "duration": 29100,
               "status": "passed"
             },
             "line": 57,
@@ -915,7 +915,7 @@
           },
           {
             "result": {
-              "duration": 14399,
+              "duration": 83600,
               "status": "passed"
             },
             "line": 58,
@@ -927,7 +927,7 @@
           },
           {
             "result": {
-              "duration": 10900,
+              "duration": 33500,
               "status": "passed"
             },
             "line": 59,
@@ -939,7 +939,7 @@
           },
           {
             "result": {
-              "duration": 17400,
+              "duration": 27300,
               "status": "passed"
             },
             "line": 60,
@@ -952,19 +952,785 @@
         ]
       },
       {
-        "line": 72,
-        "name": "Verify response time",
+        "line": 81,
+        "name": "Verify COVERAGES items from response body",
         "description": "",
-        "id": "search-policy-infomation;verify-response-time;;2",
+        "id": "search-policy-infomation;verify-coverages-items-from-response-body;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 299754200,
+              "duration": 4762630600,
               "status": "passed"
             },
             "line": 68,
+            "name": "I can search policy\u0027s COVERAGES \"2816548240\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2816548240",
+                  "offset": 33
+                }
+              ],
+              "location": "VerifyCOVERAGES.iCanSearchPolicySCOVERAGES(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I get coverageEffectiveDate \"20171231\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20171231",
+                  "offset": 29
+                }
+              ],
+              "location": "VerifyCOVERAGES.iGetCoverageEffectiveDate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30100,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I get coverageIssueDate",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoverageIssueDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I get coverageXpryDate",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoverageXpryDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I get coverageCode",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoverageCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I get mcStatusCode \"I\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "I",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyCOVERAGES.iGetMcStatusCode(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19900,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I get mcEffectiveDate",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetMcEffectiveDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I get coverageClass",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoverageClass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86700,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I get coverageStatusCode \"I\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "I",
+                  "offset": 26
+                }
+              ],
+              "location": "VerifyCOVERAGES.iGetCoverageStatusCode(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57500,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I get coveragePrem;",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoveragePrem()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 82,
+        "name": "Verify COVERAGES items from response body",
+        "description": "",
+        "id": "search-policy-infomation;verify-coverages-items-from-response-body;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2618560400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I can search policy\u0027s COVERAGES \"2871284582\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2871284582",
+                  "offset": 33
+                }
+              ],
+              "location": "VerifyCOVERAGES.iCanSearchPolicySCOVERAGES(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110100,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I get coverageEffectiveDate \"20210327\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20210327",
+                  "offset": 29
+                }
+              ],
+              "location": "VerifyCOVERAGES.iGetCoverageEffectiveDate(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I get coverageIssueDate",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoverageIssueDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46100,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I get coverageXpryDate",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoverageXpryDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41200,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I get coverageCode",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoverageCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68400,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I get mcStatusCode \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyCOVERAGES.iGetMcStatusCode(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28100,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I get mcEffectiveDate",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetMcEffectiveDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31900,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I get coverageClass",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoverageClass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76300,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I get coverageStatusCode \"N\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "N",
+                  "offset": 26
+                }
+              ],
+              "location": "VerifyCOVERAGES.iGetCoverageStatusCode(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29500,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I get coveragePrem;",
+            "match": {
+              "location": "VerifyCOVERAGES.iGetCoveragePrem()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 97,
+        "name": "Verify POLICY_INS items from response body",
+        "description": "",
+        "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1403108100,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I can get response of policyNumber \"2816548240\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2816548240",
+                  "offset": 36
+                }
+              ],
+              "location": "VerifyPOLICY_INS.iCanGetResponseOfPolicyNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151800,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I get clientNumber \"2801422092\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2801422092",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyPOLICY_INS.iGetClientNumber(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58100,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I get clientName",
+            "match": {
+              "location": "VerifyPOLICY_INS.iGetClientName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35300,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I get birthdate",
+            "match": {
+              "location": "VerifyPOLICY_INS.iGetBirthdate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43800,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I get sexCode",
+            "match": {
+              "location": "VerifyPOLICY_INS.iGetSexCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27500,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I get idNumber",
+            "match": {
+              "location": "VerifyPOLICY_INS.iGetIdNumber()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 98,
+        "name": "Verify POLICY_INS items from response body",
+        "description": "",
+        "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1673705000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I can get response of policyNumber \"2871284582\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2871284582",
+                  "offset": 36
+                }
+              ],
+              "location": "VerifyPOLICY_INS.iCanGetResponseOfPolicyNumber(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100400,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I get clientNumber \"2805363580\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2805363580",
+                  "offset": 20
+                }
+              ],
+              "location": "VerifyPOLICY_INS.iGetClientNumber(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138100,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I get clientName",
+            "match": {
+              "location": "VerifyPOLICY_INS.iGetClientName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43400,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I get birthdate",
+            "match": {
+              "location": "VerifyPOLICY_INS.iGetBirthdate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I get sexCode",
+            "match": {
+              "location": "VerifyPOLICY_INS.iGetSexCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33800,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I get idNumber",
+            "match": {
+              "location": "VerifyPOLICY_INS.iGetIdNumber()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 110,
+        "name": "Token  Validation",
+        "description": "",
+        "id": "search-policy-infomation;token--validation;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 354762700,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I search policyNumber \"2816548240\" with invalid token \"asCDDgdafshgbb,ki\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2816548240",
+                  "offset": 23
+                },
+                {
+                  "val": "asCDDgdafshgbb,ki",
+                  "offset": 55
+                }
+              ],
+              "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 561900,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I get statusCode \"401\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 18
+                }
+              ],
+              "location": "TokenValidations.iGetStatusCode(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26465200,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I get error message \"invalid_token\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid_token",
+                  "offset": 21
+                }
+              ],
+              "location": "TokenValidations.iGetErrorMessage(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 111,
+        "name": "Token  Validation",
+        "description": "",
+        "id": "search-policy-infomation;token--validation;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10505991800,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I search policyNumber \"2871284582\" with invalid token \"%\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2871284582",
+                  "offset": 23
+                },
+                {
+                  "val": "%",
+                  "offset": 55
+                }
+              ],
+              "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177400,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I get statusCode \"401\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 18
+                }
+              ],
+              "location": "TokenValidations.iGetStatusCode(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10090900,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I get error message \"Invalid_token\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid_token",
+                  "offset": 21
+                }
+              ],
+              "location": "TokenValidations.iGetErrorMessage(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 112,
+        "name": "Token  Validation",
+        "description": "",
+        "id": "search-policy-infomation;token--validation;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1089386900,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I search policyNumber \"2871284582\" with invalid token \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2871284582",
+                  "offset": 23
+                },
+                {
+                  "val": "",
+                  "offset": 55
+                }
+              ],
+              "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202100,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I get statusCode \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 18
+                }
+              ],
+              "location": "TokenValidations.iGetStatusCode(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7751300,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I get error message \"Invalid_request\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid_request",
+                  "offset": 21
+                }
+              ],
+              "location": "TokenValidations.iGetErrorMessage(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 116,
+        "name": "Verify response time",
+        "description": "",
+        "id": "search-policy-infomation;verify-response-time",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1144431600,
+              "status": "passed"
+            },
+            "line": 117,
             "name": "I call the API \"2816548240\"",
             "match": {
               "arguments": [
@@ -975,17 +1741,14 @@
               ],
               "location": "CheckResponseTime.iCallTheAPI(String)"
             },
-            "matchedColumns": [
-              0
-            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 79300,
+              "duration": 59600,
               "status": "passed"
             },
-            "line": 69,
+            "line": 118,
             "name": "response time should not exceed \"9000\" miliseconds",
             "match": {
               "arguments": [
@@ -996,61 +1759,6 @@
               ],
               "location": "CheckResponseTime.response_time_should_not_exceed_seconds(String)"
             },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 73,
-        "name": "Verify response time",
-        "description": "",
-        "id": "search-policy-infomation;verify-response-time;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 324657900,
-              "status": "passed"
-            },
-            "line": 68,
-            "name": "I call the API \"2871284582\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2871284582",
-                  "offset": 16
-                }
-              ],
-              "location": "CheckResponseTime.iCallTheAPI(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 115001,
-              "status": "passed"
-            },
-            "line": 69,
-            "name": "response time should not exceed \"9000\" miliseconds",
-            "match": {
-              "arguments": [
-                {
-                  "val": "9000",
-                  "offset": 33
-                }
-              ],
-              "location": "CheckResponseTime.response_time_should_not_exceed_seconds(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
             "keyword": "Then "
           }
         ]

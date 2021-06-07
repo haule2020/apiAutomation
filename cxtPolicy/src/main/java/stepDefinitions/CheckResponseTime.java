@@ -16,9 +16,7 @@ public class CheckResponseTime extends BaseSteps {
 	@Given("^I call the API \"([^\"]*)\"$")
 	public void iCallTheAPI(String policyNumber) throws Throwable {
 		// Call server to get response time
-		actualResponseTime = getEndPoints().getResponseTime(policyNumber);
-		System.out.println("actualResponseTime: " +actualResponseTime);
-		
+		actualResponseTime = getEndPoints().getResponseTime(policyNumber);		
 	}
 
 	@Then("^response time should not exceed \"([^\"]*)\" miliseconds$")

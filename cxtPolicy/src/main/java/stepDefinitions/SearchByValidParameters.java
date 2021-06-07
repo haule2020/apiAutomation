@@ -1,7 +1,6 @@
 package stepDefinitions;
 
 import org.junit.Assert;
-
 import bodyRequests.TokenRequests;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -20,7 +19,7 @@ public class SearchByValidParameters extends BaseSteps {
 	private String token;
 
 	@Given("^I already get authorization$")
-	public void iAlreadyAuthorozied() throws Throwable {
+	public void iAlreadyAuthorozied() throws Throwable {		
 		TokenRequests tokenRequest = new TokenRequests(ConfigFileReader.getInstance().client_id(), ConfigFileReader.getInstance().client_secret(), ConfigFileReader.getInstance().grant_type());
 		token=  getTokens().genToken(tokenRequest); 
 		System.out.println(token);

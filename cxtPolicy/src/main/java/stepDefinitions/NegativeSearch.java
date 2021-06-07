@@ -1,16 +1,11 @@
 package stepDefinitions;
 
-import java.util.Iterator;
-import java.util.List;
 
 import org.junit.Assert;
-
 import bodyRequests.TokenRequests;
-import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import dataModel.RequestParamenters;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import managers.ConfigFileReader;
@@ -22,8 +17,7 @@ public class NegativeSearch extends BaseSteps {
 		super(testContext);
 	}
 
-	Response response;
-	
+	Response response;	
 	RequestSpecification request;
 	String token;
 

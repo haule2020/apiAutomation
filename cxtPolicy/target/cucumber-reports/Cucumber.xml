@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="13.455388">
-<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number" time="3.835961">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="18" time="44.974852">
+<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number" time="4.322188">
 <system-out><![CDATA[Given I already authorozied.................................................passed
 When I call API to search by inputing invalid policy number "2816548240%"...passed
 Then system response no content with status code "204"......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number 2" time="0.917302">
+<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number 2" time="1.468941">
 <system-out><![CDATA[Given I already authorozied.................................................passed
 When I call API to search by inputing invalid policy number "%2816548240%"..passed
 Then system response no content with status code "204"......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number 3" time="0.715872">
+<testcase classname="Search policy infomation" name="Search policy infomation by invalid policy number 3" time="1.764957">
 <system-out><![CDATA[Given I already authorozied.................................................passed
 When I call API to search by inputing invalid policy number ""..............passed
 Then system response no content with status code "204"......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Search policy infomation by valid policy number" time="1.210753">
+<testcase classname="Search policy infomation" name="Search policy infomation by valid policy number" time="1.293971">
 <system-out><![CDATA[Given I already get authorization...........................................passed
 When I call API to search by inputing valid policy number "2816548240"......passed
 Then system response with status code "200".................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Search policy infomation by valid policy number 2" time="1.10745">
+<testcase classname="Search policy infomation" name="Search policy infomation by valid policy number 2" time="4.480623">
 <system-out><![CDATA[Given I already get authorization...........................................passed
 When I call API to search by inputing valid policy number "2871284582"......passed
 Then system response with status code "200".................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Verify field name in response body" time="1.176207">
+<testcase classname="Search policy infomation" name="Verify field name in response body" time="2.16984">
 <system-out><![CDATA[Given I search policy successfully "2816548240".............................passed
 Then I can get correct response field name..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Verify POLICY items from response body" time="0.943384">
+<testcase classname="Search policy infomation" name="Verify POLICY items from response body" time="1.347306">
 <system-out><![CDATA[Given I can search a policy "2816548240"....................................passed
 Then I get correct policyNumber "2816548240"................................passed
 And I get correct excludeInfo...............................................passed
@@ -48,7 +48,7 @@ And I get correct gracePeriod...............................................pass
 And I get correct ostPrem...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Verify POLICY items from response body 2" time="0.975923">
+<testcase classname="Search policy infomation" name="Verify POLICY items from response body 2" time="1.241882">
 <system-out><![CDATA[Given I can search a policy "2871284582"....................................passed
 Then I get correct policyNumber "2871284582"................................passed
 And I get correct excludeInfo...............................................passed
@@ -61,7 +61,7 @@ And I get correct gracePeriod...............................................pass
 And I get correct ostPrem...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Verify POLICY_OWNER items from response body" time="0.970093">
+<testcase classname="Search policy infomation" name="Verify POLICY_OWNER items from response body" time="1.50735">
 <system-out><![CDATA[Given I search a policy "2816548240"........................................passed
 And I get correct clientNumber "2802978231".................................passed
 And I get correct clientName................................................passed
@@ -73,7 +73,7 @@ And I get correct birthdate.................................................pass
 And I get correct vipInd....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Verify POLICY_OWNER items from response body 2" time="0.977837">
+<testcase classname="Search policy infomation" name="Verify POLICY_OWNER items from response body 2" time="1.778334">
 <system-out><![CDATA[Given I search a policy "2871284582"........................................passed
 And I get correct clientNumber "2805363580".................................passed
 And I get correct clientName................................................passed
@@ -85,13 +85,70 @@ And I get correct birthdate.................................................pass
 And I get correct vipInd....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Verify response time" time="0.299833">
-<system-out><![CDATA[Given I call the API "2816548240"...........................................passed
-Then response time should not exceed "9000" miliseconds.....................passed
+<testcase classname="Search policy infomation" name="Verify COVERAGES items from response body" time="4.763017">
+<system-out><![CDATA[Given I can search policy's COVERAGES "2816548240"..........................passed
+Then I get coverageEffectiveDate "20171231".................................passed
+And I get coverageIssueDate.................................................passed
+And I get coverageXpryDate..................................................passed
+And I get coverageCode......................................................passed
+And I get mcStatusCode "I"..................................................passed
+And I get mcEffectiveDate...................................................passed
+And I get coverageClass.....................................................passed
+And I get coverageStatusCode "I"............................................passed
+And I get coveragePrem;.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search policy infomation" name="Verify response time 2" time="0.324773">
-<system-out><![CDATA[Given I call the API "2871284582"...........................................passed
+<testcase classname="Search policy infomation" name="Verify COVERAGES items from response body 2" time="2.619079">
+<system-out><![CDATA[Given I can search policy's COVERAGES "2871284582"..........................passed
+Then I get coverageEffectiveDate "20210327".................................passed
+And I get coverageIssueDate.................................................passed
+And I get coverageXpryDate..................................................passed
+And I get coverageCode......................................................passed
+And I get mcStatusCode ""...................................................passed
+And I get mcEffectiveDate...................................................passed
+And I get coverageClass.....................................................passed
+And I get coverageStatusCode "N"............................................passed
+And I get coveragePrem;.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify POLICY_INS items from response body" time="1.403425">
+<system-out><![CDATA[Given I can get response of policyNumber "2816548240".......................passed
+Then I get clientNumber "2801422092"........................................passed
+And I get clientName........................................................passed
+And I get birthdate.........................................................passed
+And I get sexCode...........................................................passed
+And I get idNumber..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify POLICY_INS items from response body 2" time="1.674058">
+<system-out><![CDATA[Given I can get response of policyNumber "2871284582".......................passed
+Then I get clientNumber "2805363580"........................................passed
+And I get clientName........................................................passed
+And I get birthdate.........................................................passed
+And I get sexCode...........................................................passed
+And I get idNumber..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Token  Validation" time="0.38179">
+<system-out><![CDATA[Given I search policyNumber "2816548240" with invalid token "asCDDgdafshgbb,ki".passed
+Then I get statusCode "401".................................................passed
+And I get error message "invalid_token".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Token  Validation 2" time="10.51626">
+<system-out><![CDATA[Given I search policyNumber "2871284582" with invalid token "%".............passed
+Then I get statusCode "401".................................................passed
+And I get error message "Invalid_token".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Token  Validation 3" time="1.09734">
+<system-out><![CDATA[Given I search policyNumber "2871284582" with invalid token ""..............passed
+Then I get statusCode "400".................................................passed
+And I get error message "Invalid_request"...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search policy infomation" name="Verify response time" time="1.144491">
+<system-out><![CDATA[Given I call the API "2816548240"...........................................passed
 Then response time should not exceed "9000" miliseconds.....................passed
 ]]></system-out>
 </testcase>

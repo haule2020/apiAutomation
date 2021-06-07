@@ -6,7 +6,6 @@ import apiEngine.SearchPolicy;
 import bodyResponseFields.BodyResponse;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
 import io.restassured.response.Response;
 import shareContext.TestContext;
 
@@ -54,12 +53,14 @@ public class VerifyPOLICYItems extends BaseSteps {
 
 	@Then("^I get correct agentMobile$")
 	public void iGetCorrectAgentMobile() throws Throwable {
-		String agentMobile= body.policy.agentMobile;   
+		String agentMobile= body.policy.agentMobile;  
+		Assert.assertTrue(agentMobile.length()>0);
 	}
 
 	@Then("^I get correct agentName$")
 	public void iGetCorrectAgentName() throws Throwable {
-		String agentName= body.policy.agentName; 	    
+		String agentName= body.policy.agentName;
+		Assert.assertTrue(agentName.length()>0);
 	}
 
 	@Then("^I get correct locationCode$")
@@ -76,7 +77,8 @@ public class VerifyPOLICYItems extends BaseSteps {
 
 	@Then("^I get correct ostPrem$")
 	public void iGetCorrectOstPrem() throws Throwable {
-		Float ostPrem = body.policy.ostPrem;	    
+		Float ostPrem = body.policy.ostPrem;
+		Assert.assertTrue(ostPrem>=0);
 	}
 	
 	
