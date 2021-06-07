@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-
 import org.junit.Assert;
 import bodyRequests.TokenRequests;
 import cucumber.api.java.en.Given;
@@ -21,18 +20,15 @@ public class NegativeSearch extends BaseSteps {
 	RequestSpecification request;
 	String token;
 
-
 @Given("^I already authorozied$")
 public void iAlreadyAuthorozied() throws Throwable {
 	TokenRequests tokenRequest = new TokenRequests(ConfigFileReader.getInstance().client_id(), ConfigFileReader.getInstance().client_secret(), ConfigFileReader.getInstance().grant_type());
 	token=  getTokens().genToken(tokenRequest); 
-	//System.out.println(token);
 }
 
 @When("^I call API to search by inputing invalid policy number \"([^\"]*)\"$")
 public void iCallAPIToSearchByInputingInvalidPolicyNumber(String policyNumber) throws Throwable {
 	response= getEndPoints().searchPolicy(policyNumber,token);	
-	System.out.println(response.asString());
     
 }
 

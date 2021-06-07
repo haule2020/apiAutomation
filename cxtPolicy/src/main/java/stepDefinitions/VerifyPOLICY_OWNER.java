@@ -26,7 +26,6 @@ public class VerifyPOLICY_OWNER extends BaseSteps {
 	@Given("^I get correct clientNumber \"([^\"]*)\"$")
 	public void iGetCorrectClientNumber(String clientNumber) throws Throwable {			
 	    String clientNum = body.policyOwner.clientNumber;
-	    System.out.println(clientNum);
 	    Assert.assertEquals(clientNumber, clientNum);
 	   
 	}

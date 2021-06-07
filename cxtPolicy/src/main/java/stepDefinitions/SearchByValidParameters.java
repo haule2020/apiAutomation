@@ -22,7 +22,6 @@ public class SearchByValidParameters extends BaseSteps {
 	public void iAlreadyAuthorozied() throws Throwable {		
 		TokenRequests tokenRequest = new TokenRequests(ConfigFileReader.getInstance().client_id(), ConfigFileReader.getInstance().client_secret(), ConfigFileReader.getInstance().grant_type());
 		token=  getTokens().genToken(tokenRequest); 
-		System.out.println(token);
 	}
 	@When("^I call API to search by inputing valid policy number \"([^\"]*)\"$")
 	public void iCallAPIToSearchByInputingValidPolicyNumber(String policyNumber) throws Throwable {	
@@ -32,8 +31,7 @@ public class SearchByValidParameters extends BaseSteps {
 	@Then("^system response with status code \"([^\"]*)\"$")
 	public void systemResponseWithStatusCode(String statusCode) throws Throwable {
 		int code = Integer.valueOf(statusCode);		
-		Assert.assertEquals(code, response.statusCode());
-		System.out.println(response.asString());	    
+		Assert.assertEquals(code, response.statusCode());    
 	}
 
 }

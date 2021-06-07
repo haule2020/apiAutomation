@@ -28,7 +28,6 @@ public class VerifyPOLICYItems extends BaseSteps {
 	public void iGetCorrectPolicyNumber(String policyNumber) throws Throwable {
 	body = response.body().as(BodyResponse.class);		
 	String polNum = body.policy.policyNumber;
-	System.out.println("polNum: "+polNum);
 	Assert.assertEquals(policyNumber, polNum);
 	    
 	}
@@ -80,13 +79,6 @@ public class VerifyPOLICYItems extends BaseSteps {
 		Float ostPrem = body.policy.ostPrem;
 		Assert.assertTrue(ostPrem>=0);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+			
 
 }
