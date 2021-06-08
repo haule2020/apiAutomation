@@ -28,8 +28,7 @@ public class VerifyPOLICYItems extends BaseSteps {
 	public void iGetCorrectPolicyNumber(String policyNumber) throws Throwable {
 	body = response.body().as(BodyResponse.class);		
 	String polNum = body.policy.policyNumber;
-	Assert.assertEquals(policyNumber, polNum);
-	    
+	Assert.assertEquals(policyNumber, polNum);    
 	}
 
 	@Then("^I get correct excludeInfo$")
@@ -80,5 +79,4 @@ public class VerifyPOLICYItems extends BaseSteps {
 		Assert.assertTrue(ostPrem>=0);
 	}
 			
-
 }

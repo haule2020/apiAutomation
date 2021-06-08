@@ -1,0 +1,12 @@
+shareContext\TestContext.class
+bodyResponseFields\BodyResponse.class
+bodyResponseFields\Clouds.class
+bodyResponseFields\Mains.class
+apiEngine\EndPoints.class
+bodyResponseFields\Wind.class
+stepDefinitions\NegativeSearch.class
+bodyResponseFields\Weather.class
+bodyResponseFields\Sys.class
+stepDefinitions\BaseSteps.class
+bodyResponseFields\Coord.class
+managers\ConfigFileReader.class

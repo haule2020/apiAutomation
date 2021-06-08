@@ -81,9 +81,7 @@ Scenario Outline: Verify COVERAGES items from response body
 		|   2816548240 |              20171231 | I                  |I				|
 		|   2871284582 |              20210327 | N                  |				|
 		
-		
-		
-		
+						
 Scenario Outline: Verify POLICY_INS items from response body 
 	Given I can get response of policyNumber "<policyNumber>" 
 	Then I get clientNumber "<clientNumber>" 
@@ -97,8 +95,7 @@ Scenario Outline: Verify POLICY_INS items from response body
 		| 2816548240   |2801422092		|
 		| 2871284582   |2805363580		|
 		
-		
-		
+				
 Scenario Outline: Token  Validation 
 	Given I search policyNumber "<policyNumber>" with invalid token "<token>" 
 	Then I get statusCode "<statusCode>" 
@@ -110,9 +107,7 @@ Scenario Outline: Token  Validation
 		|	2816548240	| asCDDgdafshgbb,ki |401			|	invalid_token	|
 		|	2871284582	| 		%			|401			|	Invalid_token	|	
 		|	2871284582	| 					|400			|	Invalid_request	|	
-		
-		
-		
+						
 Scenario: Verify response time 
 	Given I call the API "2816548240" 
 	Then response time should not exceed "9000" miliseconds 

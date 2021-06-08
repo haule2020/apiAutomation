@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3149051800,
+              "duration": 2798048800,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1168830100,
+              "duration": 3123166400,
               "status": "passed"
             },
             "line": 8,
@@ -45,15 +45,16 @@
           },
           {
             "result": {
-              "duration": 4306200,
-              "status": "passed"
+              "duration": 1597600,
+              "error_message": "java.lang.AssertionError: expected:\u003c2000\u003e but was:\u003c204\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.systemResponseNoContentWithStatusCode(NegativeSearch.java:39)\r\n\tat ✽.Then system response no content with status code \"2000\"(src/test/resources/Feature/policyEnquery.feature:9)\r\n",
+              "status": "failed"
             },
             "line": 9,
-            "name": "system response no content with status code \"204\"",
+            "name": "system response no content with status code \"2000\"",
             "match": {
               "arguments": [
                 {
-                  "val": "204",
+                  "val": "2000",
                   "offset": 45
                 }
               ],
@@ -76,7 +77,7 @@
         "steps": [
           {
             "result": {
-              "duration": 965058300,
+              "duration": 257533200,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 503701200,
+              "duration": 5376846200,
               "status": "passed"
             },
             "line": 8,
@@ -109,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 181200,
+              "duration": 62500,
               "status": "passed"
             },
             "line": 9,
@@ -140,7 +141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 735891500,
+              "duration": 233036300,
               "status": "passed"
             },
             "line": 7,
@@ -152,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 1028897400,
+              "duration": 933014200,
               "status": "passed"
             },
             "line": 8,
@@ -173,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 167800,
+              "duration": 174700,
               "status": "passed"
             },
             "line": 9,
@@ -204,7 +205,7 @@
         "steps": [
           {
             "result": {
-              "duration": 613012200,
+              "duration": 274236600,
               "status": "passed"
             },
             "line": 18,
@@ -216,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 680492900,
+              "duration": 1204164600,
               "status": "passed"
             },
             "line": 19,
@@ -237,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 466000,
+              "duration": 81800,
               "status": "passed"
             },
             "line": 20,
@@ -268,7 +269,7 @@
         "steps": [
           {
             "result": {
-              "duration": 672238500,
+              "duration": 319618100,
               "status": "passed"
             },
             "line": 18,
@@ -280,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 3808211900,
+              "duration": 1829621700,
               "status": "passed"
             },
             "line": 19,
@@ -301,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 172300,
+              "duration": 134400,
               "status": "passed"
             },
             "line": 20,
@@ -332,7 +333,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2092943300,
+              "duration": 1835367200,
               "status": "passed"
             },
             "line": 28,
@@ -353,7 +354,7 @@
           },
           {
             "result": {
-              "duration": 76897200,
+              "duration": 60664400,
               "status": "passed"
             },
             "line": 29,
@@ -375,7 +376,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1341560100,
+              "duration": 1237666200,
               "status": "passed"
             },
             "line": 35,
@@ -396,7 +397,7 @@
           },
           {
             "result": {
-              "duration": 5350600,
+              "duration": 5020700,
               "status": "passed"
             },
             "line": 36,
@@ -417,7 +418,7 @@
           },
           {
             "result": {
-              "duration": 55200,
+              "duration": 33000,
               "status": "passed"
             },
             "line": 37,
@@ -429,7 +430,7 @@
           },
           {
             "result": {
-              "duration": 38200,
+              "duration": 18800,
               "status": "passed"
             },
             "line": 38,
@@ -441,7 +442,7 @@
           },
           {
             "result": {
-              "duration": 70800,
+              "duration": 39400,
               "status": "passed"
             },
             "line": 39,
@@ -462,7 +463,7 @@
           },
           {
             "result": {
-              "duration": 66100,
+              "duration": 25100,
               "status": "passed"
             },
             "line": 40,
@@ -474,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 29300,
+              "duration": 25700,
               "status": "passed"
             },
             "line": 41,
@@ -486,7 +487,7 @@
           },
           {
             "result": {
-              "duration": 71900,
+              "duration": 34800,
               "status": "passed"
             },
             "line": 42,
@@ -498,7 +499,7 @@
           },
           {
             "result": {
-              "duration": 27500,
+              "duration": 23400,
               "status": "passed"
             },
             "line": 43,
@@ -510,7 +511,7 @@
           },
           {
             "result": {
-              "duration": 36100,
+              "duration": 27900,
               "status": "passed"
             },
             "line": 44,
@@ -532,7 +533,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1236164700,
+              "duration": 3566717800,
               "status": "passed"
             },
             "line": 35,
@@ -553,7 +554,7 @@
           },
           {
             "result": {
-              "duration": 5408600,
+              "duration": 4759700,
               "status": "passed"
             },
             "line": 36,
@@ -574,7 +575,7 @@
           },
           {
             "result": {
-              "duration": 27200,
+              "duration": 19100,
               "status": "passed"
             },
             "line": 37,
@@ -586,7 +587,7 @@
           },
           {
             "result": {
-              "duration": 51600,
+              "duration": 13000,
               "status": "passed"
             },
             "line": 38,
@@ -598,7 +599,7 @@
           },
           {
             "result": {
-              "duration": 73400,
+              "duration": 34200,
               "status": "passed"
             },
             "line": 39,
@@ -619,7 +620,7 @@
           },
           {
             "result": {
-              "duration": 29800,
+              "duration": 14000,
               "status": "passed"
             },
             "line": 40,
@@ -631,7 +632,7 @@
           },
           {
             "result": {
-              "duration": 40400,
+              "duration": 25400,
               "status": "passed"
             },
             "line": 41,
@@ -643,7 +644,7 @@
           },
           {
             "result": {
-              "duration": 35800,
+              "duration": 12000,
               "status": "passed"
             },
             "line": 42,
@@ -655,7 +656,7 @@
           },
           {
             "result": {
-              "duration": 25600,
+              "duration": 25700,
               "status": "passed"
             },
             "line": 43,
@@ -667,7 +668,7 @@
           },
           {
             "result": {
-              "duration": 25100,
+              "duration": 11900,
               "status": "passed"
             },
             "line": 44,
@@ -689,7 +690,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1506966400,
+              "duration": 902536800,
               "status": "passed"
             },
             "line": 52,
@@ -710,7 +711,7 @@
           },
           {
             "result": {
-              "duration": 150500,
+              "duration": 51400,
               "status": "passed"
             },
             "line": 53,
@@ -731,7 +732,7 @@
           },
           {
             "result": {
-              "duration": 35900,
+              "duration": 26200,
               "status": "passed"
             },
             "line": 54,
@@ -743,7 +744,7 @@
           },
           {
             "result": {
-              "duration": 28700,
+              "duration": 15300,
               "status": "passed"
             },
             "line": 55,
@@ -755,7 +756,7 @@
           },
           {
             "result": {
-              "duration": 25400,
+              "duration": 18000,
               "status": "passed"
             },
             "line": 56,
@@ -767,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 20900,
+              "duration": 15100,
               "status": "passed"
             },
             "line": 57,
@@ -779,7 +780,7 @@
           },
           {
             "result": {
-              "duration": 31000,
+              "duration": 24200,
               "status": "passed"
             },
             "line": 58,
@@ -791,7 +792,7 @@
           },
           {
             "result": {
-              "duration": 23400,
+              "duration": 15000,
               "status": "passed"
             },
             "line": 59,
@@ -803,7 +804,7 @@
           },
           {
             "result": {
-              "duration": 67500,
+              "duration": 17900,
               "status": "passed"
             },
             "line": 60,
@@ -825,7 +826,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1777999900,
+              "duration": 10588299500,
               "status": "passed"
             },
             "line": 52,
@@ -846,7 +847,7 @@
           },
           {
             "result": {
-              "duration": 93100,
+              "duration": 62200,
               "status": "passed"
             },
             "line": 53,
@@ -867,7 +868,7 @@
           },
           {
             "result": {
-              "duration": 36300,
+              "duration": 12800,
               "status": "passed"
             },
             "line": 54,
@@ -891,7 +892,7 @@
           },
           {
             "result": {
-              "duration": 15200,
+              "duration": 13900,
               "status": "passed"
             },
             "line": 56,
@@ -903,7 +904,7 @@
           },
           {
             "result": {
-              "duration": 29100,
+              "duration": 12300,
               "status": "passed"
             },
             "line": 57,
@@ -915,7 +916,7 @@
           },
           {
             "result": {
-              "duration": 83600,
+              "duration": 14500,
               "status": "passed"
             },
             "line": 58,
@@ -927,7 +928,7 @@
           },
           {
             "result": {
-              "duration": 33500,
+              "duration": 12300,
               "status": "passed"
             },
             "line": 59,
@@ -939,7 +940,7 @@
           },
           {
             "result": {
-              "duration": 27300,
+              "duration": 14300,
               "status": "passed"
             },
             "line": 60,
@@ -961,7 +962,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4762630600,
+              "duration": 1712201800,
               "status": "passed"
             },
             "line": 68,
@@ -982,7 +983,7 @@
           },
           {
             "result": {
-              "duration": 102200,
+              "duration": 99300,
               "status": "passed"
             },
             "line": 69,
@@ -1003,7 +1004,7 @@
           },
           {
             "result": {
-              "duration": 30100,
+              "duration": 47300,
               "status": "passed"
             },
             "line": 70,
@@ -1015,7 +1016,7 @@
           },
           {
             "result": {
-              "duration": 15300,
+              "duration": 34900,
               "status": "passed"
             },
             "line": 71,
@@ -1027,7 +1028,7 @@
           },
           {
             "result": {
-              "duration": 17500,
+              "duration": 79200,
               "status": "passed"
             },
             "line": 72,
@@ -1039,7 +1040,7 @@
           },
           {
             "result": {
-              "duration": 41000,
+              "duration": 57300,
               "status": "passed"
             },
             "line": 73,
@@ -1060,7 +1061,7 @@
           },
           {
             "result": {
-              "duration": 19900,
+              "duration": 68500,
               "status": "passed"
             },
             "line": 74,
@@ -1072,7 +1073,7 @@
           },
           {
             "result": {
-              "duration": 15900,
+              "duration": 33800,
               "status": "passed"
             },
             "line": 75,
@@ -1084,7 +1085,7 @@
           },
           {
             "result": {
-              "duration": 86700,
+              "duration": 47300,
               "status": "passed"
             },
             "line": 76,
@@ -1105,7 +1106,7 @@
           },
           {
             "result": {
-              "duration": 57500,
+              "duration": 26900,
               "status": "passed"
             },
             "line": 77,
@@ -1127,7 +1128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2618560400,
+              "duration": 2050355700,
               "status": "passed"
             },
             "line": 68,
@@ -1148,7 +1149,7 @@
           },
           {
             "result": {
-              "duration": 110100,
+              "duration": 39700,
               "status": "passed"
             },
             "line": 69,
@@ -1169,7 +1170,7 @@
           },
           {
             "result": {
-              "duration": 86800,
+              "duration": 12300,
               "status": "passed"
             },
             "line": 70,
@@ -1181,7 +1182,7 @@
           },
           {
             "result": {
-              "duration": 46100,
+              "duration": 11500,
               "status": "passed"
             },
             "line": 71,
@@ -1193,7 +1194,7 @@
           },
           {
             "result": {
-              "duration": 41200,
+              "duration": 11700,
               "status": "passed"
             },
             "line": 72,
@@ -1205,7 +1206,7 @@
           },
           {
             "result": {
-              "duration": 68400,
+              "duration": 28900,
               "status": "passed"
             },
             "line": 73,
@@ -1226,7 +1227,7 @@
           },
           {
             "result": {
-              "duration": 28100,
+              "duration": 10600,
               "status": "passed"
             },
             "line": 74,
@@ -1238,7 +1239,7 @@
           },
           {
             "result": {
-              "duration": 31900,
+              "duration": 17900,
               "status": "passed"
             },
             "line": 75,
@@ -1250,7 +1251,7 @@
           },
           {
             "result": {
-              "duration": 76300,
+              "duration": 27400,
               "status": "passed"
             },
             "line": 76,
@@ -1271,7 +1272,7 @@
           },
           {
             "result": {
-              "duration": 29500,
+              "duration": 11200,
               "status": "passed"
             },
             "line": 77,
@@ -1284,7 +1285,7 @@
         ]
       },
       {
-        "line": 97,
+        "line": 95,
         "name": "Verify POLICY_INS items from response body",
         "description": "",
         "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;2",
@@ -1293,10 +1294,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1403108100,
+              "duration": 1972355400,
               "status": "passed"
             },
-            "line": 88,
+            "line": 86,
             "name": "I can get response of policyNumber \"2816548240\"",
             "match": {
               "arguments": [
@@ -1314,10 +1315,10 @@
           },
           {
             "result": {
-              "duration": 151800,
+              "duration": 183200,
               "status": "passed"
             },
-            "line": 89,
+            "line": 87,
             "name": "I get clientNumber \"2801422092\"",
             "match": {
               "arguments": [
@@ -1335,10 +1336,10 @@
           },
           {
             "result": {
-              "duration": 58100,
+              "duration": 84500,
               "status": "passed"
             },
-            "line": 90,
+            "line": 88,
             "name": "I get clientName",
             "match": {
               "location": "VerifyPOLICY_INS.iGetClientName()"
@@ -1347,10 +1348,10 @@
           },
           {
             "result": {
-              "duration": 35300,
+              "duration": 70300,
               "status": "passed"
             },
-            "line": 91,
+            "line": 89,
             "name": "I get birthdate",
             "match": {
               "location": "VerifyPOLICY_INS.iGetBirthdate()"
@@ -1359,10 +1360,10 @@
           },
           {
             "result": {
-              "duration": 43800,
+              "duration": 87100,
               "status": "passed"
             },
-            "line": 92,
+            "line": 90,
             "name": "I get sexCode",
             "match": {
               "location": "VerifyPOLICY_INS.iGetSexCode()"
@@ -1371,10 +1372,10 @@
           },
           {
             "result": {
-              "duration": 27500,
+              "duration": 51500,
               "status": "passed"
             },
-            "line": 93,
+            "line": 91,
             "name": "I get idNumber",
             "match": {
               "location": "VerifyPOLICY_INS.iGetIdNumber()"
@@ -1384,7 +1385,7 @@
         ]
       },
       {
-        "line": 98,
+        "line": 96,
         "name": "Verify POLICY_INS items from response body",
         "description": "",
         "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;3",
@@ -1393,10 +1394,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1673705000,
+              "duration": 1738941900,
               "status": "passed"
             },
-            "line": 88,
+            "line": 86,
             "name": "I can get response of policyNumber \"2871284582\"",
             "match": {
               "arguments": [
@@ -1414,10 +1415,10 @@
           },
           {
             "result": {
-              "duration": 100400,
+              "duration": 104900,
               "status": "passed"
             },
-            "line": 89,
+            "line": 87,
             "name": "I get clientNumber \"2805363580\"",
             "match": {
               "arguments": [
@@ -1435,10 +1436,10 @@
           },
           {
             "result": {
-              "duration": 138100,
+              "duration": 53100,
               "status": "passed"
             },
-            "line": 90,
+            "line": 88,
             "name": "I get clientName",
             "match": {
               "location": "VerifyPOLICY_INS.iGetClientName()"
@@ -1447,10 +1448,10 @@
           },
           {
             "result": {
-              "duration": 43400,
+              "duration": 44800,
               "status": "passed"
             },
-            "line": 91,
+            "line": 89,
             "name": "I get birthdate",
             "match": {
               "location": "VerifyPOLICY_INS.iGetBirthdate()"
@@ -1459,10 +1460,10 @@
           },
           {
             "result": {
-              "duration": 37000,
+              "duration": 32800,
               "status": "passed"
             },
-            "line": 92,
+            "line": 90,
             "name": "I get sexCode",
             "match": {
               "location": "VerifyPOLICY_INS.iGetSexCode()"
@@ -1471,10 +1472,10 @@
           },
           {
             "result": {
-              "duration": 33800,
+              "duration": 29300,
               "status": "passed"
             },
-            "line": 93,
+            "line": 91,
             "name": "I get idNumber",
             "match": {
               "location": "VerifyPOLICY_INS.iGetIdNumber()"
@@ -1484,7 +1485,7 @@
         ]
       },
       {
-        "line": 110,
+        "line": 107,
         "name": "Token  Validation",
         "description": "",
         "id": "search-policy-infomation;token--validation;;2",
@@ -1493,10 +1494,10 @@
         "steps": [
           {
             "result": {
-              "duration": 354762700,
+              "duration": 298609000,
               "status": "passed"
             },
-            "line": 103,
+            "line": 100,
             "name": "I search policyNumber \"2816548240\" with invalid token \"asCDDgdafshgbb,ki\"",
             "match": {
               "arguments": [
@@ -1519,10 +1520,10 @@
           },
           {
             "result": {
-              "duration": 561900,
+              "duration": 1498200,
               "status": "passed"
             },
-            "line": 104,
+            "line": 101,
             "name": "I get statusCode \"401\"",
             "match": {
               "arguments": [
@@ -1540,10 +1541,10 @@
           },
           {
             "result": {
-              "duration": 26465200,
+              "duration": 16018400,
               "status": "passed"
             },
-            "line": 105,
+            "line": 102,
             "name": "I get error message \"invalid_token\"",
             "match": {
               "arguments": [
@@ -1562,7 +1563,7 @@
         ]
       },
       {
-        "line": 111,
+        "line": 108,
         "name": "Token  Validation",
         "description": "",
         "id": "search-policy-infomation;token--validation;;3",
@@ -1571,10 +1572,10 @@
         "steps": [
           {
             "result": {
-              "duration": 10505991800,
+              "duration": 335674000,
               "status": "passed"
             },
-            "line": 103,
+            "line": 100,
             "name": "I search policyNumber \"2871284582\" with invalid token \"%\"",
             "match": {
               "arguments": [
@@ -1597,10 +1598,10 @@
           },
           {
             "result": {
-              "duration": 177400,
+              "duration": 174100,
               "status": "passed"
             },
-            "line": 104,
+            "line": 101,
             "name": "I get statusCode \"401\"",
             "match": {
               "arguments": [
@@ -1618,10 +1619,10 @@
           },
           {
             "result": {
-              "duration": 10090900,
+              "duration": 17738000,
               "status": "passed"
             },
-            "line": 105,
+            "line": 102,
             "name": "I get error message \"Invalid_token\"",
             "match": {
               "arguments": [
@@ -1640,7 +1641,7 @@
         ]
       },
       {
-        "line": 112,
+        "line": 109,
         "name": "Token  Validation",
         "description": "",
         "id": "search-policy-infomation;token--validation;;4",
@@ -1649,10 +1650,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1089386900,
+              "duration": 870671700,
               "status": "passed"
             },
-            "line": 103,
+            "line": 100,
             "name": "I search policyNumber \"2871284582\" with invalid token \"\"",
             "match": {
               "arguments": [
@@ -1675,10 +1676,10 @@
           },
           {
             "result": {
-              "duration": 202100,
+              "duration": 221400,
               "status": "passed"
             },
-            "line": 104,
+            "line": 101,
             "name": "I get statusCode \"400\"",
             "match": {
               "arguments": [
@@ -1696,10 +1697,10 @@
           },
           {
             "result": {
-              "duration": 7751300,
+              "duration": 7011600,
               "status": "passed"
             },
-            "line": 105,
+            "line": 102,
             "name": "I get error message \"Invalid_request\"",
             "match": {
               "arguments": [
@@ -1718,7 +1719,7 @@
         ]
       },
       {
-        "line": 116,
+        "line": 111,
         "name": "Verify response time",
         "description": "",
         "id": "search-policy-infomation;verify-response-time",
@@ -1727,10 +1728,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1144431600,
+              "duration": 908836500,
               "status": "passed"
             },
-            "line": 117,
+            "line": 112,
             "name": "I call the API \"2816548240\"",
             "match": {
               "arguments": [
@@ -1745,10 +1746,10 @@
           },
           {
             "result": {
-              "duration": 59600,
+              "duration": 68400,
               "status": "passed"
             },
-            "line": 118,
+            "line": 113,
             "name": "response time should not exceed \"9000\" miliseconds",
             "match": {
               "arguments": [
@@ -1768,6 +1769,6 @@
     "description": "\nDescription: When I search policy information with search keywork is policy number\nI want to get all required fields of that policy",
     "id": "search-policy-infomation",
     "keyword": "Feature",
-    "uri": "src/test/resources/policyEnquery.feature"
+    "uri": "src/test/resources/Feature/policyEnquery.feature"
   }
 ]

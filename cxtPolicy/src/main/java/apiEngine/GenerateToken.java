@@ -29,7 +29,5 @@ public class GenerateToken {
 		String token = JsonPath.from(responseString).get("token");
 		// System.out.println(token);
 		return token;
-
 	}
-
 }

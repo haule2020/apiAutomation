@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: runner.ApiRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 116, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.108 sec <<< FAILURE!
+Then system response no content with status code "2000"(| 2816548240% | 2000 |)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2000> but was:<204>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.systemResponseNoContentWithStatusCode(NegativeSearch.java:39)
+	at ✽.Then system response no content with status code "2000"(src/test/resources/Feature/policyEnquery.feature:9)
+
+| 2816548240% | 2000 |  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2000> but was:<204>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.systemResponseNoContentWithStatusCode(NegativeSearch.java:39)
+	at ✽.Then system response no content with status code "2000"(src/test/resources/Feature/policyEnquery.feature:9)
+

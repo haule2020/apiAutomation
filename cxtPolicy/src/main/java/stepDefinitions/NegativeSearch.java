@@ -16,26 +16,27 @@ public class NegativeSearch extends BaseSteps {
 		super(testContext);
 	}
 
-	Response response;	
+	Response response;
 	RequestSpecification request;
 	String token;
 
-@Given("^I already authorozied$")
-public void iAlreadyAuthorozied() throws Throwable {
-	TokenRequests tokenRequest = new TokenRequests(ConfigFileReader.getInstance().client_id(), ConfigFileReader.getInstance().client_secret(), ConfigFileReader.getInstance().grant_type());
-	token=  getTokens().genToken(tokenRequest); 
-}
+	@Given("^I already authorozied$")
+	public void iAlreadyAuthorozied() throws Throwable {
+		TokenRequests tokenRequest = new TokenRequests(ConfigFileReader.getInstance().client_id(),
+				ConfigFileReader.getInstance().client_secret(), ConfigFileReader.getInstance().grant_type());
+		token = getTokens().genToken(tokenRequest);
+	}
 
-@When("^I call API to search by inputing invalid policy number \"([^\"]*)\"$")
-public void iCallAPIToSearchByInputingInvalidPolicyNumber(String policyNumber) throws Throwable {
-	response= getEndPoints().searchPolicy(policyNumber,token);	
-    
-}
+	@When("^I call API to search by inputing invalid policy number \"([^\"]*)\"$")
+	public void iCallAPIToSearchByInputingInvalidPolicyNumber(String policyNumber) throws Throwable {
+		response = getEndPoints().searchPolicy(policyNumber, token);
 
-@Then("^system response no content with status code \"([^\"]*)\"$")
-public void systemResponseNoContentWithStatusCode(String statusCode) throws Throwable {
-	int code = Integer.valueOf(statusCode);
-    Assert.assertEquals(code, response.statusCode()); 
-}
+	}
+
+	@Then("^system response no content with status code \"([^\"]*)\"$")
+	public void systemResponseNoContentWithStatusCode(String statusCode) throws Throwable {
+		int code = Integer.valueOf(statusCode);
+		Assert.assertEquals(code, response.statusCode());
+	}
 
 }

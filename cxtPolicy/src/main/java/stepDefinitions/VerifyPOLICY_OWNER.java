@@ -16,7 +16,6 @@ public class VerifyPOLICY_OWNER extends BaseSteps {
 	private Response response;
 	private BodyResponse body;
 
-	
 	@Given("^I search a policy \"([^\"]*)\"$")
 	public void iSearchAPolicy(String policyNumber) throws Throwable {
 		SearchPolicy search = new SearchPolicy();
@@ -39,8 +38,7 @@ public class VerifyPOLICY_OWNER extends BaseSteps {
 	@Given("^I get correct idNumber$")
 	public void iGetCorrectIdNumber() throws Throwable {
 	    String idNumber = body.policyOwner.idNumber;
-	    Assert.assertNotEquals(0, idNumber.length());
-	   
+	    Assert.assertNotEquals(0, idNumber.length());  
 	}
 
 	@Given("^I get correct idIssueDate$")
@@ -76,12 +74,6 @@ public class VerifyPOLICY_OWNER extends BaseSteps {
 		  Assert.assertEquals(1, vipInd.length());
 	   
 	}
-	
-	
-	
-	
-	
-	
 	
 
 }

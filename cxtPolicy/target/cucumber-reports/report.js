@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/policyEnquery.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Feature/policyEnquery.feature");
 formatter.feature({
   "line": 1,
   "name": "Search policy infomation",
@@ -46,7 +46,7 @@ formatter.examples({
     {
       "cells": [
         "2816548240%",
-        "204"
+        "2000"
       ],
       "line": 13,
       "id": "search-policy-infomation;search-policy-infomation-by-invalid-policy-number;;2"
@@ -93,7 +93,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "system response no content with status code \"204\"",
+  "name": "system response no content with status code \"2000\"",
   "matchedColumns": [
     1
   ],
@@ -103,7 +103,7 @@ formatter.match({
   "location": "NegativeSearch.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 3149051800,
+  "duration": 2798048800,
   "status": "passed"
 });
 formatter.match({
@@ -116,21 +116,22 @@ formatter.match({
   "location": "NegativeSearch.iCallAPIToSearchByInputingInvalidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 1168830100,
+  "duration": 3123166400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "204",
+      "val": "2000",
       "offset": 45
     }
   ],
   "location": "NegativeSearch.systemResponseNoContentWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 4306200,
-  "status": "passed"
+  "duration": 1597600,
+  "error_message": "java.lang.AssertionError: expected:\u003c2000\u003e but was:\u003c204\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.systemResponseNoContentWithStatusCode(NegativeSearch.java:39)\r\n\tat ✽.Then system response no content with status code \"2000\"(src/test/resources/Feature/policyEnquery.feature:9)\r\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 14,
@@ -165,7 +166,7 @@ formatter.match({
   "location": "NegativeSearch.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 965058300,
+  "duration": 257533200,
   "status": "passed"
 });
 formatter.match({
@@ -178,7 +179,7 @@ formatter.match({
   "location": "NegativeSearch.iCallAPIToSearchByInputingInvalidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 503701200,
+  "duration": 5376846200,
   "status": "passed"
 });
 formatter.match({
@@ -191,7 +192,7 @@ formatter.match({
   "location": "NegativeSearch.systemResponseNoContentWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 181200,
+  "duration": 62500,
   "status": "passed"
 });
 formatter.scenario({
@@ -227,7 +228,7 @@ formatter.match({
   "location": "NegativeSearch.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 735891500,
+  "duration": 233036300,
   "status": "passed"
 });
 formatter.match({
@@ -240,7 +241,7 @@ formatter.match({
   "location": "NegativeSearch.iCallAPIToSearchByInputingInvalidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 1028897400,
+  "duration": 933014200,
   "status": "passed"
 });
 formatter.match({
@@ -253,7 +254,7 @@ formatter.match({
   "location": "NegativeSearch.systemResponseNoContentWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 167800,
+  "duration": 174700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -345,7 +346,7 @@ formatter.match({
   "location": "SearchByValidParameters.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 613012200,
+  "duration": 274236600,
   "status": "passed"
 });
 formatter.match({
@@ -358,7 +359,7 @@ formatter.match({
   "location": "SearchByValidParameters.iCallAPIToSearchByInputingValidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 680492900,
+  "duration": 1204164600,
   "status": "passed"
 });
 formatter.match({
@@ -371,7 +372,7 @@ formatter.match({
   "location": "SearchByValidParameters.systemResponseWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 466000,
+  "duration": 81800,
   "status": "passed"
 });
 formatter.scenario({
@@ -407,7 +408,7 @@ formatter.match({
   "location": "SearchByValidParameters.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 672238500,
+  "duration": 319618100,
   "status": "passed"
 });
 formatter.match({
@@ -420,7 +421,7 @@ formatter.match({
   "location": "SearchByValidParameters.iCallAPIToSearchByInputingValidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 3808211900,
+  "duration": 1829621700,
   "status": "passed"
 });
 formatter.match({
@@ -433,7 +434,7 @@ formatter.match({
   "location": "SearchByValidParameters.systemResponseWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 172300,
+  "duration": 134400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -508,14 +509,14 @@ formatter.match({
   "location": "VerifyResponseFields.iSearchPolicySuccessfully(String)"
 });
 formatter.result({
-  "duration": 2092943300,
+  "duration": 1835367200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyResponseFields.iCanGetCorrectResponseFieldName()"
 });
 formatter.result({
-  "duration": 76897200,
+  "duration": 60664400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -686,7 +687,7 @@ formatter.match({
   "location": "VerifyPOLICYItems.iCanSearchAPolicy(String)"
 });
 formatter.result({
-  "duration": 1341560100,
+  "duration": 1237666200,
   "status": "passed"
 });
 formatter.match({
@@ -699,21 +700,21 @@ formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 5350600,
+  "duration": 5020700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectExcludeInfo()"
 });
 formatter.result({
-  "duration": 55200,
+  "duration": 33000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectBancaInd()"
 });
 formatter.result({
-  "duration": 38200,
+  "duration": 18800,
   "status": "passed"
 });
 formatter.match({
@@ -726,42 +727,42 @@ formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentCode(String)"
 });
 formatter.result({
-  "duration": 70800,
+  "duration": 39400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentMobile()"
 });
 formatter.result({
-  "duration": 66100,
+  "duration": 25100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentName()"
 });
 formatter.result({
-  "duration": 29300,
+  "duration": 25700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectLocationCode()"
 });
 formatter.result({
-  "duration": 71900,
+  "duration": 34800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectGracePeriod()"
 });
 formatter.result({
-  "duration": 27500,
+  "duration": 23400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectOstPrem()"
 });
 formatter.result({
-  "duration": 36100,
+  "duration": 27900,
   "status": "passed"
 });
 formatter.scenario({
@@ -841,7 +842,7 @@ formatter.match({
   "location": "VerifyPOLICYItems.iCanSearchAPolicy(String)"
 });
 formatter.result({
-  "duration": 1236164700,
+  "duration": 3566717800,
   "status": "passed"
 });
 formatter.match({
@@ -854,21 +855,21 @@ formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 5408600,
+  "duration": 4759700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectExcludeInfo()"
 });
 formatter.result({
-  "duration": 27200,
+  "duration": 19100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectBancaInd()"
 });
 formatter.result({
-  "duration": 51600,
+  "duration": 13000,
   "status": "passed"
 });
 formatter.match({
@@ -881,42 +882,42 @@ formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentCode(String)"
 });
 formatter.result({
-  "duration": 73400,
+  "duration": 34200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentMobile()"
 });
 formatter.result({
-  "duration": 29800,
+  "duration": 14000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentName()"
 });
 formatter.result({
-  "duration": 40400,
+  "duration": 25400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectLocationCode()"
 });
 formatter.result({
-  "duration": 35800,
+  "duration": 12000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectGracePeriod()"
 });
 formatter.result({
-  "duration": 25600,
+  "duration": 25700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectOstPrem()"
 });
 formatter.result({
-  "duration": 25100,
+  "duration": 11900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1074,7 +1075,7 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iSearchAPolicy(String)"
 });
 formatter.result({
-  "duration": 1506966400,
+  "duration": 902536800,
   "status": "passed"
 });
 formatter.match({
@@ -1087,56 +1088,56 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectClientNumber(String)"
 });
 formatter.result({
-  "duration": 150500,
+  "duration": 51400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectClientName()"
 });
 formatter.result({
-  "duration": 35900,
+  "duration": 26200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdNumber()"
 });
 formatter.result({
-  "duration": 28700,
+  "duration": 15300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdIssueDate()"
 });
 formatter.result({
-  "duration": 25400,
+  "duration": 18000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdIssuePlace()"
 });
 formatter.result({
-  "duration": 20900,
+  "duration": 15100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectSexCode()"
 });
 formatter.result({
-  "duration": 31000,
+  "duration": 24200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectBirthdate()"
 });
 formatter.result({
-  "duration": 23400,
+  "duration": 15000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectVipInd()"
 });
 formatter.result({
-  "duration": 67500,
+  "duration": 17900,
   "status": "passed"
 });
 formatter.scenario({
@@ -1208,7 +1209,7 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iSearchAPolicy(String)"
 });
 formatter.result({
-  "duration": 1777999900,
+  "duration": 10588299500,
   "status": "passed"
 });
 formatter.match({
@@ -1221,14 +1222,14 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectClientNumber(String)"
 });
 formatter.result({
-  "duration": 93100,
+  "duration": 62200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectClientName()"
 });
 formatter.result({
-  "duration": 36300,
+  "duration": 12800,
   "status": "passed"
 });
 formatter.match({
@@ -1242,35 +1243,35 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdIssueDate()"
 });
 formatter.result({
-  "duration": 15200,
+  "duration": 13900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdIssuePlace()"
 });
 formatter.result({
-  "duration": 29100,
+  "duration": 12300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectSexCode()"
 });
 formatter.result({
-  "duration": 83600,
+  "duration": 14500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectBirthdate()"
 });
 formatter.result({
-  "duration": 33500,
+  "duration": 12300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectVipInd()"
 });
 formatter.result({
-  "duration": 27300,
+  "duration": 14300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1450,7 +1451,7 @@ formatter.match({
   "location": "VerifyCOVERAGES.iCanSearchPolicySCOVERAGES(String)"
 });
 formatter.result({
-  "duration": 4762630600,
+  "duration": 1712201800,
   "status": "passed"
 });
 formatter.match({
@@ -1463,28 +1464,28 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageEffectiveDate(String)"
 });
 formatter.result({
-  "duration": 102200,
+  "duration": 99300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageIssueDate()"
 });
 formatter.result({
-  "duration": 30100,
+  "duration": 47300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageXpryDate()"
 });
 formatter.result({
-  "duration": 15300,
+  "duration": 34900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageCode()"
 });
 formatter.result({
-  "duration": 17500,
+  "duration": 79200,
   "status": "passed"
 });
 formatter.match({
@@ -1497,21 +1498,21 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetMcStatusCode(String)"
 });
 formatter.result({
-  "duration": 41000,
+  "duration": 57300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetMcEffectiveDate()"
 });
 formatter.result({
-  "duration": 19900,
+  "duration": 68500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageClass()"
 });
 formatter.result({
-  "duration": 15900,
+  "duration": 33800,
   "status": "passed"
 });
 formatter.match({
@@ -1524,14 +1525,14 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageStatusCode(String)"
 });
 formatter.result({
-  "duration": 86700,
+  "duration": 47300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoveragePrem()"
 });
 formatter.result({
-  "duration": 57500,
+  "duration": 26900,
   "status": "passed"
 });
 formatter.scenario({
@@ -1614,7 +1615,7 @@ formatter.match({
   "location": "VerifyCOVERAGES.iCanSearchPolicySCOVERAGES(String)"
 });
 formatter.result({
-  "duration": 2618560400,
+  "duration": 2050355700,
   "status": "passed"
 });
 formatter.match({
@@ -1627,28 +1628,28 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageEffectiveDate(String)"
 });
 formatter.result({
-  "duration": 110100,
+  "duration": 39700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageIssueDate()"
 });
 formatter.result({
-  "duration": 86800,
+  "duration": 12300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageXpryDate()"
 });
 formatter.result({
-  "duration": 46100,
+  "duration": 11500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageCode()"
 });
 formatter.result({
-  "duration": 41200,
+  "duration": 11700,
   "status": "passed"
 });
 formatter.match({
@@ -1661,21 +1662,21 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetMcStatusCode(String)"
 });
 formatter.result({
-  "duration": 68400,
+  "duration": 28900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetMcEffectiveDate()"
 });
 formatter.result({
-  "duration": 28100,
+  "duration": 10600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageClass()"
 });
 formatter.result({
-  "duration": 31900,
+  "duration": 17900,
   "status": "passed"
 });
 formatter.match({
@@ -1688,18 +1689,18 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageStatusCode(String)"
 });
 formatter.result({
-  "duration": 76300,
+  "duration": 27400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoveragePrem()"
 });
 formatter.result({
-  "duration": 29500,
+  "duration": 11200,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 87,
+  "line": 85,
   "name": "Verify POLICY_INS items from response body",
   "description": "",
   "id": "search-policy-infomation;verify-policy-ins-items-from-response-body",
@@ -1707,37 +1708,37 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 88,
+  "line": 86,
   "name": "I can get response of policyNumber \"\u003cpolicyNumber\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 89,
+  "line": 87,
   "name": "I get clientNumber \"\u003cclientNumber\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 90,
+  "line": 88,
   "name": "I get clientName",
   "keyword": "And "
 });
 formatter.step({
-  "line": 91,
+  "line": 89,
   "name": "I get birthdate",
   "keyword": "And "
 });
 formatter.step({
-  "line": 92,
+  "line": 90,
   "name": "I get sexCode",
   "keyword": "And "
 });
 formatter.step({
-  "line": 93,
+  "line": 91,
   "name": "I get idNumber",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 95,
+  "line": 93,
   "name": "",
   "description": "",
   "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;",
@@ -1747,7 +1748,7 @@ formatter.examples({
         "policyNumber",
         "clientNumber"
       ],
-      "line": 96,
+      "line": 94,
       "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;1"
     },
     {
@@ -1755,7 +1756,7 @@ formatter.examples({
         "2816548240",
         "2801422092"
       ],
-      "line": 97,
+      "line": 95,
       "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;2"
     },
     {
@@ -1763,14 +1764,14 @@ formatter.examples({
         "2871284582",
         "2805363580"
       ],
-      "line": 98,
+      "line": 96,
       "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 97,
+  "line": 95,
   "name": "Verify POLICY_INS items from response body",
   "description": "",
   "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;2",
@@ -1778,7 +1779,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 88,
+  "line": 86,
   "name": "I can get response of policyNumber \"2816548240\"",
   "matchedColumns": [
     0
@@ -1786,7 +1787,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 89,
+  "line": 87,
   "name": "I get clientNumber \"2801422092\"",
   "matchedColumns": [
     1
@@ -1794,22 +1795,22 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 90,
+  "line": 88,
   "name": "I get clientName",
   "keyword": "And "
 });
 formatter.step({
-  "line": 91,
+  "line": 89,
   "name": "I get birthdate",
   "keyword": "And "
 });
 formatter.step({
-  "line": 92,
+  "line": 90,
   "name": "I get sexCode",
   "keyword": "And "
 });
 formatter.step({
-  "line": 93,
+  "line": 91,
   "name": "I get idNumber",
   "keyword": "And "
 });
@@ -1823,7 +1824,7 @@ formatter.match({
   "location": "VerifyPOLICY_INS.iCanGetResponseOfPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 1403108100,
+  "duration": 1972355400,
   "status": "passed"
 });
 formatter.match({
@@ -1836,39 +1837,39 @@ formatter.match({
   "location": "VerifyPOLICY_INS.iGetClientNumber(String)"
 });
 formatter.result({
-  "duration": 151800,
+  "duration": 183200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetClientName()"
 });
 formatter.result({
-  "duration": 58100,
+  "duration": 84500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetBirthdate()"
 });
 formatter.result({
-  "duration": 35300,
+  "duration": 70300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetSexCode()"
 });
 formatter.result({
-  "duration": 43800,
+  "duration": 87100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetIdNumber()"
 });
 formatter.result({
-  "duration": 27500,
+  "duration": 51500,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 98,
+  "line": 96,
   "name": "Verify POLICY_INS items from response body",
   "description": "",
   "id": "search-policy-infomation;verify-policy-ins-items-from-response-body;;3",
@@ -1876,7 +1877,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 88,
+  "line": 86,
   "name": "I can get response of policyNumber \"2871284582\"",
   "matchedColumns": [
     0
@@ -1884,7 +1885,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 89,
+  "line": 87,
   "name": "I get clientNumber \"2805363580\"",
   "matchedColumns": [
     1
@@ -1892,22 +1893,22 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 90,
+  "line": 88,
   "name": "I get clientName",
   "keyword": "And "
 });
 formatter.step({
-  "line": 91,
+  "line": 89,
   "name": "I get birthdate",
   "keyword": "And "
 });
 formatter.step({
-  "line": 92,
+  "line": 90,
   "name": "I get sexCode",
   "keyword": "And "
 });
 formatter.step({
-  "line": 93,
+  "line": 91,
   "name": "I get idNumber",
   "keyword": "And "
 });
@@ -1921,7 +1922,7 @@ formatter.match({
   "location": "VerifyPOLICY_INS.iCanGetResponseOfPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 1673705000,
+  "duration": 1738941900,
   "status": "passed"
 });
 formatter.match({
@@ -1934,39 +1935,39 @@ formatter.match({
   "location": "VerifyPOLICY_INS.iGetClientNumber(String)"
 });
 formatter.result({
-  "duration": 100400,
+  "duration": 104900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetClientName()"
 });
 formatter.result({
-  "duration": 138100,
+  "duration": 53100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetBirthdate()"
 });
 formatter.result({
-  "duration": 43400,
+  "duration": 44800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetSexCode()"
 });
 formatter.result({
-  "duration": 37000,
+  "duration": 32800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetIdNumber()"
 });
 formatter.result({
-  "duration": 33800,
+  "duration": 29300,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 102,
+  "line": 99,
   "name": "Token  Validation",
   "description": "",
   "id": "search-policy-infomation;token--validation",
@@ -1974,22 +1975,22 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 103,
+  "line": 100,
   "name": "I search policyNumber \"\u003cpolicyNumber\u003e\" with invalid token \"\u003ctoken\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 104,
+  "line": 101,
   "name": "I get statusCode \"\u003cstatusCode\u003e\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 105,
+  "line": 102,
   "name": "I get error message \"\u003cerrorMessage\u003e\"",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 107,
+  "line": 104,
   "name": "",
   "description": "",
   "id": "search-policy-infomation;token--validation;",
@@ -2001,7 +2002,7 @@ formatter.examples({
         "statusCode",
         "errorMessage"
       ],
-      "line": 109,
+      "line": 106,
       "id": "search-policy-infomation;token--validation;;1"
     },
     {
@@ -2011,7 +2012,7 @@ formatter.examples({
         "401",
         "invalid_token"
       ],
-      "line": 110,
+      "line": 107,
       "id": "search-policy-infomation;token--validation;;2"
     },
     {
@@ -2021,7 +2022,7 @@ formatter.examples({
         "401",
         "Invalid_token"
       ],
-      "line": 111,
+      "line": 108,
       "id": "search-policy-infomation;token--validation;;3"
     },
     {
@@ -2031,14 +2032,14 @@ formatter.examples({
         "400",
         "Invalid_request"
       ],
-      "line": 112,
+      "line": 109,
       "id": "search-policy-infomation;token--validation;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 110,
+  "line": 107,
   "name": "Token  Validation",
   "description": "",
   "id": "search-policy-infomation;token--validation;;2",
@@ -2046,7 +2047,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 103,
+  "line": 100,
   "name": "I search policyNumber \"2816548240\" with invalid token \"asCDDgdafshgbb,ki\"",
   "matchedColumns": [
     0,
@@ -2055,7 +2056,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 104,
+  "line": 101,
   "name": "I get statusCode \"401\"",
   "matchedColumns": [
     2
@@ -2063,7 +2064,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 105,
+  "line": 102,
   "name": "I get error message \"invalid_token\"",
   "matchedColumns": [
     3
@@ -2084,7 +2085,7 @@ formatter.match({
   "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
 });
 formatter.result({
-  "duration": 354762700,
+  "duration": 298609000,
   "status": "passed"
 });
 formatter.match({
@@ -2097,7 +2098,7 @@ formatter.match({
   "location": "TokenValidations.iGetStatusCode(int)"
 });
 formatter.result({
-  "duration": 561900,
+  "duration": 1498200,
   "status": "passed"
 });
 formatter.match({
@@ -2110,11 +2111,11 @@ formatter.match({
   "location": "TokenValidations.iGetErrorMessage(String)"
 });
 formatter.result({
-  "duration": 26465200,
+  "duration": 16018400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 111,
+  "line": 108,
   "name": "Token  Validation",
   "description": "",
   "id": "search-policy-infomation;token--validation;;3",
@@ -2122,7 +2123,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 103,
+  "line": 100,
   "name": "I search policyNumber \"2871284582\" with invalid token \"%\"",
   "matchedColumns": [
     0,
@@ -2131,7 +2132,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 104,
+  "line": 101,
   "name": "I get statusCode \"401\"",
   "matchedColumns": [
     2
@@ -2139,7 +2140,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 105,
+  "line": 102,
   "name": "I get error message \"Invalid_token\"",
   "matchedColumns": [
     3
@@ -2160,7 +2161,7 @@ formatter.match({
   "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
 });
 formatter.result({
-  "duration": 10505991800,
+  "duration": 335674000,
   "status": "passed"
 });
 formatter.match({
@@ -2173,7 +2174,7 @@ formatter.match({
   "location": "TokenValidations.iGetStatusCode(int)"
 });
 formatter.result({
-  "duration": 177400,
+  "duration": 174100,
   "status": "passed"
 });
 formatter.match({
@@ -2186,11 +2187,11 @@ formatter.match({
   "location": "TokenValidations.iGetErrorMessage(String)"
 });
 formatter.result({
-  "duration": 10090900,
+  "duration": 17738000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 112,
+  "line": 109,
   "name": "Token  Validation",
   "description": "",
   "id": "search-policy-infomation;token--validation;;4",
@@ -2198,7 +2199,7 @@ formatter.scenario({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 103,
+  "line": 100,
   "name": "I search policyNumber \"2871284582\" with invalid token \"\"",
   "matchedColumns": [
     0,
@@ -2207,7 +2208,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 104,
+  "line": 101,
   "name": "I get statusCode \"400\"",
   "matchedColumns": [
     2
@@ -2215,7 +2216,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 105,
+  "line": 102,
   "name": "I get error message \"Invalid_request\"",
   "matchedColumns": [
     3
@@ -2236,7 +2237,7 @@ formatter.match({
   "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
 });
 formatter.result({
-  "duration": 1089386900,
+  "duration": 870671700,
   "status": "passed"
 });
 formatter.match({
@@ -2249,7 +2250,7 @@ formatter.match({
   "location": "TokenValidations.iGetStatusCode(int)"
 });
 formatter.result({
-  "duration": 202100,
+  "duration": 221400,
   "status": "passed"
 });
 formatter.match({
@@ -2262,11 +2263,11 @@ formatter.match({
   "location": "TokenValidations.iGetErrorMessage(String)"
 });
 formatter.result({
-  "duration": 7751300,
+  "duration": 7011600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 116,
+  "line": 111,
   "name": "Verify response time",
   "description": "",
   "id": "search-policy-infomation;verify-response-time",
@@ -2274,12 +2275,12 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 117,
+  "line": 112,
   "name": "I call the API \"2816548240\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 118,
+  "line": 113,
   "name": "response time should not exceed \"9000\" miliseconds",
   "keyword": "Then "
 });
@@ -2293,7 +2294,7 @@ formatter.match({
   "location": "CheckResponseTime.iCallTheAPI(String)"
 });
 formatter.result({
-  "duration": 1144431600,
+  "duration": 908836500,
   "status": "passed"
 });
 formatter.match({
@@ -2306,7 +2307,7 @@ formatter.match({
   "location": "CheckResponseTime.response_time_should_not_exceed_seconds(String)"
 });
 formatter.result({
-  "duration": 59600,
+  "duration": 68400,
   "status": "passed"
 });
 });
