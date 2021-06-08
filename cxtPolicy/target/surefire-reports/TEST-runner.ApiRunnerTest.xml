@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="116" failures="2" name="runner.ApiRunnerTest" time="0.02" errors="0" skipped="0">
+<testsuite tests="116" failures="0" name="runner.ApiRunnerTest" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Automation\Hau.Automation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4909245388057073768.tmp"/>
+    <property name="classworlds.conf" value="C:\Automation\Hau.Automation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8157406582082537027.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\JMeter\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\AUtomation\android-sdk\platform-tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\apache-ant-1.10.9\bin;C:\Automation\curl-7.72.0_3-win64-mingw\curl-7.72.0-win64-mingw\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Tom\AppData\Local\Microsoft\WindowsApps;C:\Users\Tom\AppData\Roaming\npm;C:\Users\Tom\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.8.1\bin;;C:\AUtomation\eclipse-dsl-neon-3-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,44 +61,26 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| 2816548240% | 2000 |" name="Given I already authorozied" time="0.002"/>
-  <testcase classname="| 2816548240% | 2000 |" name="When I call API to search by inputing invalid policy number &quot;2816548240%&quot;" time="0"/>
-  <testcase classname="| 2816548240% | 2000 |" name="Then system response no content with status code &quot;2000&quot;" time="0.003">
-    <failure message="expected:&lt;2000&gt; but was:&lt;204&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2000&gt; but was:&lt;204&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:645)
-	at org.junit.Assert.assertEquals(Assert.java:631)
-	at stepDefinitions.NegativeSearch.systemResponseNoContentWithStatusCode(NegativeSearch.java:39)
-	at ✽.Then system response no content with status code &quot;2000&quot;(src/test/resources/Feature/policyEnquery.feature:9)
-</failure>
-  </testcase>
-  <testcase classname="| 2816548240% | 2000 |" name="| 2816548240% | 2000 |" time="0.003">
-    <failure message="expected:&lt;2000&gt; but was:&lt;204&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2000&gt; but was:&lt;204&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:645)
-	at org.junit.Assert.assertEquals(Assert.java:631)
-	at stepDefinitions.NegativeSearch.systemResponseNoContentWithStatusCode(NegativeSearch.java:39)
-	at ✽.Then system response no content with status code &quot;2000&quot;(src/test/resources/Feature/policyEnquery.feature:9)
-</failure>
-  </testcase>
+  <testcase classname="| 2816548240% | 204 |" name="Given I already authorozied" time="0.001"/>
+  <testcase classname="| 2816548240% | 204 |" name="When I call API to search by inputing invalid policy number &quot;2816548240%&quot;" time="0"/>
+  <testcase classname="| 2816548240% | 204 |" name="Then system response no content with status code &quot;204&quot;" time="0"/>
+  <testcase classname="| 2816548240% | 204 |" name="| 2816548240% | 204 |" time="0.001"/>
   <testcase classname="| %2816548240% | 204 |" name="Given I already authorozied" time="0"/>
   <testcase classname="| %2816548240% | 204 |" name="When I call API to search by inputing invalid policy number &quot;%2816548240%&quot;" time="0"/>
   <testcase classname="| %2816548240% | 204 |" name="Then system response no content with status code &quot;204&quot;" time="0"/>
-  <testcase classname="| %2816548240% | 204 |" name="| %2816548240% | 204 |" time="0"/>
+  <testcase classname="| %2816548240% | 204 |" name="| %2816548240% | 204 |" time="0.001"/>
   <testcase classname="|  | 204 |" name="Given I already authorozied" time="0"/>
-  <testcase classname="|  | 204 |" name="When I call API to search by inputing invalid policy number &quot;&quot;" time="0"/>
-  <testcase classname="|  | 204 |" name="Then system response no content with status code &quot;204&quot;" time="0"/>
+  <testcase classname="|  | 204 |" name="When I call API to search by inputing invalid policy number &quot;&quot;" time="0.001"/>
+  <testcase classname="|  | 204 |" name="Then system response no content with status code &quot;204&quot;" time="0.001"/>
   <testcase classname="|  | 204 |" name="|  | 204 |" time="0.001"/>
   <testcase classname="| 2816548240 | 200 |" name="Given I already get authorization" time="0"/>
   <testcase classname="| 2816548240 | 200 |" name="When I call API to search by inputing valid policy number &quot;2816548240&quot;" time="0"/>
   <testcase classname="| 2816548240 | 200 |" name="Then system response with status code &quot;200&quot;" time="0"/>
-  <testcase classname="| 2816548240 | 200 |" name="| 2816548240 | 200 |" time="0"/>
+  <testcase classname="| 2816548240 | 200 |" name="| 2816548240 | 200 |" time="0.001"/>
   <testcase classname="| 2871284582 | 200 |" name="Given I already get authorization" time="0"/>
   <testcase classname="| 2871284582 | 200 |" name="When I call API to search by inputing valid policy number &quot;2871284582&quot;" time="0"/>
   <testcase classname="| 2871284582 | 200 |" name="Then system response with status code &quot;200&quot;" time="0"/>
-  <testcase classname="| 2871284582 | 200 |" name="| 2871284582 | 200 |" time="0.001"/>
+  <testcase classname="| 2871284582 | 200 |" name="| 2871284582 | 200 |" time="0"/>
   <testcase classname="| 2816548240 |" name="Given I search policy successfully &quot;2816548240&quot;" time="0"/>
   <testcase classname="| 2816548240 |" name="Then I can get correct response field name" time="0"/>
   <testcase classname="| 2816548240 |" name="| 2816548240 |" time="0.001"/>
@@ -130,20 +112,20 @@
   <testcase classname="| 2816548240 | 2802978231 |" name="And I get correct idNumber" time="0"/>
   <testcase classname="| 2816548240 | 2802978231 |" name="And I get correct idIssueDate" time="0"/>
   <testcase classname="| 2816548240 | 2802978231 |" name="And I get correct idIssuePlace" time="0"/>
-  <testcase classname="| 2816548240 | 2802978231 |" name="And I get correct sexCode" time="0.001"/>
+  <testcase classname="| 2816548240 | 2802978231 |" name="And I get correct sexCode" time="0"/>
   <testcase classname="| 2816548240 | 2802978231 |" name="And I get correct birthdate" time="0"/>
   <testcase classname="| 2816548240 | 2802978231 |" name="And I get correct vipInd" time="0"/>
-  <testcase classname="| 2816548240 | 2802978231 |" name="| 2816548240 | 2802978231 |" time="0.001"/>
+  <testcase classname="| 2816548240 | 2802978231 |" name="| 2816548240 | 2802978231 |" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="Given I search a policy &quot;2871284582&quot;" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct clientNumber &quot;2805363580&quot;" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct clientName" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct idNumber" time="0"/>
-  <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct idIssueDate" time="0.001"/>
+  <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct idIssueDate" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct idIssuePlace" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct sexCode" time="0"/>
-  <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct birthdate" time="0"/>
+  <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct birthdate" time="0.001"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get correct vipInd" time="0"/>
-  <testcase classname="| 2871284582 | 2805363580 |" name="| 2871284582 | 2805363580 |" time="0"/>
+  <testcase classname="| 2871284582 | 2805363580 |" name="| 2871284582 | 2805363580 |" time="0.001"/>
   <testcase classname="| 2816548240 | 20171231 | I | I |" name="Given I can search policy&apos;s COVERAGES &quot;2816548240&quot;" time="0"/>
   <testcase classname="| 2816548240 | 20171231 | I | I |" name="Then I get coverageEffectiveDate &quot;20171231&quot;" time="0"/>
   <testcase classname="| 2816548240 | 20171231 | I | I |" name="And I get coverageIssueDate" time="0"/>
@@ -172,22 +154,22 @@
   <testcase classname="| 2816548240 | 2801422092 |" name="And I get birthdate" time="0"/>
   <testcase classname="| 2816548240 | 2801422092 |" name="And I get sexCode" time="0"/>
   <testcase classname="| 2816548240 | 2801422092 |" name="And I get idNumber" time="0"/>
-  <testcase classname="| 2816548240 | 2801422092 |" name="| 2816548240 | 2801422092 |" time="0.001"/>
+  <testcase classname="| 2816548240 | 2801422092 |" name="| 2816548240 | 2801422092 |" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="Given I can get response of policyNumber &quot;2871284582&quot;" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="Then I get clientNumber &quot;2805363580&quot;" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get clientName" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get birthdate" time="0"/>
   <testcase classname="| 2871284582 | 2805363580 |" name="And I get sexCode" time="0"/>
-  <testcase classname="| 2871284582 | 2805363580 |" name="And I get idNumber" time="0.001"/>
-  <testcase classname="| 2871284582 | 2805363580 |" name="| 2871284582 | 2805363580 |" time="0.001"/>
+  <testcase classname="| 2871284582 | 2805363580 |" name="And I get idNumber" time="0"/>
+  <testcase classname="| 2871284582 | 2805363580 |" name="| 2871284582 | 2805363580 |" time="0"/>
   <testcase classname="| 2816548240 | asCDDgdafshgbb,ki | 401 | invalid_token |" name="Given I search policyNumber &quot;2816548240&quot; with invalid token &quot;asCDDgdafshgbb,ki&quot;" time="0"/>
-  <testcase classname="| 2816548240 | asCDDgdafshgbb,ki | 401 | invalid_token |" name="Then I get statusCode &quot;401&quot;" time="0"/>
+  <testcase classname="| 2816548240 | asCDDgdafshgbb,ki | 401 | invalid_token |" name="Then I get statusCode &quot;401&quot;" time="0.001"/>
   <testcase classname="| 2816548240 | asCDDgdafshgbb,ki | 401 | invalid_token |" name="And I get error message &quot;invalid_token&quot;" time="0"/>
   <testcase classname="| 2816548240 | asCDDgdafshgbb,ki | 401 | invalid_token |" name="| 2816548240 | asCDDgdafshgbb,ki | 401 | invalid_token |" time="0.001"/>
-  <testcase classname="| 2871284582 | % | 401 | Invalid_token |" name="Given I search policyNumber &quot;2871284582&quot; with invalid token &quot;%&quot;" time="0.001"/>
+  <testcase classname="| 2871284582 | % | 401 | Invalid_token |" name="Given I search policyNumber &quot;2871284582&quot; with invalid token &quot;%&quot;" time="0"/>
   <testcase classname="| 2871284582 | % | 401 | Invalid_token |" name="Then I get statusCode &quot;401&quot;" time="0"/>
   <testcase classname="| 2871284582 | % | 401 | Invalid_token |" name="And I get error message &quot;Invalid_token&quot;" time="0"/>
-  <testcase classname="| 2871284582 | % | 401 | Invalid_token |" name="| 2871284582 | % | 401 | Invalid_token |" time="0.001"/>
+  <testcase classname="| 2871284582 | % | 401 | Invalid_token |" name="| 2871284582 | % | 401 | Invalid_token |" time="0"/>
   <testcase classname="| 2871284582 |  | 400 | Invalid_request |" name="Given I search policyNumber &quot;2871284582&quot; with invalid token &quot;&quot;" time="0"/>
   <testcase classname="| 2871284582 |  | 400 | Invalid_request |" name="Then I get statusCode &quot;400&quot;" time="0"/>
   <testcase classname="| 2871284582 |  | 400 | Invalid_request |" name="And I get error message &quot;Invalid_request&quot;" time="0"/>

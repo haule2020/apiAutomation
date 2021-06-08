@@ -17,6 +17,7 @@ G:\Automation\git2021\cxtPolicy\src\main\java\stepDefinitions\NegativeSearch.jav
 G:\Automation\git2021\cxtPolicy\src\main\java\stepDefinitions\CheckResponseTime.java
 G:\Automation\git2021\cxtPolicy\src\main\java\stepDefinitions\VerifyCOVERAGES.java
 G:\Automation\git2021\cxtPolicy\src\main\java\bodyResponseFields\Token.java
+G:\Automation\git2021\cxtPolicy\src\main\java\runner\ApiRunnerTest.java
 G:\Automation\git2021\cxtPolicy\src\main\java\stepDefinitions\VerifyPOLICY_INS.java
 G:\Automation\git2021\cxtPolicy\src\main\java\apiEngine\GenerateToken.java
 G:\Automation\git2021\cxtPolicy\src\main\java\bodyResponseFields\CoverageHistory.java

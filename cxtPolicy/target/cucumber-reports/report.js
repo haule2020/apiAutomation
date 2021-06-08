@@ -46,7 +46,7 @@ formatter.examples({
     {
       "cells": [
         "2816548240%",
-        "2000"
+        "204"
       ],
       "line": 13,
       "id": "search-policy-infomation;search-policy-infomation-by-invalid-policy-number;;2"
@@ -93,7 +93,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "system response no content with status code \"2000\"",
+  "name": "system response no content with status code \"204\"",
   "matchedColumns": [
     1
   ],
@@ -103,7 +103,7 @@ formatter.match({
   "location": "NegativeSearch.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 2798048800,
+  "duration": 2756410700,
   "status": "passed"
 });
 formatter.match({
@@ -116,22 +116,21 @@ formatter.match({
   "location": "NegativeSearch.iCallAPIToSearchByInputingInvalidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 3123166400,
+  "duration": 1205205600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "2000",
+      "val": "204",
       "offset": 45
     }
   ],
   "location": "NegativeSearch.systemResponseNoContentWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 1597600,
-  "error_message": "java.lang.AssertionError: expected:\u003c2000\u003e but was:\u003c204\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinitions.NegativeSearch.systemResponseNoContentWithStatusCode(NegativeSearch.java:39)\r\n\tat ✽.Then system response no content with status code \"2000\"(src/test/resources/Feature/policyEnquery.feature:9)\r\n",
-  "status": "failed"
+  "duration": 1366600,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 14,
@@ -166,7 +165,7 @@ formatter.match({
   "location": "NegativeSearch.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 257533200,
+  "duration": 244176200,
   "status": "passed"
 });
 formatter.match({
@@ -179,7 +178,7 @@ formatter.match({
   "location": "NegativeSearch.iCallAPIToSearchByInputingInvalidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 5376846200,
+  "duration": 937296000,
   "status": "passed"
 });
 formatter.match({
@@ -192,7 +191,7 @@ formatter.match({
   "location": "NegativeSearch.systemResponseNoContentWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 62500,
+  "duration": 88800,
   "status": "passed"
 });
 formatter.scenario({
@@ -228,7 +227,7 @@ formatter.match({
   "location": "NegativeSearch.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 233036300,
+  "duration": 255199600,
   "status": "passed"
 });
 formatter.match({
@@ -241,7 +240,7 @@ formatter.match({
   "location": "NegativeSearch.iCallAPIToSearchByInputingInvalidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 933014200,
+  "duration": 512694800,
   "status": "passed"
 });
 formatter.match({
@@ -254,7 +253,7 @@ formatter.match({
   "location": "NegativeSearch.systemResponseNoContentWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 174700,
+  "duration": 155400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -346,7 +345,7 @@ formatter.match({
   "location": "SearchByValidParameters.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 274236600,
+  "duration": 236007100,
   "status": "passed"
 });
 formatter.match({
@@ -359,7 +358,7 @@ formatter.match({
   "location": "SearchByValidParameters.iCallAPIToSearchByInputingValidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 1204164600,
+  "duration": 627851600,
   "status": "passed"
 });
 formatter.match({
@@ -372,7 +371,7 @@ formatter.match({
   "location": "SearchByValidParameters.systemResponseWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 81800,
+  "duration": 275400,
   "status": "passed"
 });
 formatter.scenario({
@@ -408,7 +407,7 @@ formatter.match({
   "location": "SearchByValidParameters.iAlreadyAuthorozied()"
 });
 formatter.result({
-  "duration": 319618100,
+  "duration": 237521700,
   "status": "passed"
 });
 formatter.match({
@@ -421,7 +420,7 @@ formatter.match({
   "location": "SearchByValidParameters.iCallAPIToSearchByInputingValidPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 1829621700,
+  "duration": 1307455000,
   "status": "passed"
 });
 formatter.match({
@@ -434,7 +433,7 @@ formatter.match({
   "location": "SearchByValidParameters.systemResponseWithStatusCode(String)"
 });
 formatter.result({
-  "duration": 134400,
+  "duration": 130000,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -509,14 +508,14 @@ formatter.match({
   "location": "VerifyResponseFields.iSearchPolicySuccessfully(String)"
 });
 formatter.result({
-  "duration": 1835367200,
+  "duration": 1041503300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyResponseFields.iCanGetCorrectResponseFieldName()"
 });
 formatter.result({
-  "duration": 60664400,
+  "duration": 51250400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -687,7 +686,7 @@ formatter.match({
   "location": "VerifyPOLICYItems.iCanSearchAPolicy(String)"
 });
 formatter.result({
-  "duration": 1237666200,
+  "duration": 1021451100,
   "status": "passed"
 });
 formatter.match({
@@ -700,21 +699,21 @@ formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 5020700,
+  "duration": 4672100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectExcludeInfo()"
 });
 formatter.result({
-  "duration": 33000,
+  "duration": 44600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectBancaInd()"
 });
 formatter.result({
-  "duration": 18800,
+  "duration": 25800,
   "status": "passed"
 });
 formatter.match({
@@ -727,42 +726,42 @@ formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentCode(String)"
 });
 formatter.result({
-  "duration": 39400,
+  "duration": 48200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentMobile()"
 });
 formatter.result({
-  "duration": 25100,
+  "duration": 25200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentName()"
 });
 formatter.result({
-  "duration": 25700,
+  "duration": 28900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectLocationCode()"
 });
 formatter.result({
-  "duration": 34800,
+  "duration": 21100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectGracePeriod()"
 });
 formatter.result({
-  "duration": 23400,
+  "duration": 23600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectOstPrem()"
 });
 formatter.result({
-  "duration": 27900,
+  "duration": 32200,
   "status": "passed"
 });
 formatter.scenario({
@@ -842,7 +841,7 @@ formatter.match({
   "location": "VerifyPOLICYItems.iCanSearchAPolicy(String)"
 });
 formatter.result({
-  "duration": 3566717800,
+  "duration": 2155551400,
   "status": "passed"
 });
 formatter.match({
@@ -855,21 +854,21 @@ formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 4759700,
+  "duration": 6510600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectExcludeInfo()"
 });
 formatter.result({
-  "duration": 19100,
+  "duration": 18200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectBancaInd()"
 });
 formatter.result({
-  "duration": 13000,
+  "duration": 11700,
   "status": "passed"
 });
 formatter.match({
@@ -882,42 +881,42 @@ formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentCode(String)"
 });
 formatter.result({
-  "duration": 34200,
+  "duration": 33400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentMobile()"
 });
 formatter.result({
-  "duration": 14000,
+  "duration": 12300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectAgentName()"
 });
 formatter.result({
-  "duration": 25400,
+  "duration": 11700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectLocationCode()"
 });
 formatter.result({
-  "duration": 12000,
+  "duration": 11300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectGracePeriod()"
 });
 formatter.result({
-  "duration": 25700,
+  "duration": 28100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICYItems.iGetCorrectOstPrem()"
 });
 formatter.result({
-  "duration": 11900,
+  "duration": 13600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1075,7 +1074,7 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iSearchAPolicy(String)"
 });
 formatter.result({
-  "duration": 902536800,
+  "duration": 839968500,
   "status": "passed"
 });
 formatter.match({
@@ -1088,56 +1087,56 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectClientNumber(String)"
 });
 formatter.result({
-  "duration": 51400,
+  "duration": 80400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectClientName()"
 });
 formatter.result({
-  "duration": 26200,
+  "duration": 69800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdNumber()"
 });
 formatter.result({
-  "duration": 15300,
+  "duration": 21000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdIssueDate()"
 });
 formatter.result({
-  "duration": 18000,
+  "duration": 25900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdIssuePlace()"
 });
 formatter.result({
-  "duration": 15100,
+  "duration": 20200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectSexCode()"
 });
 formatter.result({
-  "duration": 24200,
+  "duration": 39300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectBirthdate()"
 });
 formatter.result({
-  "duration": 15000,
+  "duration": 51200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectVipInd()"
 });
 formatter.result({
-  "duration": 17900,
+  "duration": 21000,
   "status": "passed"
 });
 formatter.scenario({
@@ -1209,7 +1208,7 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iSearchAPolicy(String)"
 });
 formatter.result({
-  "duration": 10588299500,
+  "duration": 2941643700,
   "status": "passed"
 });
 formatter.match({
@@ -1222,56 +1221,56 @@ formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectClientNumber(String)"
 });
 formatter.result({
-  "duration": 62200,
+  "duration": 128500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectClientName()"
 });
 formatter.result({
-  "duration": 12800,
+  "duration": 17000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdNumber()"
 });
 formatter.result({
-  "duration": 16300,
+  "duration": 13800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdIssueDate()"
 });
 formatter.result({
-  "duration": 13900,
+  "duration": 12900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectIdIssuePlace()"
 });
 formatter.result({
-  "duration": 12300,
+  "duration": 37300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectSexCode()"
 });
 formatter.result({
-  "duration": 14500,
+  "duration": 22300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectBirthdate()"
 });
 formatter.result({
-  "duration": 12300,
+  "duration": 36700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_OWNER.iGetCorrectVipInd()"
 });
 formatter.result({
-  "duration": 14300,
+  "duration": 18100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1451,7 +1450,7 @@ formatter.match({
   "location": "VerifyCOVERAGES.iCanSearchPolicySCOVERAGES(String)"
 });
 formatter.result({
-  "duration": 1712201800,
+  "duration": 1006344600,
   "status": "passed"
 });
 formatter.match({
@@ -1464,28 +1463,28 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageEffectiveDate(String)"
 });
 formatter.result({
-  "duration": 99300,
+  "duration": 142700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageIssueDate()"
 });
 formatter.result({
-  "duration": 47300,
+  "duration": 88700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageXpryDate()"
 });
 formatter.result({
-  "duration": 34900,
+  "duration": 45200,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageCode()"
 });
 formatter.result({
-  "duration": 79200,
+  "duration": 49700,
   "status": "passed"
 });
 formatter.match({
@@ -1498,21 +1497,21 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetMcStatusCode(String)"
 });
 formatter.result({
-  "duration": 57300,
+  "duration": 86900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetMcEffectiveDate()"
 });
 formatter.result({
-  "duration": 68500,
+  "duration": 19600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageClass()"
 });
 formatter.result({
-  "duration": 33800,
+  "duration": 14800,
   "status": "passed"
 });
 formatter.match({
@@ -1525,14 +1524,14 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageStatusCode(String)"
 });
 formatter.result({
-  "duration": 47300,
+  "duration": 74700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoveragePrem()"
 });
 formatter.result({
-  "duration": 26900,
+  "duration": 23000,
   "status": "passed"
 });
 formatter.scenario({
@@ -1615,7 +1614,7 @@ formatter.match({
   "location": "VerifyCOVERAGES.iCanSearchPolicySCOVERAGES(String)"
 });
 formatter.result({
-  "duration": 2050355700,
+  "duration": 1625882600,
   "status": "passed"
 });
 formatter.match({
@@ -1628,28 +1627,28 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageEffectiveDate(String)"
 });
 formatter.result({
-  "duration": 39700,
+  "duration": 41800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageIssueDate()"
 });
 formatter.result({
-  "duration": 12300,
+  "duration": 31800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageXpryDate()"
 });
 formatter.result({
-  "duration": 11500,
+  "duration": 30400,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageCode()"
 });
 formatter.result({
-  "duration": 11700,
+  "duration": 12900,
   "status": "passed"
 });
 formatter.match({
@@ -1662,21 +1661,21 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetMcStatusCode(String)"
 });
 formatter.result({
-  "duration": 28900,
+  "duration": 33900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetMcEffectiveDate()"
 });
 formatter.result({
-  "duration": 10600,
+  "duration": 12100,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageClass()"
 });
 formatter.result({
-  "duration": 17900,
+  "duration": 12700,
   "status": "passed"
 });
 formatter.match({
@@ -1689,14 +1688,14 @@ formatter.match({
   "location": "VerifyCOVERAGES.iGetCoverageStatusCode(String)"
 });
 formatter.result({
-  "duration": 27400,
+  "duration": 28800,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyCOVERAGES.iGetCoveragePrem()"
 });
 formatter.result({
-  "duration": 11200,
+  "duration": 11400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1824,7 +1823,7 @@ formatter.match({
   "location": "VerifyPOLICY_INS.iCanGetResponseOfPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 1972355400,
+  "duration": 1416222100,
   "status": "passed"
 });
 formatter.match({
@@ -1837,35 +1836,35 @@ formatter.match({
   "location": "VerifyPOLICY_INS.iGetClientNumber(String)"
 });
 formatter.result({
-  "duration": 183200,
+  "duration": 69600,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetClientName()"
 });
 formatter.result({
-  "duration": 84500,
+  "duration": 27300,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetBirthdate()"
 });
 formatter.result({
-  "duration": 70300,
+  "duration": 20700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetSexCode()"
 });
 formatter.result({
-  "duration": 87100,
+  "duration": 31000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetIdNumber()"
 });
 formatter.result({
-  "duration": 51500,
+  "duration": 19600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1922,7 +1921,7 @@ formatter.match({
   "location": "VerifyPOLICY_INS.iCanGetResponseOfPolicyNumber(String)"
 });
 formatter.result({
-  "duration": 1738941900,
+  "duration": 3727803700,
   "status": "passed"
 });
 formatter.match({
@@ -1935,35 +1934,35 @@ formatter.match({
   "location": "VerifyPOLICY_INS.iGetClientNumber(String)"
 });
 formatter.result({
-  "duration": 104900,
+  "duration": 41900,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetClientName()"
 });
 formatter.result({
-  "duration": 53100,
+  "duration": 13500,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetBirthdate()"
 });
 formatter.result({
-  "duration": 44800,
+  "duration": 12000,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetSexCode()"
 });
 formatter.result({
-  "duration": 32800,
+  "duration": 13700,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyPOLICY_INS.iGetIdNumber()"
 });
 formatter.result({
-  "duration": 29300,
+  "duration": 26700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2085,7 +2084,7 @@ formatter.match({
   "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
 });
 formatter.result({
-  "duration": 298609000,
+  "duration": 278053800,
   "status": "passed"
 });
 formatter.match({
@@ -2098,7 +2097,7 @@ formatter.match({
   "location": "TokenValidations.iGetStatusCode(int)"
 });
 formatter.result({
-  "duration": 1498200,
+  "duration": 1031800,
   "status": "passed"
 });
 formatter.match({
@@ -2111,7 +2110,7 @@ formatter.match({
   "location": "TokenValidations.iGetErrorMessage(String)"
 });
 formatter.result({
-  "duration": 16018400,
+  "duration": 22020100,
   "status": "passed"
 });
 formatter.scenario({
@@ -2161,7 +2160,7 @@ formatter.match({
   "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
 });
 formatter.result({
-  "duration": 335674000,
+  "duration": 563214500,
   "status": "passed"
 });
 formatter.match({
@@ -2174,7 +2173,7 @@ formatter.match({
   "location": "TokenValidations.iGetStatusCode(int)"
 });
 formatter.result({
-  "duration": 174100,
+  "duration": 188500,
   "status": "passed"
 });
 formatter.match({
@@ -2187,7 +2186,7 @@ formatter.match({
   "location": "TokenValidations.iGetErrorMessage(String)"
 });
 formatter.result({
-  "duration": 17738000,
+  "duration": 9355000,
   "status": "passed"
 });
 formatter.scenario({
@@ -2237,7 +2236,7 @@ formatter.match({
   "location": "TokenValidations.iSearchPolicyNumberWithInvalidToken(String,String)"
 });
 formatter.result({
-  "duration": 870671700,
+  "duration": 291457800,
   "status": "passed"
 });
 formatter.match({
@@ -2250,7 +2249,7 @@ formatter.match({
   "location": "TokenValidations.iGetStatusCode(int)"
 });
 formatter.result({
-  "duration": 221400,
+  "duration": 183600,
   "status": "passed"
 });
 formatter.match({
@@ -2263,7 +2262,7 @@ formatter.match({
   "location": "TokenValidations.iGetErrorMessage(String)"
 });
 formatter.result({
-  "duration": 7011600,
+  "duration": 14754600,
   "status": "passed"
 });
 formatter.scenario({
@@ -2294,7 +2293,7 @@ formatter.match({
   "location": "CheckResponseTime.iCallTheAPI(String)"
 });
 formatter.result({
-  "duration": 908836500,
+  "duration": 319392900,
   "status": "passed"
 });
 formatter.match({
@@ -2307,7 +2306,7 @@ formatter.match({
   "location": "CheckResponseTime.response_time_should_not_exceed_seconds(String)"
 });
 formatter.result({
-  "duration": 68400,
+  "duration": 98400,
   "status": "passed"
 });
 });
