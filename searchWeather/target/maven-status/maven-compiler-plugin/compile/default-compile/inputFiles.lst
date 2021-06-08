@@ -9,7 +9,6 @@ G:\Automation\git2021\searchWeather\src\main\java\bodyResponseFields\Weather.jav
 G:\Automation\git2021\searchWeather\src\main\java\bodyResponseFields\Wind.java
 G:\Automation\git2021\searchWeather\src\main\java\stepDefinitions\VerifyResonseData.java
 G:\Automation\git2021\searchWeather\src\main\java\stepDefinitions\CheckResponseTime.java
-G:\Automation\git2021\searchWeather\src\main\java\runner\ApiRunnerTest.java
 G:\Automation\git2021\searchWeather\src\main\java\bodyResponseFields\Clouds.java
 G:\Automation\git2021\searchWeather\src\main\java\bodyResponseFields\Sys.java
 G:\Automation\git2021\searchWeather\src\main\java\stepDefinitions\BaseSteps.java

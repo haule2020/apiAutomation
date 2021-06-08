@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="81" failures="12" name="runner.ApiRunnerTest" time="0.033" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\Automation\git2021\searchWeather"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\Automation\git2021\searchWeather"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tom\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Automation\Hau.Automation\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6095033947615561812.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\JMeter\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\AUtomation\android-sdk\platform-tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Program Files\apache-ant-1.10.9\bin;C:\Automation\curl-7.72.0_3-win64-mingw\curl-7.72.0-win64-mingw\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Tom\AppData\Local\Microsoft\WindowsApps;C:\Users\Tom\AppData\Roaming\npm;C:\Users\Tom\AppData\Local\GitHubDesktop\bin;C:\Program Files\apache-maven-3.8.1\bin;;C:\AUtomation\eclipse-dsl-neon-3-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Tom"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Tom"/>
+    <property name="java.class.path" value="/C:/Automation/eclipse-dsl-neon-3-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="G:\Automation\git2021\searchWeather\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| London123 | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with invalid &quot;London123&quot; and &quot;GB&quot; and &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0.002"/>
+  <testcase classname="| London123 | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response &quot;404&quot; should be not found" time="0"/>
+  <testcase classname="| London123 | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| London123 | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0"/>
+  <testcase classname="| 123 New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with invalid &quot;123 New york&quot; and &quot;US&quot; and &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| 123 New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response &quot;404&quot; should be not found" time="0"/>
+  <testcase classname="| 123 New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| 123 New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0.001"/>
+  <testcase classname="| 1New york2 | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with invalid &quot;1New york2&quot; and &quot;US&quot; and &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| 1New york2 | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response &quot;404&quot; should be not found" time="0"/>
+  <testcase classname="| 1New york2 | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| 1New york2 | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0.002"/>
+  <testcase classname="| London% | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with invalid &quot;London%&quot; and &quot;US&quot; and &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0.001"/>
+  <testcase classname="| London% | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response &quot;404&quot; should be not found" time="0"/>
+  <testcase classname="| London% | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| London% | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0.001"/>
+  <testcase classname="| ? | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with invalid &quot;?&quot; and &quot;US&quot; and &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| ? | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response &quot;404&quot; should be not found" time="0"/>
+  <testcase classname="| ? | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| ? | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0.001"/>
+  <testcase classname="| % | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with invalid &quot;%&quot; and &quot;US&quot; and &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| % | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response &quot;404&quot; should be not found" time="0"/>
+  <testcase classname="| % | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| % | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0"/>
+  <testcase classname="|  | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with invalid &quot;&quot; and &quot;US&quot; and &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="|  | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response &quot;404&quot; should be not found" time="0.006">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBeNotFound(NegativeSearch.java:27)
+	at ✽.Then Status code response &quot;404&quot; should be not found(src/test/resources/searchWeatherCity.feature:9)
+</failure>
+  </testcase>
+  <testcase classname="|  | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="|  | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0.008">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBeNotFound(NegativeSearch.java:27)
+	at ✽.Then Status code response &quot;404&quot; should be not found(src/test/resources/searchWeatherCity.feature:9)
+</failure>
+  </testcase>
+  <testcase classname="| London | London | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with &quot;London&quot; and &quot;London&quot; and invalid State code &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| London | London | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response should be &quot;404&quot;" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| London | London | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| London | London | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| New york | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with &quot;New york&quot; and &quot;GB&quot; and invalid State code &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0.001"/>
+  <testcase classname="| New york | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response should be &quot;404&quot;" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| New york | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| New york | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| New york | VN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with &quot;New york&quot; and &quot;VN&quot; and invalid State code &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| New york | VN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response should be &quot;404&quot;" time="0"/>
+  <testcase classname="| New york | VN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| New york | VN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0"/>
+  <testcase classname="| London | GB%% | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with &quot;London&quot; and &quot;GB%%&quot; and invalid State code &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| London | GB%% | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response should be &quot;404&quot;" time="0.001">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| London | GB%% | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| London | GB%% | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0.001">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| London | CAN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with &quot;London&quot; and &quot;CAN&quot; and invalid State code &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0.001"/>
+  <testcase classname="| London | CAN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response should be &quot;404&quot;" time="0.001">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| London | CAN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| London | CAN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0.001">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| London |  | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Given I search with &quot;London&quot; and &quot;&quot; and invalid State code &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| London |  | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="Then Status code response should be &quot;404&quot;" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| London |  | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" name="| London |  | b0a9c8b82f8361b93ce4290a8068f35b | 404 |" time="0">
+    <failure message="expected:&lt;404&gt; but was:&lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be &quot;404&quot;(src/test/resources/searchWeatherCity.feature:22)
+</failure>
+  </testcase>
+  <testcase classname="| London | GB | wert | 401 |" name="Given I search with &quot;London&quot; and State code &quot;GB&quot; and invalid &quot;wert&quot;" time="0"/>
+  <testcase classname="| London | GB | wert | 401 |" name="Then Status code response should be &quot;401&quot; authentication failed" time="0"/>
+  <testcase classname="| London | GB | wert | 401 |" name="| London | GB | wert | 401 |" time="0.001"/>
+  <testcase classname="| New york | US |  | 401 |" name="Given I search with &quot;New york&quot; and State code &quot;US&quot; and invalid &quot;&quot;" time="0"/>
+  <testcase classname="| New york | US |  | 401 |" name="Then Status code response should be &quot;401&quot; authentication failed" time="0"/>
+  <testcase classname="| New york | US |  | 401 |" name="| New york | US |  | 401 |" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="When I search with valid parameters &quot;London&quot; , &quot;GB&quot; , &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="Then I can search successfully with status code &quot;200&quot;" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="When I search with valid parameters &quot;New york&quot; , &quot;US&quot; , &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="Then I can search successfully with status code &quot;200&quot;" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" time="0.001"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="Given I performed search with valid parameters &quot;London&quot; , &quot;GB&quot; , &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0.001"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="Then I can get correct response fields" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in COORD field" time="0.001"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in WEATHER field" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in BASE field" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in MAIN field" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in VISIBILITY field" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in CLOUDS field" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the valid country code in SYS field &quot;GB&quot;" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="When I check data in NAME field" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="Then NAME value should be semilar to the CityName parameter &quot;London&quot;" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="Given I performed search with valid parameters &quot;New york&quot; , &quot;US&quot; , &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="Then I can get correct response fields" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in COORD field" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in WEATHER field" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in BASE field" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in MAIN field" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in VISIBILITY field" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the data in CLOUDS field" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="And get the valid country code in SYS field &quot;US&quot;" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="When I check data in NAME field" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="Then NAME value should be semilar to the CityName parameter &quot;New york&quot;" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" name="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b | 200 |" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b |" name="Given I call the API with parameters &quot;London&quot; , &quot;GB&quot; , &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b |" name="Then response time should not exceed &quot;9000&quot; miliseconds" time="0"/>
+  <testcase classname="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b |" name="| London | GB | b0a9c8b82f8361b93ce4290a8068f35b |" time="0.001"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b |" name="Given I call the API with parameters &quot;New york&quot; , &quot;US&quot; , &quot;b0a9c8b82f8361b93ce4290a8068f35b&quot;" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b |" name="Then response time should not exceed &quot;9000&quot; miliseconds" time="0"/>
+  <testcase classname="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b |" name="| New york | US | b0a9c8b82f8361b93ce4290a8068f35b |" time="0"/>
+</testsuite>

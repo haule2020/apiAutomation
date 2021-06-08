@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: runner.ApiRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 81, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 9.11 sec <<< FAILURE!
+Then Status code response "404" should be not found(|  | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBeNotFound(NegativeSearch.java:27)
+	at ✽.Then Status code response "404" should be not found(src/test/resources/searchWeatherCity.feature:9)
+
+|  | US | b0a9c8b82f8361b93ce4290a8068f35b | 404 |  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBeNotFound(NegativeSearch.java:27)
+	at ✽.Then Status code response "404" should be not found(src/test/resources/searchWeatherCity.feature:9)
+
+Then Status code response should be "404"(| London | London | b0a9c8b82f8361b93ce4290a8068f35b | 404 |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+| London | London | b0a9c8b82f8361b93ce4290a8068f35b | 404 |  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+Then Status code response should be "404"(| New york | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+| New york | GB | b0a9c8b82f8361b93ce4290a8068f35b | 404 |  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+Then Status code response should be "404"(| London | GB%% | b0a9c8b82f8361b93ce4290a8068f35b | 404 |)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+| London | GB%% | b0a9c8b82f8361b93ce4290a8068f35b | 404 |  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+Then Status code response should be "404"(| London | CAN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+| London | CAN | b0a9c8b82f8361b93ce4290a8068f35b | 404 |  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+Then Status code response should be "404"(| London |  | b0a9c8b82f8361b93ce4290a8068f35b | 404 |)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
+| London |  | b0a9c8b82f8361b93ce4290a8068f35b | 404 |  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at stepDefinitions.NegativeSearch.statusCodeResponseShouldBe(NegativeSearch.java:38)
+	at ✽.Then Status code response should be "404"(src/test/resources/searchWeatherCity.feature:22)
+
