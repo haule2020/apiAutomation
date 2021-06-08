@@ -18,10 +18,14 @@
  
 **How to run test from command line:** 
 
-   - apache-maven-3.8.1  is in the sysytem
-   - add to Environment Variables: 
-   name: M2_HOME     value: C:\Program Files\apache-maven-3.8.1
-   name: M2          value : %M2_HOME%\bin
+   - Need to have  **apache-maven-3.8.1** in the sysytem
+   - Add to Environment Variables: 
+   
+   name: M2_HOME  ;      value: C:\Program Files\apache-maven-3.8.1
+   
+   name: M2       ;     value : %M2_HOME%\bin
+   
+   
    path: %M2_HOME%\bin
    
   - Open command line and run:
